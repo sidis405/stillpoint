@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"main.js","sourcesContent":["$('.main-carousel').slick({\n\tarrows: false\n});\n\n$('.news-carousel').slick({\n\tarrows: false,\n\tinfinite: true,\n\tdots: true,\n\tslideToShow: 4\n});"],"sourceRoot":"/source/"}

@@ -1,0 +1,69 @@
+section {
+  padding: 60px 0;
+}
+section#news {
+  padding: 0;
+  background: url(http://placehold.it/1920x600) no-repeat center center;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+}
+.main-carousel .slide {
+  background: url(http://placehold.it/1920x500) no-repeat center center;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+}
+section#about .about-box {
+  padding: 0 80px;
+  margin: auto;
+}
+section#about .about-box img {
+  width: 100%;
+}
+section#about .about-box p {
+  text-align: justify;
+  padding: 30px 0;
+}
+section#attivita .container-fluid .col-md-6 {
+  padding: 0;
+}
+section#attivita .terapia-manuale .terapia-img {
+  background: url(http://placehold.it/800x600) no-repeat center center;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+section#attivita .rieducazione .rieducazione-img {
+  background: url(http://placehold.it/800x600) no-repeat center center;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+section#attivita .ginnastica .ginnastica-img {
+  background: url(http://placehold.it/800x600) no-repeat center center;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+section#attivita .riabilitazione .riabilitazione-img {
+  background: url(http://placehold.it/800x600) no-repeat center center;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+section#attivita .taping .taping-img {
+  background: url(http://placehold.it/800x600) no-repeat center center;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+section#gallery .col-md-3 img {
+  border-radius: 50%;
+  margin: 25px auto;
+}
+section#news .news {
+  padding: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

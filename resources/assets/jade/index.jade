@@ -1,0 +1,114 @@
+extend blocks/template
+
+// Page title
+block title
+	| Stillpoint
+
+// Page meta-description
+block append metatags 
+	meta(name='description', content='A description of the page')
+
+block content	
+	// Including header
+	include blocks/header
+	// Page content	
+	.main-carousel
+		.slide
+		.slide
+		.slide
+	section#about
+		.container-fluid
+			.row
+				.col-sm-4
+					.about-box
+						img(src="http://placehold.it/300x250", alt="")
+						p 
+							|Il percorso verso la salute può nascere da qui, nella quiete del nostro studio, dove la fisioterapia classica si unisce all’ osteopatia,  per creare insieme un approccio globale |al processo di guarigione, ristabilendo equilibrio nel fisico e benessere nella persona.  
+							<br><br>
+							|Partendo dal sintomo e attraverso un’accurata valutazione clinica verrà stabilito un protocollo di trattamento personalizzato.  Le tecniche manuali utilizzate saranno efficaci |sia per la prevenzione che per la risoluzione dei disturbi che interessano l’apparato muscolo-scheletrico e la sfera viscerale, restituendo al corpo la sua naturale mobilità e |funzionalità.
+				.col-sm-4
+					.about-box
+						img(src="http://placehold.it/300x250", alt="")
+						p 
+							|Ped molupti con cum apelici audicta tiassin consediti acitiorentia dolupta tessimus, exces doluptate vid molut ipsam, nobis sitas et andellorum nat esecept atinvel igenihit 
+							|quoditium ex evendit emquasint liquiat iuritiatem aut rerroreperum ut ut maximporum sumquid elenis erio. Itae voloreprovid ut quam dolorepro est et latum harum eritas nus, occus.
+							<br><br>
+							|Ovid ut harum ut voloribus qui cus iduci destem et autessit et dus duciatas corissequis veligna tquate nonemporem nobit at experumet alitate lam, et et el mo tem solectae veni |doluptas nonsed quam, a voluptam ea dunt, cupta cus oreptatis et acea quam dolorenis.
+				.col-sm-4
+					.about-box
+						img(src="http://placehold.it/300x250", alt="")
+						p 
+							|Millendel id quianis quati reris ene necatur pid mo que arit hiciur, nobis aut pa exceste nducia ium, ut est, cuscid modiost, qui del imolorectus abo. Lora imus sant.
+							<br><br>
+							|Elent repere, occum fugiam nim ium ius dolum remped magnatibus, simus, toreped ut a velenihicim volupicia ni doluptatem del estis nobis doluptas as mossed ma nis quias sim endam |quat audant occum es vere, nos ipis est volorerum velias aut fugit que non pelesti nverfero bea atus essinimus, si reicidunt.
+							|Porernat. Bustincto comnim re necti re, acercita comnima int que voluptatios im nos andi autet parum sitem reheniaepero quam nihitat essit, ut aut et optaerem.
+	section#attivita
+		.container-fluid
+			.row.terapia-manuale
+				.col-md-6
+					.terapia-img
+				.col-md-6
+			.row.rieducazione
+				.col-md-6
+				.col-md-6
+					.rieducazione-img
+			.row.ginnastica
+				.col-md-6
+					.ginnastica-img
+				.col-md-6
+			.row.riabilitazione
+				.col-md-6
+				.col-md-6
+					.riabilitazione-img
+			.row.taping
+				.col-md-6
+					.taping-img
+				.col-md-6
+	section#gallery
+		.container
+			.row
+				.col-md-3
+					img(src="http://placehold.it/250x250", alt="")
+				.col-md-3
+					img(src="http://placehold.it/250x250", alt="")
+				.col-md-3
+					img(src="http://placehold.it/250x250", alt="")
+				.col-md-3
+					img(src="http://placehold.it/250x250", alt="")
+				.col-md-3
+					img(src="http://placehold.it/250x250", alt="")
+				.col-md-3
+					img(src="http://placehold.it/250x250", alt="")
+				.col-md-3
+					img(src="http://placehold.it/250x250", alt="")
+				.col-md-3
+					img(src="http://placehold.it/250x250", alt="")
+				.col-md-3
+					img(src="http://placehold.it/250x250", alt="")
+				.col-md-3
+					img(src="http://placehold.it/250x250", alt="")
+				.col-md-3
+					img(src="http://placehold.it/250x250", alt="")
+				.col-md-3
+					img(src="http://placehold.it/250x250", alt="")
+	section#news
+		.news-carousel
+			.news
+				img(src="http://placehold.it/250x150", alt="")
+			.news
+				img(src="http://placehold.it/250x150", alt="")
+			.news
+				img(src="http://placehold.it/250x150", alt="")
+			.news
+				img(src="http://placehold.it/250x150", alt="")
+			.news
+				img(src="http://placehold.it/250x150", alt="")
+			.news
+				img(src="http://placehold.it/250x150", alt="")
+			.news
+				img(src="http://placehold.it/250x150", alt="")
+			.news
+				img(src="http://placehold.it/250x150", alt="")			
+	// Including footer
+	include blocks/footer
+	
