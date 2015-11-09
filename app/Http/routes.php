@@ -1,19 +1,12 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the controller to call when that URI is requested.
-|
-*/
+Route::get('/', '\Stillpoint\Http\Controllers\HomeController@index');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('install', 'EagleController@make');
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 
 Route::get('{view}', function ($view) {
