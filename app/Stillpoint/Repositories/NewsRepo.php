@@ -17,7 +17,7 @@ class NewsRepo
 
     public function getAll()
     {
-        return News::all();
+        return News::with('featuredImage')->latest()->get();
     } 
 
     public function getById($id)
