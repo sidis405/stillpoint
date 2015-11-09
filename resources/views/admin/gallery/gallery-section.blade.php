@@ -1,6 +1,6 @@
 <div class="card">
     <div class="card-header">
-        <h2 class="panel-title">Images available</h2>
+        <h2 class="panel-title">Immagini disponibili</h2>
     </div>
     <div class="card-body">
         <div class="row">
@@ -20,7 +20,7 @@
 
                     <div class="images-container" id="images-container">
                         
-                        <h6>There are no images to associate to this gallery item yet.</h6>
+                        <h6>Non ci sono ancora immagini associate con questo record.</h6>
 
                     </div>
                     
@@ -49,4 +49,3 @@
 
 
 @include('admin.gallery.featured.image-picker-modal', array('gallery' => $model->media))
-@include('admin.gallery.cover.image-picker-cover', array('gallery' => $model->media))

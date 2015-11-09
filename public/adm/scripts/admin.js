@@ -88,7 +88,7 @@ $(document).on('click', '#confirm_featured_image', function() {
     
     // $('#selected_image_preview').html('<img style="width:280px" src="' + img + '">');
     console.log(img);
-    $('.thumbnail-preview-add-featured').attr('style', "background: url('" + img + "?w=280&h=280&fit=crop') no-repeat center center;)");
+    $('.thumbnail-preview-add-featured').attr('style', "background: url('" + img + "?w=450&h=250&fit=crop') no-repeat center center;)");
     $('#featured_image_id').val(value);
 
 });
@@ -178,7 +178,7 @@ $('#toolbar-delete').click(function(){
 });
 
 $('#album_deletion_form').submit(function() {
-    var c = confirm("Are you sure you permanentely want to remove this item?");
+    var c = confirm("Sei sicure di voler rimuovere permanentemente questo record?");
     return c; 
 });
 $('#attachment').change(function(){

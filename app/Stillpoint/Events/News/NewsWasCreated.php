@@ -2,8 +2,8 @@
 
 namespace Stillpoint\Events\News;
 
-use Stillpoint\Events\Event;
-use Stillpoint\Acam\Models\News;
+use Event;
+use Stillpoint\Models\News;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 

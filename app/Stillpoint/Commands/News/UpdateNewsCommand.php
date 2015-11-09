@@ -1,29 +1,29 @@
 <?php
 
-namespace Stillpoint\Commands;
+namespace Stillpoint\Commands\News;
 
 use Stillpoint\Commands\Command;
 
 class UpdateNewsCommand extends Command
 {
 
-    public $title;
-      public $slug;
+      public $title;
       public $excerpt;
       public $body;
-      public $featured_photo_id;
+      public $featured_image_id;
+      public $news_id;
 
     /**
      * Update a command instance.
      *
      * @return void
      */
-    public function __construct($title, $slug, $excerpt, $body, $featured_photo_id)
+    public function __construct($title, $excerpt, $body, $featured_image_id, $news_id)
     {
         $this->title = $title;
-        $this->slug = $slug;
         $this->excerpt = $excerpt;
         $this->body = $body;
-        $this->featured_photo_id = $featured_photo_id;
+        $this->featured_image_id = $featured_image_id;
+        $this->news_id = $news_id;
     }
 }

@@ -24,15 +24,6 @@ class NewsController extends Controller
     }
 
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        return view('admin.news.create');
-    }
 
     /**
      * Store a newly created resource in storage.
@@ -40,11 +31,11 @@ class NewsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function create(Request $request)
     {
         $news = $this->dispatchFrom('Stillpoint\Commands\News\CreateNewsCommand', $request);
         
-        return redirect()->to('/admin/news/' . $news->id .'/edit');
+        return redirect()->to('/admin/news/' . $news->id .'/modifica');
     }
 
     /**
@@ -82,9 +73,9 @@ class NewsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $news = $this->dispatchFrom('Stillpoint\Commands\News\CreateNewsCommand', $request);
+        $news = $this->dispatchFrom('Stillpoint\Commands\News\UpdateNewsCommand', $request);
 
-        return redirect()->to('/admin/news/' . $news->id .'/edit');
+        return redirect()->to('/admin/news/' . $news->id .'/modifica');
     }
 
     /**
@@ -93,8 +84,21 @@ class NewsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($id, NewsRepo $news)
     {
-        return News::delete($id);
+        $delete = $news->remove($id);
+
+        flash()->success('news item removed successfully.');
+
+        return redirect()->to('/admin/news/');
+    }
+
+    public function destroyImage(Request $request, NewsRepo $news_repo)
+    {
+        $image_id = $request->input('image_id');
+
+        $delete = $news_repo->removeImage($image_id);
+
+        return json_encode('true');
     }
 }

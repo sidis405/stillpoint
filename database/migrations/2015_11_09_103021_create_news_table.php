@@ -18,7 +18,7 @@ class CreateNewsTable extends Migration
             $table->string('slug');
             $table->string('excerpt');
             $table->text('body');
-            $table->integer('featured_photo_id');
+            $table->integer('featured_image_id');
             $table->timestamps();
         });
     }

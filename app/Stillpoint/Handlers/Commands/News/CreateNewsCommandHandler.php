@@ -2,12 +2,12 @@
 
 namespace Stillpoint\Handlers\Commands\News;
 
-use Stillpoint\Commands\CreateNewsCommand;
+use Stillpoint\Commands\News\CreateNewsCommand;
 use Stillpoint\Models\News;
 use Illuminate\Queue\InteractsWithQueue;
 use Stillpoint\Repositories\NewsRepo;
 use Stillpoint\Events\News\NewsWasCreated;
-use Events;
+use Event;
 
 
 class CreateNewsCommandHandler
@@ -32,13 +32,7 @@ class CreateNewsCommandHandler
      */
     public function handle(CreateNewsCommand $command)
     {
-        $news_object = News::make(
-            $command->title,
-        $command->slug,
-        $command->excerpt,
-        $command->body,
-        $command->featured_photo_id
-            );
+        $news_object = News::make();
 
         $news = $this->repo->save($news_object);
 

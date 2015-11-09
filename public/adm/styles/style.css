@@ -910,9 +910,9 @@ aside.sidebar ul.sidebar-menu li a:focus {
   background-size: cover;
 }
 .thumbnail-preview-add {
-  background: url(http://placehold.it/280x280) no-repeat center center;
-  width: 280px;
-  height: 280px;
+  background: url(http://placehold.it/450x250) no-repeat center center;
+  width: 450px;
+  height: 250px;
   background-size: cover;
   margin: auto;
   position: relative;

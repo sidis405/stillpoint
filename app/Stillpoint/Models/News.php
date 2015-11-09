@@ -14,14 +14,14 @@ class News extends Model implements HasMedia
 
     protected $presenter = 'Stillpoint\Presenters\NewsPresenter';
 
-    public static function make($title, $slug, $excerpt, $body, $featured_photo_id)
+    public static function make()
     {
-        $item = new static(compact('title', 'slug', 'excerpt', 'body', 'featured_photo_id'));
+        $item = new static();
 
         return $item;
     }
 
-    public static function edit($item_id, $title, $slug, $excerpt, $body, $featured_photo_id)
+    public static function edit($item_id, $title, $slug, $excerpt, $body, $featured_image_id)
     {
         $item = static::find($item_id);
 
@@ -29,15 +29,14 @@ class News extends Model implements HasMedia
         $item->slug = $slug;
         $item->excerpt = $excerpt;
         $item->body = $body;
-        $item->featured_photo_id = $featured_photo_id;
+        $item->featured_image_id = $featured_image_id;
 
         return $item;
     }
 
-    public function photos(){
-
-        return $this->hasMany('Stillpoint\Models\Photos', 'album_id');
-
+    public function featuredImage()
+    {
+        return $this->belongsTo('Stillpoint\Models\FeaturedImage', 'featured_image_id');
     }
 
 

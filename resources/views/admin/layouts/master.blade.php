@@ -23,7 +23,7 @@
     <link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192">
     <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
 
-    <title>Admin | Kastner &amp; Pallavicino</title>
+    <title>Admin | StillPoint</title>
   
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,100,100italic,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/adm/styles/vendor.css">
