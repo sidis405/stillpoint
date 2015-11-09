@@ -7,7 +7,7 @@
 #
 # Host: localhost (MySQL 5.5.34)
 # Database: stillpoint
-# Generation Time: 2015-11-09 11:49:45 +0000
+# Generation Time: 2015-11-09 12:43:15 +0000
 # ************************************************************
 
 
@@ -48,7 +48,10 @@ LOCK TABLES `media` WRITE;
 
 INSERT INTO `media` (`id`, `model_id`, `model_type`, `collection_name`, `name`, `file_name`, `disk`, `size`, `manipulations`, `custom_properties`, `order_column`, `created_at`, `updated_at`)
 VALUES
-	(2,1,'Stillpoint\\Models\\News','images','NYC-by-Bicycle-1 2','NYC-by-Bicycle-1 2.jpg','uploads',776942,'[]','[]',1,'2015-11-09 11:46:58','2015-11-09 11:46:58');
+	(2,1,'Stillpoint\\Models\\News','images','NYC-by-Bicycle-1 2','NYC-by-Bicycle-1 2.jpg','uploads',776942,'[]','[]',1,'2015-11-09 11:46:58','2015-11-09 11:46:58'),
+	(3,4,'Stillpoint\\Models\\News','images','01_HP_RESTAURO 2','01_HP_RESTAURO 2.jpg','uploads',118077,'[]','[]',2,'2015-11-09 12:16:40','2015-11-09 12:16:40'),
+	(4,5,'Stillpoint\\Models\\News','images','Fotolia_43117675_M 2','Fotolia_43117675_M 2.jpg','uploads',1064071,'[]','[]',3,'2015-11-09 12:17:24','2015-11-09 12:17:24'),
+	(5,6,'Stillpoint\\Models\\News','images','Fotolia_47439570_M 2','Fotolia_47439570_M 2.jpg','uploads',1108998,'[]','[]',4,'2015-11-09 12:18:21','2015-11-09 12:18:21');
 
 /*!40000 ALTER TABLE `media` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -100,7 +103,10 @@ LOCK TABLES `news` WRITE;
 
 INSERT INTO `news` (`id`, `title`, `slug`, `excerpt`, `body`, `featured_image_id`, `created_at`, `updated_at`)
 VALUES
-	(1,'Animi et doloribus debitis quo animi.','animi-et-doloribus-debitis-quo-animi','qweqwe','2Animi et doloribus debitis quo animi.',2,'2015-11-09 11:03:23','2015-11-09 11:47:06');
+	(1,'Animi et doloribus debitis quo animi.','animi-et-doloribus-debitis-quo-animi','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam placeat maxime, sint nobis omnis reiciendis ipsum excepturi ut. Animi eaque facere quasi magnam cumque nobis hic, cum minus ullam temporibus.','<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam placeat maxime, sint nobis omnis reiciendis ipsum excepturi ut. Animi eaque facere quasi magnam cumque nobis hic, cum minus ullam temporibus.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam placeat maxime, sint nobis omnis reiciendis ipsum excepturi ut. Animi eaque facere quasi magnam cumque nobis hic, cum minus ullam temporibus.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam placeat maxime, sint nobis omnis reiciendis ipsum excepturi ut. Animi eaque facere quasi magnam cumque nobis hic, cum minus ullam temporibus.<br></p>',2,'2015-11-09 11:03:23','2015-11-09 12:16:07'),
+	(4,'The professionalism of Directors, key to European competitiveness','the-professionalism-of-directors-key-to-european-competitiveness','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam placeat maxime, sint nobis omnis reiciendis ipsum excepturi ut. Animi eaque facere quasi magnam cumque nobis hic, cum minus ullam temporibus.','<p><br></p>',3,'2015-11-09 12:16:12','2015-11-09 12:16:48'),
+	(5,'Terzo titolo news','terzo-titolo-news','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam placeat maxime, sint nobis omnis reiciendis ipsum excepturi ut. Animi eaque facere quasi magnam cumque nobis hic, cum minus ullam temporibus.','<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam placeat maxime, sint nobis omnis reiciendis ipsum excepturi ut. Animi eaque facere quasi magnam cumque nobis hic, cum minus ullam temporibus.</p><p><br></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam placeat maxime, sint nobis omnis reiciendis ipsum excepturi ut. Animi eaque facere quasi magnam cumque nobis hic, cum minus ullam temporibus.<br></p>',4,'2015-11-09 12:16:52','2015-11-09 12:17:30'),
+	(6,'Quarto titolo news','quarto-titolo-news','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam placeat maxime, sint nobis omnis reiciendis ipsum excepturi ut. Animi eaque facere quasi magnam cumque nobis hic, cum minus ullam temporibus.','<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam placeat maxime, sint nobis omnis reiciendis ipsum excepturi ut. Animi eaque facere quasi magnam cumque nobis hic, cum minus ullam temporibus.</p><p><br></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam placeat maxime, sint nobis omnis reiciendis ipsum excepturi ut. Animi eaque facere quasi magnam cumque nobis hic, cum minus ullam temporibus.</p><p><br></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam placeat maxime, sint nobis omnis reiciendis ipsum excepturi ut. Animi eaque facere quasi magnam cumque nobis hic, cum minus ullam temporibus.<br></p>',5,'2015-11-09 12:17:36','2015-11-09 12:18:26');
 
 /*!40000 ALTER TABLE `news` ENABLE KEYS */;
 UNLOCK TABLES;
