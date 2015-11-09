@@ -5,3 +5,189 @@
 		}
 	}
 }
+
+@media screen and (min-width: 1199px) and (max-width: 1500px) {
+	section#about {
+		.about-box {
+			padding: 0 30px;
+		}
+	}
+	section#attivita {
+		.attivita-box {
+			padding: 20px;
+		}
+		h2 {
+			font-size: 24px;
+		}
+		p {
+			font-size: 14px;
+		}
+		.terapia-manuale {
+			.terapia-img {height: 250px;}
+		}
+		.ginnastica-posturale {
+			.ginnastica-img {height: 460px;}
+		}
+		.rieducazione {
+			.rieducazione-img {height: 350px;}
+		}
+		.osteopatia {
+			.osteopatia-img {height: 650px;}
+		}
+		.riabilitazione {
+			.riabilitazione-img {height: 450px;}
+		}
+	}}
+
+@media screen and (min-width: 992px) and (max-width: 1199px)  {
+	section#about {
+		padding-bottom: 0;
+		.about-box {
+			padding: 0 15px;
+		}
+	}
+	.main-carousel {
+		.slide {						
+			height: 600px;			
+		}
+	}
+	section#attivita {
+		.attivita-box {
+			padding: 20px;
+		}
+		h2 {
+			font-size: 24px;
+		}
+		p {
+			font-size: 14px;
+		}
+		.terapia-manuale {
+			.terapia-img {height: 250px;}
+		}
+		.ginnastica-posturale {
+			.ginnastica-img {height: 460px;}
+		}
+		.rieducazione {
+			.rieducazione-img {height: 350px;}
+		}
+		.osteopatia {
+			.osteopatia-img {height: 650px;}
+		}
+		.riabilitazione {
+			.riabilitazione-img {height: 450px;}
+		}
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	section#about {
+		padding-bottom: 0;
+		.about-box {
+			padding: 0;
+		}
+	}
+	.main-carousel {
+		.slide {						
+			height: 600px;			
+		}
+	}
+	footer#contatti {
+		.divider {
+			display: none;
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	section#about {
+		.about-box {
+			padding: 15px;
+		}
+	}
+	.main-carousel {
+		.slide {						
+			height: 350px;			
+		}
+	}
+	.navbar {
+		h1.logo {
+			background: url(../img/logo-mobile.png) no-repeat center center !important;
+			width: 125px !important;
+			height: 75px !important;
+			margin-left: 15px !important;
+		}
+	}
+	.navbar-default .navbar-toggle {
+		margin-top: 22px;
+	}
+	section#news {
+		padding: 40px 0;
+	}
+	footer#contatti {
+		.divider {
+			display: none;
+		}
+	}
+}
+
+@media screen and (max-width: 1250px) {
+	.nav {
+    	text-align: center;
+    	margin-right: 0 !important;
+    }
+    .navbar-header {
+        float: none;        
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+        border: 0;
+        border-radius: 0;
+        .icon-bar {
+        	background: @blue !important;
+        }
+        &:hover {
+        	background: transparent !important;
+        }
+        &:focus {
+        	background: transparent !important;
+        }
+    }
+    .navbar-collapse {
+    	margin-top: 40px;        
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+			top: 0;
+			border-width: 0 0 1px;
+		}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+      float: none!important;
+			margin-top: 7.5px;
+		}
+		.navbar-nav>li {
+        float: none;
+
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 !important;
+    }
+    .collapse.in{
+  		display:block !important;
+		}
+		.navbar-collapse {
+			margin-top: 0 !important;
+		}
+		.navbar.shrink {
+			.navbar-right {
+				margin: 10px auto;
+			}
+		}
+}

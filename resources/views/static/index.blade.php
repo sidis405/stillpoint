@@ -117,7 +117,7 @@
                 Particolarmente indicato nelle alterazioni strutturali della colonna vertebrale, come scoliosi, ipercifosi, iperlordosi, patologie dolorose o compressive come lombalgie, sciatalgie, protrusioni e ernie discali.							
               </p>
               <h3>Back School</h3>
-              <p>Insieme di esercizi volti a conoscere e gestire la propria colonna vertebrale nelle posizioni e nei movimenti quotidiani, utili per migliorare la propria mobilità ed elasticità muscolare. </p>
+              <p>Insieme di esercizi volti a conoscere e gestire la propria colonna vertebrale nelle posizioni e nei movimenti quotidiani, utili per migliorare la propria mobilità ed elasticità muscolare.</p>
             </div>
           </div>
           <div class="col-md-6">
@@ -221,78 +221,110 @@
     <section id="gallery">
       <div class="container">
         <div class="row">
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <section id="news">
       <div class="news-carousel">
-        <div class="news"><img src="http://placehold.it/450x250" alt="" class="img-responsive">
-          <div class="news-title">News Title</div><span class="date">19/05/2015</span>
-          <p class="news-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta consequuntur minima totam. Voluptatibus nostrum velit, quaerat iure? Consequatur consequuntur laborum inventore
-            ullam, odit eius soluta assumenda obcaecati natus repudiandae explicabo!
-          </p>
+        <div class="news">
+          <div class="news-img"></div>
+          <h4 class="news-title">News Title and very very very very long news title maybe i don't know</h4><span class="date">19/05/2015</span>
+          <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta consequuntur minima totam. Voluptatibus nostrum velit, quaerat iure? Consequatur consequuntur laborum inventore	</p>
         </div>
-        <div class="news"><img src="http://placehold.it/450x250" alt="" class="img-responsive">
-          <div class="news-title">News Title</div><span class="date">19/05/2015</span>
-          <p class="news-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa recusandae at cumque corrupti illo officia voluptates autem, in suscipit doloribus maiores ratione error hic
-            tenetur! Ex quisquam voluptatibus quis quasi.
-          </p>
+        <div class="news">
+          <div class="news-img"></div>
+          <h4 class="news-title">News Title</h4><span class="date">19/05/2015</span>
+          <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa recusandae at cumque corrupti illo officia voluptates autem, in suscipit doloribus maiores ratione error hic				</p>
         </div>
-        <div class="news"><img src="http://placehold.it/450x250" alt="" class="img-responsive">
-          <div class="news-title">News Title</div><span class="date">19/05/2015</span>
-          <p class="news-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea odit et, quia laborum, voluptatem illum saepe nihil, fugiat rerum, dolore sunt facere. Dolor sed cupiditate et
-            dolore voluptatum, eligendi.
-          </p>
+        <div class="news">
+          <div class="news-img"></div>
+          <h4 class="news-title">News Title</h4><span class="date">19/05/2015</span>
+          <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea odit et, quia laborum, voluptatem illum saepe nihil, fugiat rerum, dolore sunt facere. Dolor sed cupiditate et	</p>
         </div>
-        <div class="news"><img src="http://placehold.it/450x250" alt="" class="img-responsive">
-          <div class="news-title">News Title</div><span class="date">19/05/2015</span>
-          <p class="news-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum obcaecati facere error nobis aut consequatur omnis ad incidunt. Velit et porro itaque vitae molestiae fuga quae
-            iusto voluptates, laudantium vero!
-          </p>
+        <div class="news">
+          <div class="news-img"></div>
+          <h4 class="news-title">News Title</h4><span class="date">19/05/2015</span>
+          <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum obcaecati facere error nobis aut consequatur omnis ad incidunt. Velit et porro itaque vitae molestiae fuga quae			</p>
         </div>
-        <div class="news"><img src="http://placehold.it/450x250" alt="" class="img-responsive">
-          <div class="news-title">News Title</div><span class="date">19/05/2015</span>
-          <p class="news-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptas, ad expedita ipsa iusto soluta alias a nam est quibusdam deserunt, nemo quo at, assumenda, praesentium
-            fugiat odio sit sequi.
-          </p>
+        <div class="news">
+          <div class="news-img"></div>
+          <h4 class="news-title">News Title</h4><span class="date">19/05/2015</span>
+          <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptas, ad expedita ipsa iusto soluta alias a nam est quibusdam deserunt, nemo quo at, assumenda, praesentium		</p>
         </div>
-        <div class="news"><img src="http://placehold.it/450x250" alt="" class="img-responsive">
-          <div class="news-title">News Title</div><span class="date">19/05/2015</span>
-          <p class="news-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta repellendus placeat voluptates quo aut consectetur molestiae et, illo eos veritatis, culpa iure hic, vitae totam
-            nisi provident, tenetur rerum cum.
-          </p>
+        <div class="news">
+          <div class="news-img"></div>
+          <h4 class="news-title">News Title</h4><span class="date">19/05/2015</span>
+          <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta repellendus placeat voluptates quo aut consectetur molestiae et, illo eos veritatis, culpa iure hic, vitae totam		</p>
         </div>
-        <div class="news"><img src="http://placehold.it/450x250" alt="" class="img-responsive">
-          <div class="news-title">News Title</div><span class="date">19/05/2015</span>
-          <p class="news-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus voluptates voluptate explicabo modi, veritatis ipsa ducimus quia non necessitatibus expedita culpa enim, delectus
-            asperiores ab voluptas sed, veniam et fuga.
-          </p>
+        <div class="news">
+          <div class="news-img"></div>
+          <h4 class="news-title">News Title</h4><span class="date">19/05/2015</span>
+          <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus voluptates voluptate explicabo modi, veritatis ipsa ducimus quia non necessitatibus expedita culpa enim, delectus		</p>
         </div>
-        <div class="news"><img src="http://placehold.it/450x250" alt="" class="img-responsive">
-          <div class="news-title">News Title</div><span class="date">19/05/2015</span>
-          <p class="news-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis molestias ab beatae vel blanditiis non aspernatur, minus officia natus deleniti quia aliquid iste tempore suscipit
-            nulla ratione numquam earum illum?
-          </p>
+        <div class="news">
+          <div class="news-img"></div>
+          <h4 class="news-title">News Title</h4><span class="date">19/05/2015</span>
+          <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis molestias ab beatae vel blanditiis non aspernatur, minus officia natus deleniti quia aliquid iste tempore suscipit</p>
         </div>
       </div>
     </section>
@@ -305,12 +337,52 @@
           <blockquote>Lorem ipsum dolor sit amet adn<span>A.Heinstein</span></blockquote>
         </div>
         <div class="quotes">
-          <blockquote>Lorem ipsum dolor sit amet adn<span>A.Heinstein</span></blockquote>
+          <blockquote>Lorem ipsum dolor sit amet adn<span>A.Heinstein	</span></blockquote>
         </div>
       </div>
     </section>
     <!-- Including footer-->
+    <footer id="contatti">
+      <div id="map-canvas">		</div>
+      <div class="container">
+        <div class="row footer">
+          <div class="divider"></div>
+          <div class="col-md-6">
+            <h2>Still Point</h2>
+            <h3>Fisioterapia e Terapia manuale</h3>
+            <div class="row">
+              <div class="borded">
+                <div class="col-sm-6">
+                  <p>
+                     
+                    	Via Bressanone 5
+                    <br>
+                    	00198 Roma
+                  </p>
+                </div>
+                <div class="col-sm-6">
+                  <p>
+                    	06 xxxxxx xxx x
+                    <br>
+                    info@stillpoint.it
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p>
+               
+              A 200 m dalla Metro A lorem ipsum dolor sit amet“
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h2>Informazioni</h2>
+            <h3>Scrivici e sarai ricontattato al piu presto</h3>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="/js/vendor.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx9KUDj1tNjrnOjWivzS4GAJ9Cke8RIvM"></script>
   <script src="/js/main.js"></script>
 </html>
