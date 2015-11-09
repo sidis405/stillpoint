@@ -7,7 +7,7 @@
 	.slide {
 		background: url(http://placehold.it/1920x500) no-repeat center center;
 		width: 100%;
-		height: 600px;
+		height: 800px;
 		background-size: cover;
 	}
 }
@@ -16,6 +16,20 @@ section#about {
 	.about-box {
 		padding: 0 80px;
 		margin: auto;
+		.about-img {
+			position: relative;
+			h2.title {
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+				left: 0;
+				background: @green;
+				padding: 10px 25px;
+				margin: 0;
+				text-transform: none;
+				font-size: 20px;
+			}
+		}
 		img {width: 100%;}
 		p {
 			text-align: justify;
@@ -25,18 +39,37 @@ section#about {
 }
 
 section#attivita {
+	.attivita-box {
+		padding: 60px;
+	}
+	p {
+		color: #fff;
+		font-family: 'Open Sans';
+	}
+	h2 {
+		position: relative;
+		&:after {
+			position: absolute;
+			content:'';
+			bottom: -20px;
+			left: 0;
+			width: 100%;
+		}
+	}
 	.container-fluid {
 		.col-md-6 {padding: 0;}
 	}
-	.terapia-manuale {
+	.terapia-manuale {	
+		background: @blue;	
 		.terapia-img {
 			background: url(http://placehold.it/800x600) no-repeat center center;
 			width: 100%;
 			height: 500px;
 			background-size: cover;
-		}
+		}		
 	}
 	.rieducazione {
+		background: @green;
 		.rieducazione-img {
 			background: url(http://placehold.it/800x600) no-repeat center center;
 			width: 100%;
@@ -45,6 +78,7 @@ section#attivita {
 		}
 	}
 	.ginnastica {
+		background: @purple;
 		.ginnastica-img {
 			background: url(http://placehold.it/800x600) no-repeat center center;
 			width: 100%;
@@ -53,6 +87,7 @@ section#attivita {
 		}
 	}
 	.riabilitazione {
+		background: @orange;
 		.riabilitazione-img {
 			background: url(http://placehold.it/800x600) no-repeat center center;
 			width: 100%;
@@ -61,6 +96,7 @@ section#attivita {
 		}
 	}
 	.taping {
+		background: @darkblue;
 		.taping-img {
 			background: url(http://placehold.it/800x600) no-repeat center center;
 			width: 100%;
@@ -82,6 +118,25 @@ section#gallery {
 section#news {
 	.news {
 		padding: 20px;
+		margin: 0 40px; 
+		background: #fff;
+		border-radius: 7px;
+		height: 90%;
+	}
+}
+
+section#quotes {
+	.slick-prev {
+		left: 50px;
+	}
+	.slick-next {
+		right: 50px;
+	}
+	.quotes {
+		text-align: center;
+		span {
+			display: block;
+		}
 	}
 }
 

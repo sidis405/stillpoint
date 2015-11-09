@@ -1,22 +1,91 @@
 section {
   padding: 60px 0;
 }
+section h2 {
+  font-family: 'Sanchez';
+  color: #fff;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 24px;
+}
 section#news {
   padding: 0;
   background: url(http://placehold.it/1920x600) no-repeat center center;
   width: 100%;
   height: 600px;
+  padding: 80px 0;
   background-size: cover;
+}
+.navbar {
+  background: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  font-family: 'Sanchez';
+}
+.navbar .container {
+  width: 80%;
+}
+.navbar h1.logo {
+  text-indent: -9999px;
+  background: url(../img/logo-stillpoint.png) no-repeat center center;
+  width: 262px;
+  height: 150px;
+  margin: 20px 0;
+}
+.navbar .navbar-right {
+  margin-top: 68px;
+}
+.navbar .navbar-right li a {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 10px 25px;
+  margin-right: 40px;
+  color: #439e7c;
+  position: relative;
+}
+.navbar .navbar-right li a:hover {
+  color: #439e7c;
+}
+.navbar .navbar-right li a:hover:after {
+  position: absolute;
+  content: '';
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  width: 8px;
+  height: 8px;
+  background: #439e7c;
+  border-radius: 50%;
 }
 .main-carousel .slide {
   background: url(http://placehold.it/1920x500) no-repeat center center;
   width: 100%;
-  height: 600px;
+  height: 800px;
   background-size: cover;
 }
 section#about .about-box {
   padding: 0 80px;
   margin: auto;
+}
+section#about .about-box .about-img {
+  position: relative;
+}
+section#about .about-box .about-img h2.title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background: #439e7c;
+  padding: 10px 25px;
+  margin: 0;
+  text-transform: none;
+  font-size: 20px;
 }
 section#about .about-box img {
   width: 100%;
@@ -25,8 +94,28 @@ section#about .about-box p {
   text-align: justify;
   padding: 30px 0;
 }
+section#attivita .attivita-box {
+  padding: 60px;
+}
+section#attivita p {
+  color: #fff;
+  font-family: 'Open Sans';
+}
+section#attivita h2 {
+  position: relative;
+}
+section#attivita h2:after {
+  position: absolute;
+  content: '';
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+}
 section#attivita .container-fluid .col-md-6 {
   padding: 0;
+}
+section#attivita .terapia-manuale {
+  background: #63a5c0;
 }
 section#attivita .terapia-manuale .terapia-img {
   background: url(http://placehold.it/800x600) no-repeat center center;
@@ -34,11 +123,17 @@ section#attivita .terapia-manuale .terapia-img {
   height: 500px;
   background-size: cover;
 }
+section#attivita .rieducazione {
+  background: #439e7c;
+}
 section#attivita .rieducazione .rieducazione-img {
   background: url(http://placehold.it/800x600) no-repeat center center;
   width: 100%;
   height: 500px;
   background-size: cover;
+}
+section#attivita .ginnastica {
+  background: #885496;
 }
 section#attivita .ginnastica .ginnastica-img {
   background: url(http://placehold.it/800x600) no-repeat center center;
@@ -46,11 +141,17 @@ section#attivita .ginnastica .ginnastica-img {
   height: 500px;
   background-size: cover;
 }
+section#attivita .riabilitazione {
+  background: #ff8e61;
+}
 section#attivita .riabilitazione .riabilitazione-img {
   background: url(http://placehold.it/800x600) no-repeat center center;
   width: 100%;
   height: 500px;
   background-size: cover;
+}
+section#attivita .taping {
+  background: #26546b;
 }
 section#attivita .taping .taping-img {
   background: url(http://placehold.it/800x600) no-repeat center center;
@@ -64,6 +165,22 @@ section#gallery .col-md-3 img {
 }
 section#news .news {
   padding: 20px;
+  margin: 0 40px;
+  background: #fff;
+  border-radius: 7px;
+  height: 90%;
+}
+section#quotes .slick-prev {
+  left: 50px;
+}
+section#quotes .slick-next {
+  right: 50px;
+}
+section#quotes .quotes {
+  text-align: center;
+}
+section#quotes .quotes span {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */

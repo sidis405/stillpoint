@@ -1,0 +1,44 @@
+.navbar {
+	background: rgba(255, 255, 255, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	border: 0;
+	border-radius: 0;
+	font-family: 'Sanchez';
+	.container {width: 80%;}
+	h1.logo {
+		text-indent: -9999px;
+		background: url(../img/logo-stillpoint.png) no-repeat center center;
+		width: 262px;
+		height: 150px;
+		margin: 20px 0;
+	}
+	.navbar-right {
+		margin-top: 68px;
+		li a {
+			text-transform: uppercase;
+			font-size: 18px;
+			padding: 10px 25px;
+			margin-right: 40px;
+			color: @green;			
+			position: relative;
+			&:hover {
+				color: @green;
+			}
+			&:hover:after {
+				position: absolute;
+				content: '';
+				bottom: -0px;
+				left: 50%;
+				transform: translate(-50%, 0);
+				width: 8px;
+				height: 8px;
+				background: @green;
+				border-radius: 50%;
+			}
+		}
+	}
+}
