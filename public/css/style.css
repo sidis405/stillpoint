@@ -6,7 +6,7 @@ section h2 {
   color: #fff;
   font-style: italic;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 32px;
 }
 section#news {
   padding: 0;
@@ -15,6 +15,17 @@ section#news {
   height: 600px;
   padding: 80px 0;
   background-size: cover;
+}
+.navbar.shrink h1.logo {
+  background: url(../img/logo-shrink.png) no-repeat center center;
+  width: 200px;
+  height: 108px;
+  transition: 0.35s;
+  margin: 5px;
+}
+.navbar.shrink .navbar-right {
+  margin-top: 38px;
+  transition: 0.35s;
 }
 .navbar {
   background: rgba(255, 255, 255, 0.5);
@@ -36,9 +47,14 @@ section#news {
   width: 262px;
   height: 150px;
   margin: 20px 0;
+  transition: 0.35s;
 }
 .navbar .navbar-right {
   margin-top: 68px;
+  transition: 0.35s;
+}
+.navbar .navbar-right li:nth-child(5) a {
+  margin-right: 0;
 }
 .navbar .navbar-right li a {
   text-transform: uppercase;
@@ -64,7 +80,7 @@ section#news {
   border-radius: 50%;
 }
 .main-carousel .slide {
-  background: url(http://placehold.it/1920x500) no-repeat center center;
+  background: url(../img/slide01.jpg) no-repeat center center;
   width: 100%;
   height: 800px;
   background-size: cover;
@@ -100,16 +116,43 @@ section#attivita .attivita-box {
 section#attivita p {
   color: #fff;
   font-family: 'Open Sans';
+  text-align: justify;
+  font-size: 17px;
 }
-section#attivita h2 {
-  position: relative;
+section#attivita h3 {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-style: italic;
+  color: #fff;
 }
-section#attivita h2:after {
-  position: absolute;
-  content: '';
-  bottom: -20px;
-  left: 0;
-  width: 100%;
+section#attivita .tab-content {
+  padding: 20px;
+  border-bottom: 1px solid #fff;
+}
+section#attivita .tab-content p {
+  margin-bottom: 0;
+}
+section#attivita .nav-tabs li {
+  font-size: 18px;
+  font-family: 'Sanchez';
+  font-style: italic;
+}
+section#attivita .nav-tabs li.active a {
+  background: transparent;
+  border: 0;
+  border-bottom: 4px solid #fff;
+}
+section#attivita .nav-tabs li a {
+  border-radius: 0;
+  padding: 10px 25px;
+  color: #fff;
+  border: 0;
+}
+section#attivita .nav-tabs li a:hover,
+section#attivita .nav-tabs li a:focus {
+  background: transparent;
+  color: #fff;
+  border-bottom: 4px solid #fff;
 }
 section#attivita .container-fluid .col-md-6 {
   padding: 0;
@@ -120,29 +163,38 @@ section#attivita .terapia-manuale {
 section#attivita .terapia-manuale .terapia-img {
   background: url(http://placehold.it/800x600) no-repeat center center;
   width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+section#attivita .ginnastica-posturale {
+  background: #439e7c;
+}
+section#attivita .ginnastica-posturale .ginnastica-img {
+  background: url(http://placehold.it/800x600) no-repeat center center;
+  width: 100%;
   height: 500px;
   background-size: cover;
 }
 section#attivita .rieducazione {
-  background: #439e7c;
+  background: #885496;
 }
 section#attivita .rieducazione .rieducazione-img {
   background: url(http://placehold.it/800x600) no-repeat center center;
   width: 100%;
-  height: 500px;
+  height: 420px;
   background-size: cover;
 }
-section#attivita .ginnastica {
-  background: #885496;
+section#attivita .osteopatia {
+  background: #ff8e61;
 }
-section#attivita .ginnastica .ginnastica-img {
+section#attivita .osteopatia .osteopatia-img {
   background: url(http://placehold.it/800x600) no-repeat center center;
   width: 100%;
-  height: 500px;
+  height: 650px;
   background-size: cover;
 }
 section#attivita .riabilitazione {
-  background: #ff8e61;
+  background: #26546b;
 }
 section#attivita .riabilitazione .riabilitazione-img {
   background: url(http://placehold.it/800x600) no-repeat center center;
@@ -150,14 +202,11 @@ section#attivita .riabilitazione .riabilitazione-img {
   height: 500px;
   background-size: cover;
 }
-section#attivita .taping {
-  background: #26546b;
+section#attivita .riabilitazione .nav-tabs li {
+  font-size: 16px;
 }
-section#attivita .taping .taping-img {
-  background: url(http://placehold.it/800x600) no-repeat center center;
-  width: 100%;
-  height: 500px;
-  background-size: cover;
+section#attivita .riabilitazione .nav-tabs li a {
+  padding: 10px 12px;
 }
 section#gallery .col-md-3 img {
   border-radius: 50%;
@@ -181,6 +230,14 @@ section#quotes .quotes {
 }
 section#quotes .quotes span {
   display: block;
+}
+section#quotes .quotes blockquote {
+  border: 0;
+}
+@media screen and (max-width: 1650px) {
+  .navbar .container {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
