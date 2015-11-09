@@ -75,6 +75,8 @@ class NewsController extends Controller
     {
         $news = $this->dispatchFrom('Stillpoint\Commands\News\UpdateNewsCommand', $request);
 
+        flash()->success('News aggiornata correttamente.');
+
         return redirect()->to('/admin/news/' . $news->id .'/modifica');
     }
 
@@ -88,7 +90,7 @@ class NewsController extends Controller
     {
         $delete = $news->remove($id);
 
-        flash()->success('news item removed successfully.');
+        flash()->success('News rimossa correttamente.');
 
         return redirect()->to('/admin/news/');
     }

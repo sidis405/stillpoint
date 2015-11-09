@@ -89,7 +89,7 @@
 
       </div>
 
-      <form method="POST" action="/admin/news/{{ $news->id }}/remove" id="album_deletion_form">
+      <form method="POST" action="/admin/news/{{ $news->id }}/rimuovi" id="album_deletion_form">
                         {{ csrf_field() }} </form>
 
     </section>

@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7b50031cccc956117b90b8631dcf40c1",
-    "content-hash": "2de785565694e2f6932bfd3ce6ee966c",
+    "hash": "79a045afd19a192226550c23a5ee8e15",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -1573,16 +1572,16 @@
         },
         {
             "name": "spatie/laravel-medialibrary",
-            "version": "3.7.3",
+            "version": "3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-medialibrary.git",
-                "reference": "7f5a531f566eb93efc839b46495d73679a509890"
+                "reference": "0498de532754fcb6ef597c6e6812b2f97e76dbd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-medialibrary/zipball/7f5a531f566eb93efc839b46495d73679a509890",
-                "reference": "7f5a531f566eb93efc839b46495d73679a509890",
+                "url": "https://api.github.com/repos/spatie/laravel-medialibrary/zipball/0498de532754fcb6ef597c6e6812b2f97e76dbd0",
+                "reference": "0498de532754fcb6ef597c6e6812b2f97e76dbd0",
                 "shasum": ""
             },
             "require": {
@@ -1627,7 +1626,7 @@
                 "media",
                 "spatie"
             ],
-            "time": "2015-11-05 18:52:49"
+            "time": "2015-11-07 16:12:04"
         },
         {
             "name": "spatie/pdf-to-image",
