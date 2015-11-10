@@ -332,8 +332,8 @@ section#news .news .news-img {
   width: 100%;
   height: 250px;
   background: #828282;
-  background-size: cover;
-  background-position: center center;
+  background-size: cover !important;
+  background-position: center center !important;
 }
 section#news .news h4.news-title {
   font-family: 'Sanchez';

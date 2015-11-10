@@ -25,20 +25,20 @@
           <h1 class="logo">Still Point</h1>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling-->
-        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">            
+        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">      
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Lo Studio   </a></li>
+            <li><a href="#">Lo Studio </a></li>
             <li><a href="#">Attività</a></li>
             <li><a href="#">Gallery</a></li>
-            <li><a href="#">News    </a></li>
-            <li><a href="#">Contatti        </a></li>
+            <li><a href="#">News  </a></li>
+            <li><a href="#">Contatti    </a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse-->
       </div>
       <!-- /.container-fluid-->
     </nav>
-    <!-- Page content   -->
+    <!-- Page content -->
     <div class="main-carousel">
       <div class="slide"></div>
       <div class="slide"></div>
@@ -114,10 +114,10 @@
               <h3>R.P.G. Rieducazione Posturale Globale metodo Souchard</h3>
               <p>
                 E’ una rieducazione posturale che ha come obiettivo finale il ripristino globale dell’equilibrio statico e dinamico del corpo. Basato su posture di allungamento attivo delle catene muscolari, lento e progressivo, può essere proposto a persone di qualsiasi età, rispettandone le possibilità individuali.
-                Particolarmente indicato nelle alterazioni strutturali della colonna vertebrale, come scoliosi, ipercifosi, iperlordosi, patologie dolorose o compressive come lombalgie, sciatalgie, protrusioni e ernie discali.                          
+                Particolarmente indicato nelle alterazioni strutturali della colonna vertebrale, come scoliosi, ipercifosi, iperlordosi, patologie dolorose o compressive come lombalgie, sciatalgie, protrusioni e ernie discali.              
               </p>
               <h3>Back School</h3>
-              <p>Insieme di esercizi volti a conoscere e gestire la propria colonna vertebrale nelle posizioni e nei movimenti quotidiani, utili per migliorare la propria mobilità ed elasticità muscolare. </p>
+              <p>Insieme di esercizi volti a conoscere e gestire la propria colonna vertebrale nelle posizioni e nei movimenti quotidiani, utili per migliorare la propria mobilità ed elasticità muscolare.</p>
             </div>
           </div>
           <div class="col-md-6">
@@ -146,12 +146,12 @@
               <p>
                 Sistema muscolo-scheletrico: dolori articolari, squilibri posturali, cervicalgie, dorsalgie, lombo-sciatalgie, nevralgie.
                 Sistema gineco-urinario: Cistiti ricorrenti, alterazioni del ciclo mestruale, fertilità, gravidanza, sindrome post- partum.
-                Sfera ORL: rinite, sinusite cronica, vertigini, cefalee.                            
+                Sfera ORL: rinite, sinusite cronica, vertigini, cefalee.              
                 <div></div>
                 <!-- Nav tabs-->
                 <ul role="tablist" class="nav nav-tabs">
                   <li role="presentation" class="active"><a href="#osteopatia" aria-controls="home" role="tab" data-toggle="tab">Osteopatia</a></li>
-                  <li role="presentation"><a href="#osteopatia-pediatrica" aria-controls="profile" role="tab" data-toggle="tab">Osteopatia Pediatrica                                                                                               </a></li>
+                  <li role="presentation"><a href="#osteopatia-pediatrica" aria-controls="profile" role="tab" data-toggle="tab">Osteopatia Pediatrica                                               </a></li>
                 </ul>
                 <!-- Tab panes-->
                 <div class="tab-content">
@@ -166,7 +166,7 @@
                     <p>
                       Il trattamento osteopatico in ambito pediatrico utilizza tecniche manuali molto delicate al fine di individuare le zone di tensione del corpo che possono incidere in modo negativo sul normale sviluppo fisiologico del bambino. La valutazione delle asimmetrie del cranio e la loro correzione, riporterà a un equilibrio tra forma e funzione, fondamentale per l’autoregolazione, lo sviluppo e la conservazione della salute.
                       <br><br>
-                      Particolarmente indicata nel trattamento di alterazioni strutturali come le plagiocefalie e le scoliosi, essa porterà benefici anche nelle coliche gassose del neonato,nel reflusso gastro-esofageo, nei disturbi del sonno, le otiti ricorrenti, i disturbi dell’attenzione e dell’apprendimento.                                
+                      Particolarmente indicata nel trattamento di alterazioni strutturali come le plagiocefalie e le scoliosi, essa porterà benefici anche nelle coliche gassose del neonato,nel reflusso gastro-esofageo, nei disturbi del sonno, le otiti ricorrenti, i disturbi dell’attenzione e dell’apprendimento.                
                     </p>
                   </div>
                 </div>
@@ -190,9 +190,9 @@
                 <ul role="tablist" class="nav nav-tabs">
                   <li role="presentation" class="active"><a href="#propriocettiva" aria-controls="home" role="tab" data-toggle="tab">Propriocettiva</a></li>
                   <li role="presentation"><a href="#respiro-postura" aria-controls="profile" role="tab" data-toggle="tab">Respiro e Postura</a></li>
-                  <li role="presentation"><a href="#core-stability" aria-controls="profile" role="tab" data-toggle="tab">Core - Stability                                       </a></li>
-                  <li role="presentation"><a href="#respiro-movimento" aria-controls="profile" role="tab" data-toggle="tab">Respiro e movimento     </a></li>
-                  <li role="presentation"><a href="#taping-kinesiologico" aria-controls="profile" role="tab" data-toggle="tab">Taping Kinesiologico                                                                                     </a></li>
+                  <li role="presentation"><a href="#core-stability" aria-controls="profile" role="tab" data-toggle="tab">Core - Stability                   </a></li>
+                  <li role="presentation"><a href="#respiro-movimento" aria-controls="profile" role="tab" data-toggle="tab">Respiro e movimento   </a></li>
+                  <li role="presentation"><a href="#taping-kinesiologico" aria-controls="profile" role="tab" data-toggle="tab">Taping Kinesiologico                                           </a></li>
                 </ul>
                 <!-- Tab panes-->
                 <div class="tab-content">
@@ -209,7 +209,7 @@
                     <p>Riattivare la circolazione periferica con la ginnastica vascolare e imparare a respirare in modo corretto permette al corpo di affrontare meglio il lavoro aerobico necessario per la salute del cuore. </p>
                   </div>
                   <div id="taping-kinesiologico" role="tabpanel" class="tab-pane">
-                    <p>E’ una metodica basata sull’applicazione di un cerotto elastico in grado di stimolare i recettori superficiali e profondi della cute al fine di alleviare il dolore derivato da contratture  e tensioni muscolari e nella cura di piccoli edemi ed ematomi sottocutanei.         </p>
+                    <p>E’ una metodica basata sull’applicazione di un cerotto elastico in grado di stimolare i recettori superficiali e profondi della cute al fine di alleviare il dolore derivato da contratture  e tensioni muscolari e nella cura di piccoli edemi ed ematomi sottocutanei.     </p>
                   </div>
                 </div>
               </div>
@@ -221,18 +221,66 @@
     <section id="gallery">
       <div class="container">
         <div class="row">
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
-          <div class="col-md-3"><img src="http://placehold.it/250x250" alt=""></div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="orbit">
+              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -250,12 +298,52 @@
           <blockquote>Lorem ipsum dolor sit amet adn<span>A.Heinstein</span></blockquote>
         </div>
         <div class="quotes">
-          <blockquote>Lorem ipsum dolor sit amet adn<span>A.Heinstein</span></blockquote>
+          <blockquote>Lorem ipsum dolor sit amet adn<span>A.Heinstein </span></blockquote>
         </div>
       </div>
     </section>
     <!-- Including footer-->
+    <footer id="contatti">
+      <div id="map-canvas">   </div>
+      <div class="container">
+        <div class="row footer">
+          <div class="divider"></div>
+          <div class="col-md-6">
+            <h2>Still Point</h2>
+            <h3>Fisioterapia e Terapia manuale</h3>
+            <div class="row">
+              <div class="borded">
+                <div class="col-sm-6">
+                  <p>
+                     
+                      Via Bressanone 5
+                    <br>
+                      00198 Roma
+                  </p>
+                </div>
+                <div class="col-sm-6">
+                  <p>
+                      06 xxxxxx xxx x
+                    <br>
+                    info@stillpoint.it
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p>
+               
+              A 200 m dalla Metro A lorem ipsum dolor sit amet“
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h2>Informazioni</h2>
+            <h3>Scrivici e sarai ricontattato al piu presto</h3>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="/js/vendor.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx9KUDj1tNjrnOjWivzS4GAJ9Cke8RIvM"></script>
   <script src="/js/main.js"></script>
 </html>
