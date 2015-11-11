@@ -1,21 +1,21 @@
 @-webkit-keyframes orbit {
   from {
-    -webkit-transform: rotate(0deg) translateX(125px) rotate(0deg);
-    transform: rotate(0deg) translateX(125px) rotate(0deg);
+    -webkit-transform: rotate(-137deg) translateX(125px) rotate(137deg);
+    transform: rotate(-137deg) translateX(125px) rotate(137deg);
   }
   to {
-    -webkit-transform: rotate(360deg) translateX(125px) rotate(-360deg);
-    transform: rotate(360deg) translateX(125px) rotate(-360deg);
+    -webkit-transform: rotate(223deg) translateX(125px) rotate(-223deg);
+    transform: rotate(223deg) translateX(125px) rotate(-223deg);
   }
 }
 @keyframes orbit {
   from {
-    -webkit-transform: rotate(0deg) translateX(125px) rotate(0deg);
-    transform: rotate(0deg) translateX(125px) rotate(0deg);
+    -webkit-transform: rotate(-137deg) translateX(125px) rotate(137deg);
+    transform: rotate(-137deg) translateX(125px) rotate(137deg);
   }
   to {
-    -webkit-transform: rotate(360deg) translateX(125px) rotate(-360deg);
-    transform: rotate(360deg) translateX(125px) rotate(-360deg);
+    -webkit-transform: rotate(223deg) translateX(125px) rotate(-223deg);
+    transform: rotate(223deg) translateX(125px) rotate(-223deg);
   }
 }
 section {
@@ -83,6 +83,29 @@ section#news {
 .navbar .navbar-right li:nth-child(5) a {
   margin-right: 0;
 }
+.navbar .navbar-right li.active {
+  background: transparent;
+  color: #439e7c;
+}
+.navbar .navbar-right li.active a {
+  color: #439e7c;
+  background: transparent;
+}
+.navbar .navbar-right li.active a:focus {
+  background: transparent;
+}
+.navbar .navbar-right li.active a:after {
+  position: absolute;
+  content: '';
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  width: 8px;
+  height: 8px;
+  background: #439e7c;
+  border-radius: 50%;
+}
 .navbar .navbar-right li a {
   text-transform: uppercase;
   font-size: 18px;
@@ -112,7 +135,7 @@ footer#contatti {
 }
 footer#contatti #map-canvas {
   width: 100%;
-  height: 400px;
+  height: 500px;
 }
 footer#contatti .divider {
   position: absolute;
@@ -301,20 +324,17 @@ section#gallery .col-md-3 .orbit {
   margin: auto;
   position: relative;
 }
-section#gallery .col-md-3 .orbit:hover .planet {
-  -webkit-animation: orbit 6s linear infinite;
-  animation: orbit 6s linear infinite;
-  top: 50%;
-  left: 50%;
-}
 section#gallery .col-md-3 .orbit .planet {
   width: 18px;
   height: 18px;
   background: #439e7c;
   border-radius: 50%;
   position: absolute;
-  top: 37px;
-  left: 30px;
+  top: 50%;
+  left: 50%;
+  -webkit-animation: orbit 18s linear infinite;
+  animation: orbit 18s linear infinite;
+  transition: 5s;
   border: 3px solid #fff;
   margin: -9px 0 0 -9px;
 }
@@ -439,6 +459,13 @@ section#quotes .quotes blockquote {
   }
   section#attivita .riabilitazione .riabilitazione-img {
     height: 450px;
+  }
+  section#gallery .orbit {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  section#gallery .col-md-3 {
+    padding: 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {

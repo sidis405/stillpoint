@@ -21,17 +21,17 @@
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display-->
         <div class="navbar-header">
-          <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-          <h1 class="logo">Still Point</h1>
+          <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#top">
+            <h1 class="logo">Still Point</h1></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling-->
         <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">			
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Lo Studio	</a></li>
-            <li><a href="#">Attività</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">News	</a></li>
-            <li><a href="#">Contatti		</a></li>
+            <li><a href="#about">Lo Studio	</a></li>
+            <li><a href="#attivita">Attività</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#news">News	</a></li>
+            <li><a href="#contatti">Contatti		</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse-->
@@ -49,7 +49,7 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="about-box">
-              <div class="about-img"><img src="http://placehold.it/300x250" alt="">
+              <div class="about-img"><img src="http://placehold.it/300x250" alt=" ">
                 <h2 class="title">Lo Studio</h2>
               </div>
               <p>
@@ -288,7 +288,7 @@
       <div class="news-carousel">
         <div class="news">
           <div class="news-img"></div>
-          <h4 class="news-title">News Title and very very very very long news title maybe i don't know</h4><span class="date">19/05/2015</span>
+          <h4 class="news-title">News Title and very very long title</h4><span class="date">19/05/2015</span>
           <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta consequuntur minima totam. Voluptatibus nostrum velit, quaerat iure? Consequatur consequuntur laborum inventore	</p>
         </div>
         <div class="news">

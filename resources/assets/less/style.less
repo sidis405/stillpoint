@@ -157,20 +157,17 @@ section#gallery {
 			height: 250px;
 			border: 4px solid lighten(@green, 40%);
 			margin: auto;
-			position: relative;
-			&:hover .planet {
-				animation: orbit 6s linear infinite;
-				top: 50%;
-				left: 50%;
-			}
+			position: relative;			
 			.planet {
 				width: 18px;
 				height: 18px;
 				background: @green;
 				border-radius: 50%;
 				position: absolute;
-				top: 37px;
-				left: 30px;
+				top: 50%;
+				left: 50%;				
+				animation: orbit 18s linear infinite;
+				transition: 5s;
 				border: 3px solid #fff;				
 				margin: -9px 0 0 -9px;
 			}
@@ -233,7 +230,7 @@ section#quotes {
 			display: block;			
 		}
 		blockquote {
-			border: 0;
+			border: 0;			
 		}
 	}
 
