@@ -95,7 +95,7 @@
       <div class="container-fluid">
         <div class="row terapia-manuale">
           <div class="col-md-6">
-            <div class="terapia-img"></div>
+            <div class="terapia-img attivita-img"></div>
           </div>
           <div class="col-md-6">
             <div class="attivita-box">
@@ -108,7 +108,10 @@
           </div>
         </div>
         <div class="row ginnastica-posturale">
-          <div class="col-md-6">
+          <div class="col-md-6 col-md-push-6">
+            <div class="ginnastica-img attivita-img"></div>
+          </div>
+          <div class="col-md-6 col-md-pull-6">
             <div class="attivita-box">
               <h2>Ginnastica posturale</h2>
               <h3>R.P.G. Rieducazione Posturale Globale metodo Souchard</h3>
@@ -117,16 +120,13 @@
                 Particolarmente indicato nelle alterazioni strutturali della colonna vertebrale, come scoliosi, ipercifosi, iperlordosi, patologie dolorose o compressive come lombalgie, sciatalgie, protrusioni e ernie discali.							
               </p>
               <h3>Back School</h3>
-              <p>Insieme di esercizi volti a conoscere e gestire la propria colonna vertebrale nelle posizioni e nei movimenti quotidiani, utili per migliorare la propria mobilità ed elasticità muscolare.</p>
+              <p>Insieme di esercizi volti a conoscere e gestire la propria colonna vertebrale nelle posizioni e nei movimenti quotidiani, utili per migliorare la propria mobilità ed elasticità muscolare.				</p>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="ginnastica-img"></div>
           </div>
         </div>
         <div class="row rieducazione">
           <div class="col-md-6">
-            <div class="rieducazione-img"></div>
+            <div class="rieducazione-img attivita-img"></div>
           </div>
           <div class="col-md-6">
             <div class="attivita-box">
@@ -139,7 +139,10 @@
           </div>
         </div>
         <div class="row osteopatia">
-          <div class="col-md-6">
+          <div class="col-md-6 col-md-push-6">
+            <div class="osteopatia-img attivita-img"></div>
+          </div>
+          <div class="col-md-6 col-md-pull-6">
             <div class="attivita-box">
               <h2>Osteopatia e Osteopatia Pediatrica </h2>
               <h3>Indicazioni</h3>
@@ -166,20 +169,17 @@
                     <p>
                       Il trattamento osteopatico in ambito pediatrico utilizza tecniche manuali molto delicate al fine di individuare le zone di tensione del corpo che possono incidere in modo negativo sul normale sviluppo fisiologico del bambino. La valutazione delle asimmetrie del cranio e la loro correzione, riporterà a un equilibrio tra forma e funzione, fondamentale per l’autoregolazione, lo sviluppo e la conservazione della salute.
                       <br><br>
-                      Particolarmente indicata nel trattamento di alterazioni strutturali come le plagiocefalie e le scoliosi, essa porterà benefici anche nelle coliche gassose del neonato,nel reflusso gastro-esofageo, nei disturbi del sonno, le otiti ricorrenti, i disturbi dell’attenzione e dell’apprendimento.								
+                      Particolarmente indicata nel trattamento di alterazioni strutturali come le plagiocefalie e le scoliosi, essa porterà benefici anche nelle coliche gassose del neonato,nel reflusso gastro-esofageo, nei disturbi del sonno, le otiti ricorrenti, i disturbi dell’attenzione e dell’apprendimento.				
                     </p>
                   </div>
                 </div>
               </p>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="osteopatia-img"></div>
-          </div>
         </div>
         <div class="row riabilitazione">
           <div class="col-md-6">
-            <div class="riabilitazione-img"></div>
+            <div class="riabilitazione-img attivita-img"></div>
           </div>
           <div class="col-md-6">
             <div class="attivita-box">
@@ -353,18 +353,14 @@
             <div class="row">
               <div class="borded">
                 <div class="col-sm-6">
-                  <p>
-                     
-                    	Via Bressanone 5
+                  <p> <i class="fa fa-map-marker"></i>	Via Bressanone 5
                     <br>
                     	00198 Roma
                   </p>
                 </div>
                 <div class="col-sm-6">
-                  <p>
-                    	06 xxxxxx xxx x
-                    <br>
-                    info@stillpoint.it
+                  <p><i class="fa fa-phone"></i>	06 xxxxxx xxx x
+                    <br><i class="fa fa-envelope-o"></i> info@stillpoint.it
                   </p>
                 </div>
               </div>
@@ -377,6 +373,24 @@
           <div class="col-md-6">
             <h2>Informazioni</h2>
             <h3>Scrivici e sarai ricontattato al piu presto</h3>
+            <form>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div style="margin-bottom: 18px" class="form-group">
+                    <input id="exampleInputEmail1" type="text" placeholder="Nome" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <input id="exampleInputPassword1" type="email" placeholder="Email" class="form-control">
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <textarea id="exampleInputPassword1" placeholder="Messaggio" rows="4" class="form-control"></textarea>
+                  </div>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-default"><i class="fa fa-paper-plane"></i>  Invia</button>
+            </form>
           </div>
         </div>
       </div>

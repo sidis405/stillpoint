@@ -177,6 +177,26 @@ footer#contatti p {
   font-family: 'Open Sans';
   font-size: 17px;
 }
+footer#contatti form {
+  margin: 20px auto;
+  border-top: 1px solid #fff;
+  padding: 25px 0;
+}
+footer#contatti form input {
+  padding: 18px 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0;
+}
+footer#contatti form textarea {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0;
+}
+footer#contatti form button {
+  width: 100%;
+  color: #439e7c;
+  text-transform: uppercase;
+  font-family: 'Sanchez';
+}
 .main-carousel .slide {
   background: url(../img/slide01.jpg) no-repeat center center;
   width: 100%;
@@ -191,15 +211,26 @@ section#about .about-box .about-img {
   position: relative;
 }
 section#about .about-box .about-img h2.title {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   left: 0;
   background: #439e7c;
-  padding: 10px 25px;
+  padding: 15px 25px;
   margin: 0;
   text-transform: none;
   font-size: 20px;
+}
+section#about .about-box .about-img h2.title:before {
+  position: absolute;
+  content: '';
+  left: 20px;
+  top: -20px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 20px 20px 20px;
+  border-color: transparent transparent #439e7c transparent;
 }
 section#about .about-box img {
   width: 100%;
@@ -257,6 +288,22 @@ section#attivita .container-fluid .col-md-6 {
 }
 section#attivita .terapia-manuale {
   background: #63a5c0;
+  position: relative;
+}
+section#attivita .terapia-manuale:before {
+  position: absolute;
+  content: '';
+  z-index: 5;
+  left: 50%;
+  top: 50px;
+  margin-left: -12px;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 25px 0px;
+  border-color: transparent #63a5c0 transparent transparent;
 }
 section#attivita .terapia-manuale .terapia-img {
   background: url(http://placehold.it/800x600) no-repeat center center;
@@ -266,6 +313,22 @@ section#attivita .terapia-manuale .terapia-img {
 }
 section#attivita .ginnastica-posturale {
   background: #439e7c;
+  position: relative;
+}
+section#attivita .ginnastica-posturale:before {
+  position: absolute;
+  content: '';
+  z-index: 5;
+  left: 50%;
+  top: 50px;
+  margin-left: 12px;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 25px;
+  border-color: transparent transparent transparent #439e7c;
 }
 section#attivita .ginnastica-posturale .ginnastica-img {
   background: url(http://placehold.it/800x600) no-repeat center center;
@@ -275,6 +338,22 @@ section#attivita .ginnastica-posturale .ginnastica-img {
 }
 section#attivita .rieducazione {
   background: #885496;
+  position: relative;
+}
+section#attivita .rieducazione:before {
+  position: absolute;
+  content: '';
+  z-index: 5;
+  left: 50%;
+  top: 50px;
+  margin-left: -12px;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 25px 0px;
+  border-color: transparent #885496 transparent transparent;
 }
 section#attivita .rieducazione .rieducazione-img {
   background: url(http://placehold.it/800x600) no-repeat center center;
@@ -284,6 +363,22 @@ section#attivita .rieducazione .rieducazione-img {
 }
 section#attivita .osteopatia {
   background: #ff8e61;
+  position: relative;
+}
+section#attivita .osteopatia:before {
+  position: absolute;
+  content: '';
+  z-index: 5;
+  left: 50%;
+  top: 50px;
+  margin-left: 12px;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 25px;
+  border-color: transparent transparent transparent #ff8e61;
 }
 section#attivita .osteopatia .osteopatia-img {
   background: url(http://placehold.it/800x600) no-repeat center center;
@@ -293,6 +388,22 @@ section#attivita .osteopatia .osteopatia-img {
 }
 section#attivita .riabilitazione {
   background: #26546b;
+  position: relative;
+}
+section#attivita .riabilitazione:before {
+  position: absolute;
+  content: '';
+  z-index: 5;
+  left: 50%;
+  top: 50px;
+  margin-left: -12px;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 25px 0px;
+  border-color: transparent #26546b transparent transparent;
 }
 section#attivita .riabilitazione .riabilitazione-img {
   background: url(http://placehold.it/800x600) no-repeat center center;
@@ -376,21 +487,68 @@ section#news .news .news-description {
 }
 section#quotes .slick-prev {
   left: 50px;
+  background: url(../img/arrow.png) no-repeat center center;
+  width: 23px;
+  height: 42px;
+  margin-top: -21px;
+}
+section#quotes .slick-prev:before {
+  display: none;
 }
 section#quotes .slick-next {
   right: 50px;
+  background: url(../img/arrow.png) no-repeat center center;
+  width: 23px;
+  height: 42px;
+  margin-top: -21px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+section#quotes .slick-next:before {
+  display: none;
+}
+section#quotes .quotes-carousel {
+  margin: 0;
 }
 section#quotes .quotes {
   text-align: center;
+  padding: 40px;
 }
 section#quotes .quotes:focus {
   outline: none;
 }
-section#quotes .quotes span {
-  display: block;
-}
 section#quotes .quotes blockquote {
   border: 0;
+  display: inline-block;
+  font-family: 'Sanchez';
+  font-size: 30px;
+  color: #439e7c;
+  margin: 0;
+  position: relative;
+}
+section#quotes .quotes blockquote:before {
+  position: absolute;
+  content: '';
+  left: -100px;
+  top: -20px;
+  background: url(../img/quotes.png) no-repeat center center;
+  width: 73px;
+  height: 47px;
+}
+section#quotes .quotes blockquote:after {
+  position: absolute;
+  content: '';
+  right: -100px;
+  bottom: -20px;
+  background: url(../img/quotes.png) no-repeat center center;
+  width: 73px;
+  height: 47px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+section#quotes .quotes blockquote span {
+  display: block;
+  font-size: 20px;
 }
 @media screen and (max-width: 1650px) {
   .navbar .container {
@@ -502,6 +660,17 @@ section#quotes .quotes blockquote {
     padding: 40px 0;
   }
   footer#contatti .divider {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  section#attivita .attivita-box {
+    padding: 30px;
+  }
+  section#attivita .attivita-img {
+    height: 350px !important;
+  }
+  section#attivita .row:before {
     display: none;
   }
 }

@@ -39,7 +39,8 @@ $('.news-carousel').slick({
 
 $('.quotes-carousel').slick({	
 	infinite: true,	
-	slidesToShow: 1
+	slidesToShow: 1,
+  arrows: true
 });
 
 // Shrink header on scroll
@@ -105,40 +106,6 @@ $(window).scroll(function(){
 });
 
 
-// Gallery animation
- // $(document).ready(function() {
-
- //  var start = -137;
- //  var full = 360;
-
- //  var current = start;
-
- //  $('.planet').each(function(){
-
- //    // console.log(current);
- //      // $(this).css('transform', 'rotate('+current+'deg) translateX(125px) rotate('+(-1)*parseInt(current)+'deg)');
- //      current += 30;
-
- //      var curr_el = this;
-
- //      $(curr_el).animate({step: function()}, 3000, function(){
- //        console.log($(this));
- //        $(curr_el).animate({transform: 'rotate('+current-full+'deg) translateX(125px) rotate('+(-1)*parseInt(current-full)+'deg)'}, 0);
- //      })        
-
-
- //      // $(this).animate({transform: 'rotate('+current+'deg)'},
- //      //   2000, function() { 
- //      //   $(this).animate({
- //      //    transform: 'rotate(150deg)'},
- //      //     0);
- //      // });
-
-
- //  })
-   
- // });
-
  $(document).ready(function() {
 
     function initialize() {
@@ -153,6 +120,7 @@ $(window).scroll(function(){
       var marker = new google.maps.Marker({
           position: myLatlng,
           map: map,
+          icon: 'img/map-icon.png',
           title: 'Still Point'
       });
     }

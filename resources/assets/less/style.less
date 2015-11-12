@@ -19,15 +19,26 @@ section#about {
 		.about-img {
 			position: relative;
 			h2.title {
-				position: absolute;
+				position: relative;
 				bottom: 0;
 				width: 100%;
 				left: 0;
 				background: @green;
-				padding: 10px 25px;
+				padding: 15px 25px;
 				margin: 0;
 				text-transform: none;
 				font-size: 20px;
+				&:before {
+					position: absolute;
+					content: '';
+					left: 20px;
+					top: -20px;
+					width: 0;
+					height: 0;
+					border-style: solid;
+					border-width: 0 20px 20px 20px;
+					border-color: transparent transparent @green transparent;
+				}
 			}
 		}
 		img {width: 100%;}
@@ -40,8 +51,8 @@ section#about {
 
 section#attivita {
 	.attivita-box {
-		padding: 60px;
-	}
+		padding: 60px;		
+	}	
 	p {
 		color: #fff;
 		font-family: 'Open Sans';
@@ -88,7 +99,22 @@ section#attivita {
 		.col-md-6 {padding: 0;}
 	}
 	.terapia-manuale {	
-		background: @blue;	
+		background: @blue;
+		position: relative;
+		&:before {
+			position: absolute;
+			content: '';
+			z-index: 5;
+			left: 50%;
+			top: 50px;
+			margin-left: -12px;
+			transform: translate(-50%, 0);
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 25px 25px 25px 0px;
+			border-color: transparent @blue transparent transparent;
+		}
 		.terapia-img {
 			background: url(http://placehold.it/800x600) no-repeat center center;
 			width: 100%;
@@ -98,6 +124,21 @@ section#attivita {
 	}
 	.ginnastica-posturale {
 		background: @green;
+		position: relative;
+		&:before {
+			position: absolute;
+			content: '';
+			z-index: 5;
+			left: 50%;
+			top: 50px;
+			margin-left: 12px;
+			transform: translate(-50%, 0);
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 25px 0 25px 25px;
+			border-color: transparent transparent transparent @green;
+		}
 		.ginnastica-img {
 			background: url(http://placehold.it/800x600) no-repeat center center;
 			width: 100%;
@@ -107,6 +148,21 @@ section#attivita {
 	}
 	.rieducazione {
 		background: @purple;
+		position: relative;
+		&:before {
+			position: absolute;
+			content: '';
+			z-index: 5;
+			left: 50%;
+			top: 50px;
+			margin-left: -12px;
+			transform: translate(-50%, 0);
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 25px 25px 25px 0px;
+			border-color: transparent @purple transparent transparent;
+		}
 		.rieducazione-img {
 			background: url(http://placehold.it/800x600) no-repeat center center;
 			width: 100%;
@@ -116,6 +172,21 @@ section#attivita {
 	}
 	.osteopatia {
 		background: @orange;
+		position: relative;
+		&:before {
+			position: absolute;
+			content: '';
+			z-index: 5;
+			left: 50%;
+			top: 50px;
+			margin-left: 12px;
+			transform: translate(-50%, 0);
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 25px 0 25px 25px;
+			border-color: transparent transparent transparent @orange;
+		}
 		.osteopatia-img {
 			background: url(http://placehold.it/800x600) no-repeat center center;
 			width: 100%;
@@ -125,6 +196,21 @@ section#attivita {
 	}
 	.riabilitazione {
 		background: @darkblue;
+		position: relative;
+		&:before {
+			position: absolute;
+			content: '';
+			z-index: 5;
+			left: 50%;
+			top: 50px;
+			margin-left: -12px;
+			transform: translate(-50%, 0);
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 25px 25px 25px 0px;
+			border-color: transparent @darkblue transparent transparent;
+		}
 		.riabilitazione-img {
 			background: url(http://placehold.it/800x600) no-repeat center center;
 			width: 100%;
@@ -214,23 +300,68 @@ section#news {
 	}	
 }
 
-section#quotes {
+section#quotes {	
 	.slick-prev {
 		left: 50px;
+		background: url(../img/arrow.png) no-repeat center center;
+		width: 23px;
+		height: 42px;
+		margin-top: -21px;
+		&:before {
+			display: none;
+		}
 	}
 	.slick-next {
 		right: 50px;
+		background: url(../img/arrow.png) no-repeat center center;
+		width: 23px;
+		height: 42px;
+		margin-top: -21px;
+		transform: rotate(180deg);
+		&:before {
+			display: none;
+		}
+	}
+	.quotes-carousel {
+		margin: 0;
 	}
 	.quotes {
 		text-align: center;
+		padding: 40px;
 		&:focus {
 			outline: none;
-		}
-		span {
-			display: block;			
-		}
+		}		
 		blockquote {
-			border: 0;			
+			border: 0;
+			display: inline-block;
+			font-family: 'Sanchez';
+			font-size: 30px;
+			color: @green;
+			margin: 0;
+			position: relative;
+			&:before {
+				position: absolute;
+				content: '';
+				left: -100px;
+				top: -20px;
+				background: url(../img/quotes.png) no-repeat center center;
+				width: 73px;
+				height: 47px;
+			}
+			&:after {
+				position: absolute;
+				content: '';
+				right: -100px;
+				bottom: -20px;
+				background: url(../img/quotes.png) no-repeat center center;
+				width: 73px;
+				height: 47px;
+				transform: rotate(180deg);
+			}
+			span {
+				display: block;
+				font-size: 20px;
+			}
 		}
 	}
 

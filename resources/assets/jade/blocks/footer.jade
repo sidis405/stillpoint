@@ -10,16 +10,32 @@ footer#contatti
 						.borded
 							.col-sm-6
 								p 
+									i.fa.fa-map-marker
 									|	Via Bressanone 5
 									<br>
 									|	00198 Roma
 							.col-sm-6
 								p
+									i.fa.fa-phone
 									|	06 xxxxxx xxx x
 									<br>
-									| info@stillpoint.it
+									i.fa.fa-envelope-o
+									|  info@stillpoint.it
 					p 
 						| A 200 m dalla Metro A lorem ipsum dolor sit amet“
 				.col-md-6
 					h2 Informazioni
 					h3 Scrivici e sarai ricontattato al piu presto
+					form
+						.row
+							.col-sm-6
+								.form-group(style="margin-bottom: 18px")
+									input#exampleInputEmail1.form-control(type='text', placeholder='Nome')
+								.form-group
+									input#exampleInputPassword1.form-control(type='email', placeholder='Email')
+							.col-sm-6
+								.form-group
+									textarea#exampleInputPassword1.form-control(placeholder='Messaggio', rows='4')
+						button.btn.btn-default(type='submit')
+							i.fa.fa-paper-plane
+							|   Invia
