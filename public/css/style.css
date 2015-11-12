@@ -148,8 +148,9 @@ footer#contatti .divider {
   background: #fff;
 }
 footer#contatti .footer {
-  padding: 60px 0;
+  padding: 60px 0 30px 0;
   position: relative;
+  border-bottom: 1px solid #fff;
 }
 footer#contatti .borded {
   border-top: 1px solid #fff;
@@ -196,6 +197,13 @@ footer#contatti form button {
   color: #439e7c;
   text-transform: uppercase;
   font-family: 'Sanchez';
+}
+footer#contatti .copyright {
+  padding: 25px 0;
+}
+footer#contatti .copyright p {
+  font-size: 10px;
+  margin: 0;
 }
 .main-carousel .slide {
   background: url(../img/slide01.jpg) no-repeat center center;
@@ -435,17 +443,20 @@ section#gallery .col-md-3 .orbit {
   margin: auto;
   position: relative;
 }
+section#gallery .col-md-3 .orbit:hover .planet {
+  -webkit-animation: orbit 4s linear infinite;
+  animation: orbit 4s linear infinite;
+  top: 50%;
+  left: 50%;
+}
 section#gallery .col-md-3 .orbit .planet {
   width: 18px;
   height: 18px;
   background: #439e7c;
   border-radius: 50%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-animation: orbit 18s linear infinite;
-  animation: orbit 18s linear infinite;
-  transition: 5s;
+  top: 32px;
+  left: 37px;
   border: 3px solid #fff;
   margin: -9px 0 0 -9px;
 }
@@ -559,6 +570,9 @@ section#quotes .quotes blockquote span {
   section#about .about-box {
     padding: 0 30px;
   }
+  .main-carousel .slide {
+    height: 600px;
+  }
   section#attivita .attivita-box {
     padding: 20px;
   }
@@ -593,6 +607,10 @@ section#quotes .quotes blockquote span {
   }
   .main-carousel .slide {
     height: 600px;
+  }
+  section#attivita .riabilitazione .nav-tabs li {
+    float: none;
+    display: inline-block;
   }
   section#attivita .attivita-box {
     padding: 20px;
@@ -636,11 +654,18 @@ section#quotes .quotes blockquote span {
   .main-carousel .slide {
     height: 600px;
   }
+  section#attivita .riabilitazione .nav-tabs li {
+    float: none;
+    display: inline-block;
+  }
   footer#contatti .divider {
     display: none;
   }
 }
 @media screen and (max-width: 767px) {
+  section {
+    padding: 30px 0;
+  }
   section#about .about-box {
     padding: 15px;
   }
@@ -656,11 +681,65 @@ section#quotes .quotes blockquote span {
   .navbar-default .navbar-toggle {
     margin-top: 22px;
   }
+  section#attivita .attivita-box {
+    padding: 15px !important;
+  }
+  section#attivita .attivita-box h2 {
+    font-size: 24px;
+  }
+  section#attivita .attivita-box p {
+    font-size: 14px;
+  }
+  section#attivita .riabilitazione .nav-tabs li {
+    float: none;
+    display: inline-block;
+  }
+  section#attivita .nav-tabs li a {
+    padding: 5px 10px;
+  }
   section#news {
     padding: 40px 0;
   }
+  section#news .news {
+    height: 500px;
+  }
+  section#news .news .news-img {
+    height: 200px;
+  }
+  section#news .news h4.news-title {
+    font-size: 20px;
+  }
+  section#quotes {
+    padding: 25px 0;
+  }
+  section#quotes .slick-next,
+  section#quotes .slick-prev {
+    display: none !important;
+  }
+  section#quotes .quotes {
+    padding: 10px;
+  }
+  section#quotes .quotes blockquote {
+    font-size: 22px;
+  }
+  section#quotes .quotes blockquote:after,
+  section#quotes .quotes blockquote:before {
+    display: none;
+  }
+  footer#contatti .footer {
+    padding: 30px 0;
+  }
   footer#contatti .divider {
     display: none;
+  }
+  footer#contatti #map-canvas {
+    height: 350px;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .copyright .pull-right {
+    float: none !important;
   }
 }
 @media screen and (max-width: 991px) {
@@ -671,6 +750,10 @@ section#quotes .quotes blockquote span {
     height: 350px !important;
   }
   section#attivita .row:before {
+    display: none;
+  }
+  section#quotes .quotes blockquote:after,
+  section#quotes .quotes blockquote:before {
     display: none;
   }
 }

@@ -75,7 +75,7 @@ var lastId,
 // so we can get a fancy scroll animation
 menuItems.click(function(e){
   var href = $(this).attr("href"),
-      offsetTop = href === "#" ? 0 : $(href).offset().top-$('.navbar').height();
+      offsetTop = href === "#" ? 0 : $(href).offset().top-$('.navbar-header').height();
   $('html, body').stop().animate({ 
       scrollTop: offsetTop
   }, 300);

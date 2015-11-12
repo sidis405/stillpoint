@@ -7,7 +7,7 @@ $(document).ready(function() {
 });
 // Input effect
 $(document).ready(function() {
-	$('.input-material input').focus(function() {		
+	$('.input-material input, .input-material textarea').focus(function() {		
 		$(this).parent().addClass('input-filled');
 	}).blur(function() {
 		$(this).parent().removeClass('input-filled');

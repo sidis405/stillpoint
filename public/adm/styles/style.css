@@ -5,7 +5,7 @@ body {
 }
 
 .dropzone .btn-primary {
-  background: #000;
+  background: #439e7c;
 }
 .admin-container .avatar {
     text-align: center;
@@ -681,7 +681,7 @@ section.main .container {
   font-size: 18px;
 }
 .btn.btn-main {
-  background: #000 !important;
+  background: #439e7c !important;
 }
 .btn.btn-red {
   background: #F44336 !important;
@@ -771,7 +771,7 @@ aside.sidebar {
   height: 100%;
   width: 230px;
   top: 0;
-  background: #000;
+  background: #439e7c;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
   -webkit-transition: 0.35s;
           transition: 0.35s;
@@ -809,11 +809,11 @@ aside.sidebar ul.sidebar-menu li a i {
   width: 20px;
 }
 aside.sidebar ul.sidebar-menu li a:hover {
-  background: #efefef;
+  background: #fff;
   -webkit-transition: 0.25s;
           transition: 0.25s;
   text-decoration: none;
-  color: #000;
+  color: #439e7c;
 }
 aside.sidebar ul.sidebar-menu li a:focus {
   text-decoration: none;
@@ -842,7 +842,7 @@ aside.sidebar ul.sidebar-menu li a:focus {
   width: 100%;
   content: '';
   height: 3px;
-  background: #000;
+  background: #439e7c;
   -webkit-transition: 0.55s;
           transition: 0.55s;
 }
@@ -894,7 +894,7 @@ aside.sidebar ul.sidebar-menu li a:focus {
   z-index: 9999;
 }
 .upload-material span {
-  background: #000;
+  background: #439e7c;
   padding: 10px;
   cursor: pointer;
   display: block;
@@ -927,7 +927,7 @@ aside.sidebar ul.sidebar-menu li a:focus {
   opacity: 0;
   -webkit-transition: 0.35s;
           transition: 0.35s;
-  background: #000;
+  background: #439e7c;
   padding: 8px;
   color: #fff;
   border-radius: 5px;
@@ -947,7 +947,7 @@ table.table {
   margin: 0;
 }
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background: #000;
+  background: #439e7c;
 }
 .table-hover > tbody > tr {
   cursor: pointer;
@@ -971,6 +971,9 @@ table.table thead th:first-child {
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 40px;
+}
+.note-editor .btn {
+  color: #000;
 }
 @media screen and (max-width: 1199px) {
   aside.sidebar {

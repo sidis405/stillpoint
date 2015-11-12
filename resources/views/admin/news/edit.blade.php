@@ -50,7 +50,7 @@
                     <h3>Breve descrizione</h3>
                       <div class="input-material">                      
                         <label for="" class="label-material"></label>
-                        <textarea name="excerpt" id="excerpt" cols="60" rows="7" required>{{ old('excerpt', $news->excerpt) }}</textarea>
+                        <textarea class="input-field-material" name="excerpt" id="excerpt" cols="60" rows="7" required>{{ old('excerpt', $news->excerpt) }}</textarea>
                       </div>
 
                       
@@ -82,7 +82,7 @@
       
       @include('admin.gallery.gallery-section', array('model' => $news, 'model_name' => 'news', 'model_route' => 'news'))
       <div class="centered">
-              <button id="toolbar-save-form" class="btn btn-green">Salve</button>
+              <button id="toolbar-save-form" class="btn btn-green">Salva</button>
               <a href="/admin/news" class="btn btn-orange">Abbandona</a>
             </div>
         </div>

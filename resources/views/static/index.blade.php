@@ -394,6 +394,16 @@
           </div>
         </div>
       </div>
+      <div class="container">
+        <div class="row copyright">
+          <div class="col-sm-6">
+            <p>Copyright @ Stillpoint 2015. All rights reserved - P.IVA xxxxxxxxxxxxxx</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="pull-right">Design by Officine06</p>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
   <script src="/js/vendor.js"></script>
