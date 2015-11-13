@@ -20,6 +20,12 @@ class NewsRepo
         return News::with('featuredImage')->latest()->get();
     } 
 
+    public function getFromSlug($slug)
+    {
+        return News::with('featuredImage')->whereSlug($slug)->first();
+    } 
+
+
     public function getById($id)
     {
         return News::where('id', $id)->first();

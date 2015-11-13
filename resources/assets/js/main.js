@@ -1,5 +1,12 @@
 // $('.main-carousel').css('margin-top', $('.navbar').height()/2);
 
+$('.open-news-modal').magnificPopup({
+  type:'inline',
+  midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+});
+
+$('.news-modal').addClass('mfp-hide')
+
 $('.main-carousel').slick({
 	arrows: false
 });
@@ -44,7 +51,7 @@ $('.quotes-carousel').slick({
 });
 
 // Shrink header on scroll
-  if ($(window).width() > 1450) {
+  if ($(window).width() > 1450 && window.location.href.indexOf("/articolo") < 0) {
     $(document).on("scroll", function(){
     if
       ($(document).scrollTop() > 50){
@@ -129,3 +136,11 @@ $(window).scroll(function(){
 
 
 });
+
+$(document).ready(function () {
+    if(window.location.href.indexOf("/articolo") > -1) {
+       $('.navbar').addClass('shrink');
+       $('#news-page').css('margin-top', $('.navbar').height());
+    }
+});
+

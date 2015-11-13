@@ -1,6 +1,7 @@
 <?php
 
 Route::get('/', '\Stillpoint\Http\Controllers\HomeController@index');
+Route::get('articolo/{slug}', '\Stillpoint\Http\Controllers\HomeController@article');
 
 // Authentication routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');

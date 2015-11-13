@@ -1,0 +1,7 @@
+<meta property="og:title" content="{{$item->title}}" />
+<meta property="og:site_name" content="Stillpoint"/>
+<meta property="og:url" content="http://stillpoint.sidrit.com/articolo/{{$item->slug}}" />
+<meta property="og:description" content="{{$item->excerpt}}" />
+<meta property="fb:app_id" content="198258987176383" />
+<meta property="og:type" content="article" />
+<meta property="og:locale:alternate" content="it_IT" />  <!-- Italian -->

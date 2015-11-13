@@ -6,6 +6,12 @@
 @gray: #828282;
 
 
+#about-anchor, #gallery-anchor, #attivita-anchor, #news-anchor, #contatti-anchor {
+	top: -200px;
+	position: relative;
+	visibility: hidden;
+}
+
 @keyframes orbit {
 	from {
 		transform: rotate(-137deg) translateX(125px) rotate(137deg)
@@ -54,4 +60,45 @@ section {
 		height: 4px;
 		background: @green !important;
 	}
+}
+
+.open-news-modal {
+	text-decoration: none;
+	&:focus {outline: none; text-decoration: none;}
+	&:hover {text-decoration: none;}
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 30px;
+  width: auto;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 5px;
+  h2 {
+  	font-family: 'Sanchez';
+  	color: @green;
+  	width: 85%;
+  	margin: 10px 0 30px 0;
+  	display: inline-block;
+  }
+  span.shares {
+  	float: right;
+  	display: inline;
+  	font-size: 30px;
+  	color: @green;
+  	margin: 5px 0;
+  	i {
+  		margin: 0 5px;
+  	}
+  }
+  p {text-align: justify;}
+  .news-img {
+  	width: 100%;
+  	height: 350px;
+  	margin: 20px auto;
+  	background: url(http://placehold.it/1200x800) no-repeat center center;
+		background-size: cover;
+  }
 }

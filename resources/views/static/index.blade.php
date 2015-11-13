@@ -45,6 +45,7 @@
       <div class="slide"></div>
     </div>
     <section id="about">
+      <div id="about-anchor"></div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-4">
@@ -92,6 +93,7 @@
       </div>
     </section>
     <section id="attivita">
+      <div id="attivita-anchor"></div>
       <div class="container-fluid">
         <div class="row terapia-manuale">
           <div class="col-md-6">
@@ -219,6 +221,7 @@
       </div>
     </section>
     <section id="gallery">
+      <div id="gallery-anchor"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-6">
@@ -285,10 +288,11 @@
       </div>
     </section>
     <section id="news">
+      <div id="news-anchor"></div>
       <div class="news-carousel">
         <div class="news">
-          <div class="news-img"></div>
-          <h4 class="news-title">News Title and very very long title</h4><span class="date">19/05/2015</span>
+          <div class="news-img"></div><a href="#news-modal" class="open-news-modal">
+            <h4 class="news-title">News Title and very very long title</h4></a><span class="date">19/05/2015</span>
           <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta consequuntur minima totam. Voluptatibus nostrum velit, quaerat iure? Consequatur consequuntur laborum inventore	</p>
         </div>
         <div class="news">
@@ -343,6 +347,7 @@
     </section>
     <!-- Including footer-->
     <footer id="contatti">
+      <div id="contatti-anchor"></div>
       <div id="map-canvas">		</div>
       <div class="container">
         <div class="row footer">
@@ -400,11 +405,39 @@
             <p>Copyright @ Stillpoint 2015. All rights reserved - P.IVA xxxxxxxxxxxxxx</p>
           </div>
           <div class="col-sm-6">
-            <p class="pull-right">Design by Officine06</p>
+            <p class="pull-right">Design by Officine06		</p>
           </div>
         </div>
       </div>
     </footer>
+    <div id="news-modal" class="white-popup mfp-fade">
+      <div class="news-img"></div>
+      <h2>News title</h2><span class="shares"><i class="fa fa-facebook-official"></i><i class="fa fa-twitter-square">				</i></span>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        <br><br>
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse				
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.				
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <br><br>
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.				
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.				
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <br><br>
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <br><br>
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
   </body>
   <script src="/js/vendor.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx9KUDj1tNjrnOjWivzS4GAJ9Cke8RIvM"></script>

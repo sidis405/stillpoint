@@ -23,5 +23,16 @@ class HomeController extends Controller
 
     }
 
+    public function article($slug, NewsRepo $news_repo)
+    {
+        $item = $news_repo->getFromSlug($slug);
+
+        if( ! $item) redirect()->to('/');
+
+        return view('article', compact('item'));
+
+
+    }
+
 
 }
