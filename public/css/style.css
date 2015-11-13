@@ -86,15 +86,29 @@ section#news {
   font-family: 'Sanchez';
   color: #439e7c;
   width: 85%;
-  margin: 10px 0 30px 0;
+  margin: 0px 0 0 0;
   display: inline-block;
+}
+.white-popup .date {
+  color: #439e7c;
+  font-family: 'Sanchez';
+  padding-top: 5px;
+  display: block;
+  margin: 0 0 30px 0;
 }
 .white-popup span.shares {
   float: right;
   display: inline;
   font-size: 30px;
   color: #439e7c;
-  margin: 5px 0;
+  margin: 0;
+}
+.white-popup span.shares a {
+  color: #439e7c;
+}
+.white-popup span.shares a:hover {
+  text-decoration: none;
+  color: #439e7c;
 }
 .white-popup span.shares i {
   margin: 0 5px;
@@ -561,8 +575,22 @@ section#news .news .news-description {
   font-family: 'Sanchez';
   color: #439e7c;
   width: 85%;
-  margin: 30px 0;
+  margin: 30px 0 0 0;
   display: inline-block;
+}
+#news-page .date {
+  color: #439e7c;
+  font-family: 'Sanchez';
+  padding-top: 5px;
+  display: block;
+  margin: 0 0 30px 0;
+}
+#news-page a {
+  color: #439e7c;
+}
+#news-page a:hover {
+  text-decoration: none;
+  color: #439e7c;
 }
 #news-page span.shares {
   float: right;
@@ -829,6 +857,11 @@ section#quotes .quotes blockquote span {
     display: block;
     float: none;
     margin: 0 0 20px 0;
+  }
+  #news-page span.shares {
+    display: block;
+    float: none;
+    margin: 10px 0 10px 0;
   }
 }
 @media screen and (max-width: 991px) {

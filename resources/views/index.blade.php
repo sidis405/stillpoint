@@ -377,9 +377,9 @@
     </footer>
 
 
-
-
-@stop
-        @foreach($news as $item)
+     @foreach($news as $item)
         @include('modal')
         @endforeach
+
+@stop
+       
