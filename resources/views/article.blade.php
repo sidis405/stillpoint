@@ -33,7 +33,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <div class="news-article-img"  style="background: url('/uploads/{{$item->featuredImage->id}}/{{$item->featuredImage->file_name}}') no-repeat"></div>
+            <div class="news-article-img"  style="background: url('/uploads/{{$item->featuredImage->id}}/{{$item->featuredImage->file_name}}') no-repeat  center center;     background-size: cover !important"></div>
             <h2>{{$item->title}}</h2>
             <span class="shares">
             	<a href="https://www.facebook.com/sharer/sharer.php?u=http://stillpoint.sidrit.com/articolo/{{$item->slug}}" target="_blank">

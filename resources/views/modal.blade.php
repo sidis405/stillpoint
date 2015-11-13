@@ -1,6 +1,6 @@
 
     <div id="news-modal_{{$item->id}}" class="white-popup mfp-fade news-modal">
-      <div class="news-img" style="background: url('/uploads/{{$item->featuredImage->id}}/{{$item->featuredImage->file_name}}') no-repeat"></div>
+      <div class="news-img" style="background: url('/uploads/{{$item->featuredImage->id}}/{{$item->featuredImage->file_name}}') no-repeat center center;     background-size: cover !important;"></div>
       <h2>{{$item->title}}</h2>
       <span class="shares">
       <a href="https://www.facebook.com/sharer/sharer.php?u=http://stillpoint.sidrit.com/articolo/{{$item->slug}}" target="_blank">
