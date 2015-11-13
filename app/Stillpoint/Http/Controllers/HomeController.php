@@ -17,7 +17,7 @@ class HomeController extends Controller
      */
     public function index(NewsRepo $news_repo)
     {
-        $news = $news_repo->getAll();
+        $news = $news_repo->getAllFront();
 
         return view('index', compact('news'));
 
