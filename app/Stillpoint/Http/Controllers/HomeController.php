@@ -17,18 +17,21 @@ class HomeController extends Controller
      */
     public function index(NewsRepo $news_repo)
     {
-        $news = $news_repo->getAll();
+        $news = $news_repo->getAllFront();
 
         return view('index', compact('news'));
 
     }
 
-    public function pull()
+    public function article($slug, NewsRepo $news_repo)
     {
-        $out = '';
-        $result = array();
-        $result = shell_exec("/usr/bin/git -c /home/www/sidrit.com/stillpoint pull 2>&1");
-        return $result;
+        $item = $news_repo->getFromSlug($slug);
+
+        if( ! $item) redirect()->to('/');
+
+        return view('article', compact('item'));
+
+
     }
 
 

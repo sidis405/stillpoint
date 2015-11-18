@@ -17,6 +17,7 @@ block content
 		.slide
 		.slide
 	section#about
+		#about-anchor
 		.container-fluid
 			.row
 				.col-sm-4
@@ -50,6 +51,7 @@ block content
 							<br><br>
 							|Il nostro intento è di offrire alla persona la possibilità di scoprire insieme i processi che regolano la salute individuale, riconoscendo il valore terapeutico della  “quiete dinamica”, come punto di partenza verso la guarigione.
 	section#attivita
+		#attivita-anchor
 		.container-fluid
 			.row.terapia-manuale
 				.col-md-6
@@ -154,6 +156,7 @@ block content
 									p
 										|E’ una metodica basata sull’applicazione di un cerotto elastico in grado di stimolare i recettori superficiali e profondi della cute al fine di alleviare il dolore derivato da contratture  e tensioni muscolari e nella cura di piccoli edemi ed ematomi sottocutanei.			
 	section#gallery
+		#gallery-anchor
 		.container
 			.row
 				.col-md-3.col-sm-6
@@ -205,11 +208,13 @@ block content
 						.planet
 						img.img-responsive(src="http://placehold.it/220x220", alt="")
 	section#news
+		#news-anchor
 		.news-carousel
 			.news
 				.news-img
-				h4.news-title
-					| News Title and very very long title
+				a.open-news-modal(href="#news-modal")
+					h4.news-title
+						| News Title and very very long title
 				span.date 19/05/2015
 				p.news-description
 					| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta consequuntur minima totam. Voluptatibus nostrum velit, quaerat iure? Consequatur consequuntur laborum inventore	
@@ -278,4 +283,5 @@ block content
 					span A.Heinstein	
 	// Including footer
 	include blocks/footer
+	include blocks/news-modal
 	
