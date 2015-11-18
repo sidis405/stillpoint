@@ -2,6 +2,8 @@
 
 Route::get('/', '\Stillpoint\Http\Controllers\HomeController@index');
 
+Route::get('pull', '\Stillpoint\Http\Controllers\HomeController@pull');
+
 // Authentication routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');
 Route::post('auth/login', 'Auth\AuthController@postLogin');

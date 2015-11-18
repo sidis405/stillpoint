@@ -23,5 +23,13 @@ class HomeController extends Controller
 
     }
 
+    public function pull()
+    {
+        $out = '';
+        $result = array();
+        $result = shell_exec("/usr/bin/git -c /home/www/sidrit.com/stillpoint pull 2>&1");
+        return $result;
+    }
+
 
 }
