@@ -5,10 +5,32 @@
 
 .main-carousel {
 	.slide {
-		background: url(../img/slide01.jpg) no-repeat center center;
 		width: 100%;
-		height: 800px;
-		background-size: cover;
+		height: 800px;		
+		&.slide1 {
+			background: url(../img/slide01.jpg) no-repeat center center;
+			background-size: cover;
+		}
+		&.slide2 {
+			background: url(../img/slide02.jpg) no-repeat center center;
+			background-size: cover;
+		}
+		&.slide3 {
+			background: url(../img/slide03.jpg) no-repeat center center;
+			background-size: cover;
+		}
+		&.slide4 {
+			background: url(../img/slide04.jpg) no-repeat center center;
+			background-size: cover;
+		}
+		&.slide5 {
+			background: url(../img/slide05.jpg) no-repeat center center;
+			background-size: cover;
+		}
+		&.slide6 {
+			background: url(../img/slide06.jpg) no-repeat center center;
+			background-size: cover;
+		}
 	}
 }
 
@@ -116,7 +138,7 @@ section#attivita {
 			border-color: transparent @blue transparent transparent;
 		}
 		.terapia-img {
-			background: url(http://placehold.it/800x600) no-repeat center center;
+			background: url(../img/terapia-img.jpg) no-repeat center center;
 			width: 100%;
 			height: 400px;
 			background-size: cover;
@@ -140,7 +162,7 @@ section#attivita {
 			border-color: transparent transparent transparent @green;
 		}
 		.ginnastica-img {
-			background: url(http://placehold.it/800x600) no-repeat center center;
+			background: url(../img/ginnastica-img.jpg) no-repeat center center;
 			width: 100%;
 			height: 500px;
 			background-size: cover;
@@ -164,7 +186,7 @@ section#attivita {
 			border-color: transparent @purple transparent transparent;
 		}
 		.rieducazione-img {
-			background: url(http://placehold.it/800x600) no-repeat center center;
+			background: url(../img/rieducazione-img.jpg) no-repeat center center;
 			width: 100%;
 			height: 420px;
 			background-size: cover;
@@ -188,7 +210,7 @@ section#attivita {
 			border-color: transparent transparent transparent @orange;
 		}
 		.osteopatia-img {
-			background: url(http://placehold.it/800x600) no-repeat center center;
+			background: url(../img/osteopatia-img.jpg) no-repeat center center;
 			width: 100%;
 			height: 650px;
 			background-size: cover;
@@ -212,7 +234,7 @@ section#attivita {
 			border-color: transparent @darkblue transparent transparent;
 		}
 		.riabilitazione-img {
-			background: url(http://placehold.it/800x600) no-repeat center center;
+			background: url(../img/riabilitazione-img.jpg) no-repeat center center;
 			width: 100%;
 			height: 500px;
 			background-size: cover;
@@ -235,6 +257,9 @@ section#gallery {
 			border-radius: 50%;
 			display: inline-block;
 			margin: 11px auto;
+		}
+		.gallery-item {
+			&:focus {outline: none;}
 		}
 		.orbit {
 			text-align: center;

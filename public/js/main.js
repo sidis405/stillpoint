@@ -1,5 +1,12 @@
 // $('.main-carousel').css('margin-top', $('.navbar').height()/2);
 
+$('.gallery-item').magnificPopup({
+  type: 'image',
+  gallery:{
+    enabled:true
+  }
+});
+
 $('.open-news-modal').magnificPopup({
   type:'inline',
   midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.

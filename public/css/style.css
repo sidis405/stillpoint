@@ -9,22 +9,22 @@
 }
 @-webkit-keyframes orbit {
   from {
-    -webkit-transform: rotate(-137deg) translateX(125px) rotate(137deg);
-    transform: rotate(-137deg) translateX(125px) rotate(137deg);
+    -webkit-transform: rotate(-134deg) translateX(125px) rotate(134deg);
+    transform: rotate(-134deg) translateX(125px) rotate(134deg);
   }
   to {
-    -webkit-transform: rotate(223deg) translateX(125px) rotate(-223deg);
-    transform: rotate(223deg) translateX(125px) rotate(-223deg);
+    -webkit-transform: rotate(226deg) translateX(125px) rotate(-226deg);
+    transform: rotate(226deg) translateX(125px) rotate(-226deg);
   }
 }
 @keyframes orbit {
   from {
-    -webkit-transform: rotate(-137deg) translateX(125px) rotate(137deg);
-    transform: rotate(-137deg) translateX(125px) rotate(137deg);
+    -webkit-transform: rotate(-134deg) translateX(125px) rotate(134deg);
+    transform: rotate(-134deg) translateX(125px) rotate(134deg);
   }
   to {
-    -webkit-transform: rotate(223deg) translateX(125px) rotate(-223deg);
-    transform: rotate(223deg) translateX(125px) rotate(-223deg);
+    -webkit-transform: rotate(226deg) translateX(125px) rotate(-226deg);
+    transform: rotate(226deg) translateX(125px) rotate(-226deg);
   }
 }
 section {
@@ -275,9 +275,31 @@ footer#contatti .copyright p {
   margin: 0;
 }
 .main-carousel .slide {
-  background: url(../img/slide01.jpg) no-repeat center center;
   width: 100%;
   height: 800px;
+}
+.main-carousel .slide.slide1 {
+  background: url(../img/slide01.jpg) no-repeat center center;
+  background-size: cover;
+}
+.main-carousel .slide.slide2 {
+  background: url(../img/slide02.jpg) no-repeat center center;
+  background-size: cover;
+}
+.main-carousel .slide.slide3 {
+  background: url(../img/slide03.jpg) no-repeat center center;
+  background-size: cover;
+}
+.main-carousel .slide.slide4 {
+  background: url(../img/slide04.jpg) no-repeat center center;
+  background-size: cover;
+}
+.main-carousel .slide.slide5 {
+  background: url(../img/slide05.jpg) no-repeat center center;
+  background-size: cover;
+}
+.main-carousel .slide.slide6 {
+  background: url(../img/slide06.jpg) no-repeat center center;
   background-size: cover;
 }
 section#about .about-box {
@@ -383,7 +405,7 @@ section#attivita .terapia-manuale:before {
   border-color: transparent #63a5c0 transparent transparent;
 }
 section#attivita .terapia-manuale .terapia-img {
-  background: url(http://placehold.it/800x600) no-repeat center center;
+  background: url(../img/terapia-img.jpg) no-repeat center center;
   width: 100%;
   height: 400px;
   background-size: cover;
@@ -408,7 +430,7 @@ section#attivita .ginnastica-posturale:before {
   border-color: transparent transparent transparent #439e7c;
 }
 section#attivita .ginnastica-posturale .ginnastica-img {
-  background: url(http://placehold.it/800x600) no-repeat center center;
+  background: url(../img/ginnastica-img.jpg) no-repeat center center;
   width: 100%;
   height: 500px;
   background-size: cover;
@@ -433,7 +455,7 @@ section#attivita .rieducazione:before {
   border-color: transparent #885496 transparent transparent;
 }
 section#attivita .rieducazione .rieducazione-img {
-  background: url(http://placehold.it/800x600) no-repeat center center;
+  background: url(../img/rieducazione-img.jpg) no-repeat center center;
   width: 100%;
   height: 420px;
   background-size: cover;
@@ -458,7 +480,7 @@ section#attivita .osteopatia:before {
   border-color: transparent transparent transparent #ff8e61;
 }
 section#attivita .osteopatia .osteopatia-img {
-  background: url(http://placehold.it/800x600) no-repeat center center;
+  background: url(../img/osteopatia-img.jpg) no-repeat center center;
   width: 100%;
   height: 650px;
   background-size: cover;
@@ -483,7 +505,7 @@ section#attivita .riabilitazione:before {
   border-color: transparent #26546b transparent transparent;
 }
 section#attivita .riabilitazione .riabilitazione-img {
-  background: url(http://placehold.it/800x600) no-repeat center center;
+  background: url(../img/riabilitazione-img.jpg) no-repeat center center;
   width: 100%;
   height: 500px;
   background-size: cover;
@@ -502,6 +524,9 @@ section#gallery .col-md-3 img {
   border-radius: 50%;
   display: inline-block;
   margin: 11px auto;
+}
+section#gallery .col-md-3 .gallery-item:focus {
+  outline: none;
 }
 section#gallery .col-md-3 .orbit {
   text-align: center;

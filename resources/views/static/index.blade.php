@@ -40,9 +40,12 @@
     </nav>
     <!-- Page content	-->
     <div class="main-carousel">
-      <div class="slide"></div>
-      <div class="slide"></div>
-      <div class="slide"></div>
+      <div class="slide slide1"></div>
+      <div class="slide slide2"></div>
+      <div class="slide slide3"></div>
+      <div class="slide slide4"></div>
+      <div class="slide slide5"></div>
+      <div class="slide slide6"></div>
     </div>
     <section id="about">
       <div id="about-anchor"></div>
@@ -50,7 +53,7 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="about-box">
-              <div class="about-img"><img src="http://placehold.it/300x250" alt=" ">
+              <div class="about-img"><img src="img/lostudio.jpg" alt=" " class="img-responsive">
                 <h2 class="title">Lo Studio</h2>
               </div>
               <p>
@@ -63,7 +66,7 @@
           </div>
           <div class="col-sm-4">
             <div class="about-box">
-              <div class="about-img"><img src="http://placehold.it/300x250" alt="">
+              <div class="about-img"><img src="img/manuela.jpg" alt="" class="img-responsive">
                 <h2 class="title">Manuela Allegra</h2>
               </div>
               <p>
@@ -78,7 +81,7 @@
           </div>
           <div class="col-sm-4">
             <div class="about-box">
-              <div class="about-img"><img src="http://placehold.it/300x250" alt="">
+              <div class="about-img"><img src="img/stillpoint.jpg" alt="" class="img-responsive">
                 <h2 class="title">Perchè Still Point?</h2>
               </div>
               <p>
@@ -224,66 +227,70 @@
       <div id="gallery-anchor"></div>
       <div class="container">
         <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <div class="orbit">
-              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="orbit">
-              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="orbit">
-              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="orbit">
-              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="orbit">
-              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="orbit">
-              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="orbit">
-              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="orbit">
-              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="orbit">
-              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="orbit">
-              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="orbit">
-              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="orbit">
-              <div class="planet"></div><img src="http://placehold.it/220x220" alt="" class="img-responsive">
-            </div>
-          </div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery01-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery01.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery02-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery02.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery03-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery03.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery04-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery04.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery05-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery05.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery06-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery06.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery07-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery07.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery08-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery08.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery09-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery09.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery10-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery10.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery11-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery11.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery12-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery12.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery13-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery13.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery14-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery14.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery15-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery15.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery16-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery16.jpg" alt="" class="img-responsive">
+              </div></a></div>
         </div>
       </div>
     </section>

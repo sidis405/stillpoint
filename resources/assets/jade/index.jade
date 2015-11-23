@@ -13,9 +13,12 @@ block content
 	include blocks/header
 	// Page content	
 	.main-carousel
-		.slide
-		.slide
-		.slide
+		.slide.slide1
+		.slide.slide2
+		.slide.slide3
+		.slide.slide4
+		.slide.slide5
+		.slide.slide6
 	section#about
 		#about-anchor
 		.container-fluid
@@ -23,7 +26,7 @@ block content
 				.col-sm-4
 					.about-box
 						.about-img
-							img(src="http://placehold.it/300x250", alt=" ")
+							img.img-responsive(src="img/lostudio.jpg", alt=" ")
 							h2.title Lo Studio
 						p 
 							|Il percorso verso la salute può nascere da qui, nella quiete del nostro studio, dove la fisioterapia classica si unisce all’osteopatia,  per creare insieme un approccio globale al processo di guarigione, ristabilendo equilibrio nel fisico e benessere nella persona.  
@@ -33,7 +36,7 @@ block content
 				.col-sm-4
 					.about-box
 						.about-img
-							img(src="http://placehold.it/300x250", alt="")
+							img.img-responsive(src="img/manuela.jpg", alt="")
 							h2.title Manuela Allegra
 						p 
 							|La passione e il desiderio innato di conoscenza mi hanno da sempre stimolato nella ricerca dei fattori che regolano i processi vitali a ogni livello, disegnando per me un preciso iter formativo dove ogni passo si è rivelato perfettamente conseguente al precedente, guidandomi in un continuo divenire di scoperte.
@@ -44,7 +47,7 @@ block content
 				.col-sm-4
 					.about-box
 						.about-img
-							img(src="http://placehold.it/300x250", alt="")
+							img.img-responsive(src="img/stillpoint.jpg", alt="")
 							h2.title Perchè Still Point?
 						p 
 							|In ambito osteopatico lo Still Point si manifesta durante un trattamento come un periodo di quiete percettiva, grazie alla quale è possibile accedere a una conoscenza più profonda e al manifestarsi della forza terapeutica dinamica, insita in ognuno di noi.
@@ -160,53 +163,85 @@ block content
 		.container
 			.row
 				.col-md-3.col-sm-6
-					.orbit
-						.planet
-						img.img-responsive(src="http://placehold.it/220x220", alt="")
+					a.gallery-item(href="img/gallery/gallery01-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery01.jpg", alt="")
 				.col-md-3.col-sm-6
-					.orbit
-						.planet
-						img.img-responsive(src="http://placehold.it/220x220", alt="")
+					a.gallery-item(href="img/gallery/gallery02-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery02.jpg", alt="")
 				.col-md-3.col-sm-6
-					.orbit
-						.planet
-						img.img-responsive(src="http://placehold.it/220x220", alt="")
+					a.gallery-item(href="img/gallery/gallery03-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery03.jpg", alt="")
 				.col-md-3.col-sm-6
-					.orbit
-						.planet
-						img.img-responsive(src="http://placehold.it/220x220", alt="")
+					a.gallery-item(href="img/gallery/gallery04-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery04.jpg", alt="")
 				.col-md-3.col-sm-6
-					.orbit
-						.planet
-						img.img-responsive(src="http://placehold.it/220x220", alt="")
+					a.gallery-item(href="img/gallery/gallery05-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery05.jpg", alt="")
 				.col-md-3.col-sm-6
-					.orbit
-						.planet
-						img.img-responsive(src="http://placehold.it/220x220", alt="")
+					a.gallery-item(href="img/gallery/gallery06-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery06.jpg", alt="")
 				.col-md-3.col-sm-6
-					.orbit
-						.planet
-						img.img-responsive(src="http://placehold.it/220x220", alt="")
+					a.gallery-item(href="img/gallery/gallery07-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery07.jpg", alt="")
 				.col-md-3.col-sm-6
-					.orbit
-						.planet
-						img.img-responsive(src="http://placehold.it/220x220", alt="")
+					a.gallery-item(href="img/gallery/gallery08-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery08.jpg", alt="")
 				.col-md-3.col-sm-6
-					.orbit
-						.planet
-						img.img-responsive(src="http://placehold.it/220x220", alt="")
+					a.gallery-item(href="img/gallery/gallery09-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery09.jpg", alt="")
 				.col-md-3.col-sm-6
-					.orbit
-						.planet
-						img.img-responsive(src="http://placehold.it/220x220", alt="")
+					a.gallery-item(href="img/gallery/gallery10-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery10.jpg", alt="")
 				.col-md-3.col-sm-6
-					.orbit
-						.planet
-						img.img-responsive(src="http://placehold.it/220x220", alt="")
+					a.gallery-item(href="img/gallery/gallery11-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery11.jpg", alt="")
 				.col-md-3.col-sm-6
-					.orbit
-						.planet
-						img.img-responsive(src="http://placehold.it/220x220", alt="")
+					a.gallery-item(href="img/gallery/gallery12-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery12.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery13-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery13.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery14-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery14.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery15-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery15.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery16-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery16.jpg", alt="")
 	section#news
 		#news-anchor
 		.news-carousel
