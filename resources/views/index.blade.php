@@ -56,7 +56,7 @@
           </div>
           <div class="col-sm-4">
             <div class="about-box">
-              <div class="about-img"><img src="http://placehold.it/300x250" alt="">
+              <div class="about-img"><img src="/img/manuela.jpg" alt="" class="img-responsive">
                 <h2 class="title">Manuela Allegra</h2>
               </div>
               <p>
