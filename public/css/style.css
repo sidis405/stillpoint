@@ -394,10 +394,10 @@ section#attivita .terapia-manuale:before {
   content: '';
   z-index: 5;
   left: 50%;
-  top: 50px;
+  top: 50%;
   margin-left: -12px;
-  -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 0;
   height: 0;
   border-style: solid;
@@ -411,7 +411,7 @@ section#attivita .terapia-manuale .terapia-img {
   background-size: cover;
 }
 section#attivita .ginnastica-posturale {
-  background: #439e7c;
+  background: #c8b9b4;
   position: relative;
 }
 section#attivita .ginnastica-posturale:before {
@@ -419,15 +419,15 @@ section#attivita .ginnastica-posturale:before {
   content: '';
   z-index: 5;
   left: 50%;
-  top: 50px;
-  margin-left: 12px;
-  -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
+  top: 50%;
+  margin-left: -12px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 25px 0 25px 25px;
-  border-color: transparent transparent transparent #439e7c;
+  border-width: 25px 25px 25px 0px;
+  border-color: transparent #c8b9b4 transparent transparent;
 }
 section#attivita .ginnastica-posturale .ginnastica-img {
   background: url(../img/ginnastica-img.jpg) no-repeat center center;
@@ -436,7 +436,7 @@ section#attivita .ginnastica-posturale .ginnastica-img {
   background-size: cover;
 }
 section#attivita .rieducazione {
-  background: #885496;
+  background: #f26a75;
   position: relative;
 }
 section#attivita .rieducazione:before {
@@ -444,15 +444,15 @@ section#attivita .rieducazione:before {
   content: '';
   z-index: 5;
   left: 50%;
-  top: 50px;
-  margin-left: -12px;
-  -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
+  top: 50%;
+  margin-left: 12px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 25px 25px 25px 0px;
-  border-color: transparent #885496 transparent transparent;
+  border-width: 25px 0 25px 25px;
+  border-color: transparent transparent transparent #f26a75;
 }
 section#attivita .rieducazione .rieducazione-img {
   background: url(../img/rieducazione-img.jpg) no-repeat center center;
@@ -461,7 +461,7 @@ section#attivita .rieducazione .rieducazione-img {
   background-size: cover;
 }
 section#attivita .osteopatia {
-  background: #ff8e61;
+  background: #5980b3;
   position: relative;
 }
 section#attivita .osteopatia:before {
@@ -469,15 +469,15 @@ section#attivita .osteopatia:before {
   content: '';
   z-index: 5;
   left: 50%;
-  top: 50px;
+  top: 50%;
   margin-left: 12px;
-  -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 25px 0 25px 25px;
-  border-color: transparent transparent transparent #ff8e61;
+  border-color: transparent transparent transparent #5980b3;
 }
 section#attivita .osteopatia .osteopatia-img {
   background: url(../img/osteopatia-img.jpg) no-repeat center center;
@@ -486,7 +486,7 @@ section#attivita .osteopatia .osteopatia-img {
   background-size: cover;
 }
 section#attivita .riabilitazione {
-  background: #26546b;
+  background: #75c9b3;
   position: relative;
 }
 section#attivita .riabilitazione:before {
@@ -494,15 +494,15 @@ section#attivita .riabilitazione:before {
   content: '';
   z-index: 5;
   left: 50%;
-  top: 50px;
-  margin-left: -12px;
-  -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
+  top: 50%;
+  margin-left: 12px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 25px 25px 25px 0px;
-  border-color: transparent #26546b transparent transparent;
+  border-width: 25px 0 25px 25px;
+  border-color: transparent transparent transparent #75c9b3;
 }
 section#attivita .riabilitazione .riabilitazione-img {
   background: url(../img/riabilitazione-img.jpg) no-repeat center center;

@@ -98,51 +98,6 @@
     <section id="attivita">
       <div id="attivita-anchor"></div>
       <div class="container-fluid">
-        <div class="row terapia-manuale">
-          <div class="col-md-6">
-            <div class="terapia-img attivita-img"></div>
-          </div>
-          <div class="col-md-6">
-            <div class="attivita-box">
-              <h2>Terapia manuale</h2>
-              <p>
-                E’ una metodica basata sull’analisi biomeccanica del gesto motorio inserito nella visione globale della persona. Attraverso una serie di tecniche manuali il fisioterapista agirà su articolazioni, muscoli, legamenti, fasce al fine di correggere e ripristinare una valida funzionalità.
-                Trova indicazione in tutte le patologie dell’apparato locomotore, sia in fase acuta sia cronica.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row ginnastica-posturale">
-          <div class="col-md-6 col-md-push-6">
-            <div class="ginnastica-img attivita-img"></div>
-          </div>
-          <div class="col-md-6 col-md-pull-6">
-            <div class="attivita-box">
-              <h2>Ginnastica posturale</h2>
-              <h3>R.P.G. Rieducazione Posturale Globale metodo Souchard</h3>
-              <p>
-                E’ una rieducazione posturale che ha come obiettivo finale il ripristino globale dell’equilibrio statico e dinamico del corpo. Basato su posture di allungamento attivo delle catene muscolari, lento e progressivo, può essere proposto a persone di qualsiasi età, rispettandone le possibilità individuali.
-                Particolarmente indicato nelle alterazioni strutturali della colonna vertebrale, come scoliosi, ipercifosi, iperlordosi, patologie dolorose o compressive come lombalgie, sciatalgie, protrusioni e ernie discali.							
-              </p>
-              <h3>Back School</h3>
-              <p>Insieme di esercizi volti a conoscere e gestire la propria colonna vertebrale nelle posizioni e nei movimenti quotidiani, utili per migliorare la propria mobilità ed elasticità muscolare.				</p>
-            </div>
-          </div>
-        </div>
-        <div class="row rieducazione">
-          <div class="col-md-6">
-            <div class="rieducazione-img attivita-img"></div>
-          </div>
-          <div class="col-md-6">
-            <div class="attivita-box">
-              <h2>Rieducazione Motoria</h2>
-              <h3>Post – traumatica</h3>
-              <p>Terapia del movimento volta a ristabilire la normale funzionalità articolare, muscolare e miofasciale in seguito a traumatismi di varia natura, quali fratture, distorsioni, lussazioni.</p>
-              <h3>Post – chirurgica</h3>
-              <p>Indicata in seguito ad intervento chirurgico a carico dell’apparato muscolo-scheletrico, ha come obiettivo  rieducare il paziente al movimento corretto, guidandone il processo di guarigione, attraverso l’applicazione di precisi protocolli fisioterapici.</p>
-            </div>
-          </div>
-        </div>
         <div class="row osteopatia">
           <div class="col-md-6 col-md-push-6">
             <div class="osteopatia-img attivita-img"></div>
@@ -174,7 +129,7 @@
                     <p>
                       Il trattamento osteopatico in ambito pediatrico utilizza tecniche manuali molto delicate al fine di individuare le zone di tensione del corpo che possono incidere in modo negativo sul normale sviluppo fisiologico del bambino. La valutazione delle asimmetrie del cranio e la loro correzione, riporterà a un equilibrio tra forma e funzione, fondamentale per l’autoregolazione, lo sviluppo e la conservazione della salute.
                       <br><br>
-                      Particolarmente indicata nel trattamento di alterazioni strutturali come le plagiocefalie e le scoliosi, essa porterà benefici anche nelle coliche gassose del neonato,nel reflusso gastro-esofageo, nei disturbi del sonno, le otiti ricorrenti, i disturbi dell’attenzione e dell’apprendimento.				
+                      Particolarmente indicata nel trattamento di alterazioni strutturali come le plagiocefalie e le scoliosi, essa porterà benefici anche nelle coliche gassose del neonato,nel reflusso gastro-esofageo, nei disturbi del sonno, le otiti ricorrenti, i disturbi dell’attenzione e dell’apprendimento.	
                     </p>
                   </div>
                 </div>
@@ -182,11 +137,56 @@
             </div>
           </div>
         </div>
-        <div class="row riabilitazione">
+        <div class="row terapia-manuale">
           <div class="col-md-6">
-            <div class="riabilitazione-img attivita-img"></div>
+            <div class="terapia-img attivita-img"></div>
           </div>
           <div class="col-md-6">
+            <div class="attivita-box">
+              <h2>Terapia manuale</h2>
+              <p>
+                E’ una metodica basata sull’analisi biomeccanica del gesto motorio inserito nella visione globale della persona. Attraverso una serie di tecniche manuali il fisioterapista agirà su articolazioni, muscoli, legamenti, fasce al fine di correggere e ripristinare una valida funzionalità.
+                Trova indicazione in tutte le patologie dell’apparato locomotore, sia in fase acuta sia cronica.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row rieducazione">				
+          <div class="col-md-6 col-md-push-6">
+            <div class="rieducazione-img attivita-img"></div>
+          </div>
+          <div class="col-md-6 col-md-pull-6">
+            <div class="attivita-box">
+              <h2>Rieducazione Motoria</h2>
+              <h3>Post – traumatica</h3>
+              <p>Terapia del movimento volta a ristabilire la normale funzionalità articolare, muscolare e miofasciale in seguito a traumatismi di varia natura, quali fratture, distorsioni, lussazioni.</p>
+              <h3>Post – chirurgica</h3>
+              <p>Indicata in seguito ad intervento chirurgico a carico dell’apparato muscolo-scheletrico, ha come obiettivo  rieducare il paziente al movimento corretto, guidandone il processo di guarigione, attraverso l’applicazione di precisi protocolli fisioterapici.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row ginnastica-posturale">				
+          <div class="col-md-6">
+            <div class="ginnastica-img attivita-img"></div>
+          </div>
+          <div class="col-md-6">
+            <div class="attivita-box">
+              <h2>Ginnastica posturale</h2>
+              <h3>R.P.G. Rieducazione Posturale Globale metodo Souchard</h3>
+              <p>
+                E’ una rieducazione posturale che ha come obiettivo finale il ripristino globale dell’equilibrio statico e dinamico del corpo. Basato su posture di allungamento attivo delle catene muscolari, lento e progressivo, può essere proposto a persone di qualsiasi età, rispettandone le possibilità individuali.
+                Particolarmente indicato nelle alterazioni strutturali della colonna vertebrale, come scoliosi, ipercifosi, iperlordosi, patologie dolorose o compressive come lombalgie, sciatalgie, protrusioni e ernie discali.							
+              </p>
+              <h3>Back School</h3>
+              <p>Insieme di esercizi volti a conoscere e gestire la propria colonna vertebrale nelle posizioni e nei movimenti quotidiani, utili per migliorare la propria mobilità ed elasticità muscolare.			</p>
+            </div>
+          </div>
+        </div>
+        <div class="row riabilitazione">								
+          <div class="col-md-6 col-md-push-6">
+            <div class="riabilitazione-img attivita-img"></div>
+          </div>
+          <div class="col-md-6 col-md-pull-6">
             <div class="attivita-box">
               <h2>Riabilitazione funzionale</h2>
               <p>E’ parte integrante del percorso riabilitativo ed ha come obiettivo finale il ripristino della qualità di vita nella persona affetta da patologia acuta o cronica.</p>
