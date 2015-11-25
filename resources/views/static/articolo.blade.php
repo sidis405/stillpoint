@@ -16,26 +16,9 @@
     <!--[if lt IE 7]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display-->
-        <div class="navbar-header">
-          <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index#top">
-            <h1 class="logo">Still Point</h1></a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling-->
-        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">			
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index#about-anchor">Lo Studio	</a></li>
-            <li><a href="index#attivita-anchor">Attività</a></li>
-            <li><a href="index#gallery-anchor">Gallery</a></li>
-            <li><a href="index#news-anchor">News	</a></li>
-            <li><a href="index#contatti-anchor">Contatti		</a></li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse-->
-      </div>
-      <!-- /.container-fluid-->
+    <nav class="navbar navbar-default navbar-article">
+      <div class="container"><a href="index#top">
+          <h1 class="logo">Still Point</h1></a></div>
     </nav>
     <div id="news-page">
       <div class="container">

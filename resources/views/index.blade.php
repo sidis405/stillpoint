@@ -110,7 +110,7 @@
                 <div class="tab-content">
                   <div id="osteopatia" role="tabpanel" class="tab-pane active">
                     <p>
-                      E’ una medicina manuale nata negli Stati Uniti grazie al  Dott. A. Taylor Still, che riconosce la persona come un’unità inscindibile di corpo, mente e spirito in una visione olistica, dove l’armonia è il tema che regola la salute, il benessere e la loro essenza. La vita è percepita come equilibrio e la malattia come alterazione di tale equilibrio.
+                      È una medicina manuale nata negli Stati Uniti grazie al  Dott. A. Taylor Still, che riconosce la persona come un’unità inscindibile di corpo, mente e spirito in una visione olistica, dove l’armonia è il tema che regola la salute, il benessere e la loro essenza. La vita è percepita come equilibrio e la malattia come alterazione di tale equilibrio.
                       <br><br>
                       Il trattamento osteopatico è applicabile a numerosi e diversi problemi che prendono origine dal sistema muscolo – scheletrico e lo colpiscono a loro volta, ma esistono anche una serie di fattori funzionali ed emozionali che, agendo sul sistema viscerale, endocrino e metabolico dell’individuo, rompono il suo equilibrio aprendo la porta alla malattia.
                     </p>
@@ -135,7 +135,7 @@
             <div class="attivita-box">
               <h2>Terapia manuale</h2>
               <p>
-                E’ una metodica basata sull’analisi biomeccanica del gesto motorio inserito nella visione globale della persona. Attraverso una serie di tecniche manuali il fisioterapista agirà su articolazioni, muscoli, legamenti, fasce al fine di correggere e ripristinare una valida funzionalità.
+                È una metodica basata sull’analisi biomeccanica del gesto motorio inserito nella visione globale della persona. Attraverso una serie di tecniche manuali il fisioterapista agirà su articolazioni, muscoli, legamenti, fasce al fine di correggere e ripristinare una valida funzionalità.
                 Trova indicazione in tutte le patologie dell’apparato locomotore, sia in fase acuta sia cronica.
               </p>
             </div>
@@ -164,7 +164,7 @@
               <h2>Ginnastica posturale</h2>
               <h3>R.P.G. Rieducazione Posturale Globale metodo Souchard</h3>
               <p>
-                E’ una rieducazione posturale che ha come obiettivo finale il ripristino globale dell’equilibrio statico e dinamico del corpo. Basato su posture di allungamento attivo delle catene muscolari, lento e progressivo, può essere proposto a persone di qualsiasi età, rispettandone le possibilità individuali.
+                È una rieducazione posturale che ha come obiettivo finale il ripristino globale dell’equilibrio statico e dinamico del corpo. Basato su posture di allungamento attivo delle catene muscolari, lento e progressivo, può essere proposto a persone di qualsiasi età, rispettandone le possibilità individuali.
                 Particolarmente indicato nelle alterazioni strutturali della colonna vertebrale, come scoliosi, ipercifosi, iperlordosi, patologie dolorose o compressive come lombalgie, sciatalgie, protrusioni e ernie discali.              
               </p>
               <h3>Back School</h3>
@@ -179,15 +179,14 @@
           <div class="col-md-6 col-md-pull-6">
             <div class="attivita-box">
               <h2>Riabilitazione funzionale</h2>
-              <p>E’ parte integrante del percorso riabilitativo ed ha come obiettivo finale il ripristino della qualità di vita nella persona affetta da patologia acuta o cronica.</p>
+              <p>È parte integrante del percorso riabilitativo ed ha come obiettivo finale il ripristino della qualità di vita nella persona affetta da patologia acuta o cronica.</p>
               <div>
                 <!-- Nav tabs-->
                 <ul role="tablist" class="nav nav-tabs">
                   <li role="presentation" class="active"><a href="#propriocettiva" aria-controls="home" role="tab" data-toggle="tab">Propriocettiva</a></li>
                   <li role="presentation"><a href="#respiro-postura" aria-controls="profile" role="tab" data-toggle="tab">Respiro e Postura</a></li>
                   <li role="presentation"><a href="#core-stability" aria-controls="profile" role="tab" data-toggle="tab">Core - Stability                   </a></li>
-                  <li role="presentation"><a href="#respiro-movimento" aria-controls="profile" role="tab" data-toggle="tab">Respiro e movimento   </a></li>
-                  <li role="presentation"><a href="#taping-kinesiologico" aria-controls="profile" role="tab" data-toggle="tab">Taping Kinesiologico                                           </a></li>
+                  <li role="presentation"><a href="#respiro-movimento" aria-controls="profile" role="tab" data-toggle="tab">Respiro e movimento                                         </a></li>
                 </ul>
                 <!-- Tab panes-->
                 <div class="tab-content">
@@ -201,13 +200,24 @@
                     <p>Muscoli addominali, diaframma, pavimento pelvico, muscolatura del dorso formano il “Core”, il loro corretto coordinamento conferisce al corpo una stabilità dinamica attraverso una combinazione di forza, flessibilità e controllo. </p>
                   </div>
                   <div id="respiro-movimento" role="tabpanel" class="tab-pane">
-                    <p>Riattivare la circolazione periferica con la ginnastica vascolare e imparare a respirare in modo corretto permette al corpo di affrontare meglio il lavoro aerobico necessario per la salute del cuore. </p>
-                  </div>
-                  <div id="taping-kinesiologico" role="tabpanel" class="tab-pane">
-                    <p>E’ una metodica basata sull’applicazione di un cerotto elastico in grado di stimolare i recettori superficiali e profondi della cute al fine di alleviare il dolore derivato da contratture  e tensioni muscolari e nella cura di piccoli edemi ed ematomi sottocutanei.     </p>
+                    <p>Riattivare la circolazione periferica con la ginnastica vascolare e imparare a respirare in modo corretto permette al corpo di affrontare meglio il lavoro aerobico necessario per la salute del cuore.</p>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="row taping-kinesiologico">      
+          <div class="col-md-6">
+            <div class="taping-img attivita-img"></div>
+          </div>
+          <div class="col-md-6">
+            <div class="attivita-box">
+              <h2>Taping kiesiologico           </h2>
+              <p>
+                È una metodica basata sull’applicazione di un cerotto elastico in grado di stimolare i recettori superficiali e profondi della cute al fine di alleviare il dolore derivato da contratture  e tensioni muscolari e nella cura di piccoli edemi ed ematomi sottocutanei.
+                Scelta della tensione, forma e direzione del bendaggio saranno determinati dalle diverse patologie cui è applicabile e solo dopo un’attenta valutazione da parte del fisioterapista.                      
+              </p>
             </div>
           </div>
         </div>
@@ -337,16 +347,15 @@
                   </p>
                 </div>
                 <div class="col-sm-6">
-                  <p><i class="fa fa-phone"></i>  06 xxxxxx xxx x
-                    <br><i class="fa fa-envelope-o"></i> info@stillpoint.it
+                 <p><i class="fa fa-phone"> </i>+39 339 5333244
+                    <br><i class="fa fa-envelope-o"></i><a href="mailto:info@stillpoint.it">info@stillpoint.it</a>
                   </p>
                 </div>
               </div>
-            </div>
-            <p>
+            </div>            
                
-              A 200 m dalla Metro A lorem ipsum dolor sit amet“
-            </p>
+             <p><img src="/img/metro.png" alt="" style="margin-right: 10px">A 200 m dalla Metro A fermata “S. Agnese/Annibaliano“</p>
+            
           </div>
           <div class="col-md-6">
             <h2>Informazioni</h2>
@@ -375,10 +384,10 @@
       <div class="container">
         <div class="row copyright">
           <div class="col-sm-6">
-            <p>Copyright @ Stillpoint 2015. All rights reserved - P.IVA xxxxxxxxxxxxxx</p>
+            <p>Copyright @ Stillpoint 2015. All rights reserved - P.IVA 10247900581</p>
           </div>
           <div class="col-sm-6">
-            <p class="pull-right">Design by Officine06    </p>
+            <p class="pull-right">Design by <a target="_blank" href="http://officine06.com">Officine06    </a></p>
           </div>
         </div>
       </div>

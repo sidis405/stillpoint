@@ -206,6 +206,13 @@ footer#contatti #map-canvas {
   width: 100%;
   height: 500px;
 }
+footer#contatti a {
+  color: #fff;
+  display: inline-block;
+}
+footer#contatti i {
+  margin-right: 5px;
+}
 footer#contatti .divider {
   position: absolute;
   left: 50%;
@@ -273,6 +280,41 @@ footer#contatti .copyright {
 footer#contatti .copyright p {
   font-size: 10px;
   margin: 0;
+}
+.main-carousel .slick-prev {
+  left: 25px;
+  background: url(../img/arrow.png) no-repeat center center;
+  width: 23px;
+  height: 42px;
+  opacity: 0.6;
+  margin-top: -21px;
+  z-index: 5;
+  transition: 0.35s;
+}
+.main-carousel .slick-prev:hover {
+  opacity: 1;
+  transition: 0.35s;
+}
+.main-carousel .slick-prev:before {
+  display: none;
+}
+.main-carousel .slick-next {
+  right: 25px;
+  background: url(../img/arrow.png) no-repeat center center;
+  width: 23px;
+  height: 42px;
+  margin-top: -21px;
+  opacity: 0.6;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  transition: 0.35s;
+}
+.main-carousel .slick-next:hover {
+  opacity: 1;
+  transition: 0.35s;
+}
+.main-carousel .slick-next:before {
+  display: none;
 }
 .main-carousel .slide {
   width: 100%;
@@ -405,7 +447,7 @@ section#attivita .terapia-manuale:before {
   border-color: transparent #63a5c0 transparent transparent;
 }
 section#attivita .terapia-manuale .terapia-img {
-  background: url(../img/terapia-img.jpg) no-repeat center center;
+  background: url(../img/terapia-img-2.jpg) no-repeat center center;
   width: 100%;
   height: 400px;
   background-size: cover;
@@ -430,9 +472,9 @@ section#attivita .ginnastica-posturale:before {
   border-color: transparent #c8b9b4 transparent transparent;
 }
 section#attivita .ginnastica-posturale .ginnastica-img {
-  background: url(../img/ginnastica-img.jpg) no-repeat center center;
+  background: url(../img/ginnastica-img-2.jpg) no-repeat center center;
   width: 100%;
-  height: 500px;
+  height: 550px;
   background-size: cover;
 }
 section#attivita .rieducazione {
@@ -455,9 +497,9 @@ section#attivita .rieducazione:before {
   border-color: transparent transparent transparent #f26a75;
 }
 section#attivita .rieducazione .rieducazione-img {
-  background: url(../img/rieducazione-img.jpg) no-repeat center center;
+  background: url(../img/rieducazione-img-2.jpg) no-repeat center center;
   width: 100%;
-  height: 420px;
+  height: 480px;
   background-size: cover;
 }
 section#attivita .osteopatia {
@@ -480,9 +522,9 @@ section#attivita .osteopatia:before {
   border-color: transparent transparent transparent #5980b3;
 }
 section#attivita .osteopatia .osteopatia-img {
-  background: url(../img/osteopatia-img.jpg) no-repeat center center;
+  background: url(../img/osteopatia-img-2.jpg) no-repeat center center;
   width: 100%;
-  height: 650px;
+  height: 750px;
   background-size: cover;
 }
 section#attivita .riabilitazione {
@@ -514,6 +556,37 @@ section#attivita .riabilitazione .nav-tabs li {
   font-size: 16px;
 }
 section#attivita .riabilitazione .nav-tabs li a {
+  padding: 10px 12px;
+}
+section#attivita .taping-kinesiologico {
+  background: #b290bb;
+  position: relative;
+}
+section#attivita .taping-kinesiologico:before {
+  position: absolute;
+  content: '';
+  z-index: 5;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 25px 0px;
+  border-color: transparent #b290bb transparent transparent;
+}
+section#attivita .taping-kinesiologico .taping-img {
+  background: url(../img/taping-img.jpg) no-repeat center center;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+section#attivita .taping-kinesiologico .nav-tabs li {
+  font-size: 16px;
+}
+section#attivita .taping-kinesiologico .nav-tabs li a {
   padding: 10px 12px;
 }
 section#gallery .col-md-3 {
@@ -590,6 +663,11 @@ section#news .news .news-description {
   margin: 20px 0;
   color: #828282;
 }
+.navbar-article.shrink h1.logo {
+  margin: 5px auto;
+  -webkit-transform: translate(-10px, 0);
+  transform: translate(-10px, 0);
+}
 #news-page .news-article-img {
   width: 100%;
   height: 450px;
@@ -636,6 +714,13 @@ section#quotes .slick-prev {
   width: 23px;
   height: 42px;
   margin-top: -21px;
+  transition: 0.35s;
+  opacity: 0.6;
+  z-index: 5;
+}
+section#quotes .slick-prev:hover {
+  opacity: 1;
+  transition: 0.35s;
 }
 section#quotes .slick-prev:before {
   display: none;
@@ -648,6 +733,12 @@ section#quotes .slick-next {
   margin-top: -21px;
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
+  transition: 0.35s;
+  opacity: 0.6;
+}
+section#quotes .slick-next:hover {
+  opacity: 1;
+  transition: 0.35s;
 }
 section#quotes .slick-next:before {
   display: none;
@@ -731,6 +822,9 @@ section#quotes .quotes blockquote span {
   section#attivita .riabilitazione .riabilitazione-img {
     height: 450px;
   }
+  section#attivita .taping-kinesiologico .taping-img {
+    height: 250px;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   section#about {
@@ -769,6 +863,9 @@ section#quotes .quotes blockquote span {
   }
   section#attivita .riabilitazione .riabilitazione-img {
     height: 450px;
+  }
+  section#attivita .taping-kinesiologico .taping-img {
+    height: 250px;
   }
   section#gallery .orbit {
     -webkit-transform: scale(0.9);
@@ -893,8 +990,11 @@ section#quotes .quotes blockquote span {
   section#attivita .attivita-box {
     padding: 30px;
   }
+  section#attivita .taping-kinesiologico .taping-img {
+    background-position: -20px;
+  }
   section#attivita .attivita-img {
-    height: 350px !important;
+    height: 300px !important;
   }
   section#attivita .row:before {
     display: none;

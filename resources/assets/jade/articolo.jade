@@ -9,32 +9,10 @@ block append metatags
 	meta(name='description', content='A description of the page')
 
 block content
-	nav.navbar.navbar-default
+	nav.navbar.navbar-default.navbar-article
 		.container
-			// Brand and toggle get grouped for better mobile display
-			.navbar-header
-				button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
-					span.sr-only Toggle navigation
-					span.icon-bar
-					span.icon-bar
-					span.icon-bar
 				a(href="index#top")
 					h1.logo Still Point
-			// Collect the nav links, forms, and other content for toggling
-			#bs-example-navbar-collapse-1.collapse.navbar-collapse			
-				ul.nav.navbar-nav.navbar-right
-					li
-						a(href='index#about-anchor') Lo Studio	
-					li
-						a(href='index#attivita-anchor') Attività
-					li
-						a(href='index#gallery-anchor') Gallery
-					li
-						a(href='index#news-anchor') News	
-					li
-						a(href='index#contatti-anchor') Contatti		
-			// /.navbar-collapse
-		// /.container-fluid
 	#news-page
 			.container
 				.row

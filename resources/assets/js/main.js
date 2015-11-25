@@ -14,8 +14,8 @@ $('.open-news-modal').magnificPopup({
 
 $('.news-modal').addClass('mfp-hide')
 
-$('.main-carousel').slick({
-	arrows: false
+$('.main-carousel').slick({	
+  autoplay: true
 });
 
 $('.news-carousel').slick({
