@@ -4,8 +4,19 @@
 @import url("footer.less");
 
 .main-carousel {
+	position: relative;
+	&:after {
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 1px;
+		background: #fff;
+		left: 0;
+		bottom: 5px;		
+	}
 	.slick-prev {
 		left: 25px;
+		top: 60%;
 		background: url(../img/arrow.png) no-repeat center center;
 		width: 23px;
 		height: 42px;
@@ -23,6 +34,7 @@
 	}
 	.slick-next {
 		right: 25px;
+		top: 60%;
 		background: url(../img/arrow.png) no-repeat center center;
 		width: 23px;
 		height: 42px;
@@ -42,40 +54,37 @@
 		width: 100%;
 		height: 800px;		
 		&.slide1 {
-			background: url(../img/slide01.jpg) no-repeat center center;
+			background: url(../img/slide07.jpg) no-repeat center center;
 			background-size: cover;
 		}
 		&.slide2 {
-			background: url(../img/slide02.jpg) no-repeat center center;
+			background: url(../img/slide01.jpg) no-repeat center center;
 			background-size: cover;
 		}
 		&.slide3 {
-			background: url(../img/slide03.jpg) no-repeat center center;
+			background: url(../img/slide02.jpg) no-repeat center center;
 			background-size: cover;
 		}
 		&.slide4 {
-			background: url(../img/slide04.jpg) no-repeat center center;
+			background: url(../img/slide03.jpg) no-repeat center center;
 			background-size: cover;
-		}
+		}		
 		&.slide5 {
-			background: url(../img/slide05.jpg) no-repeat center center;
-			background-size: cover;
-		}
-		&.slide6 {
 			background: url(../img/slide06.jpg) no-repeat center center;
 			background-size: cover;
-		}
+		}		
 	}
 }
 
 section#about {
+	padding: 60px 0 0 0 !important;
 	.about-box {
-		padding: 0 80px;
+		padding: 0 0px;
 		margin: auto;
 		.about-img {
 			position: relative;
 			width: 100%;
-			height: 300px;
+			// height: 250px;
 			&.lo-studio {
 				background: url(../img/lostudio.jpg) no-repeat;
 				background-size: cover;
@@ -351,22 +360,23 @@ section#gallery {
 			height: 250px;
 			border: 4px solid lighten(@green, 40%);
 			margin: auto;
-			position: relative;
+			position: relative;			
 			&:hover .planet {
 				animation: orbit 4s linear infinite;
 				top: 50%;
-				left: 50%;
+				left: 50%;				
 			}			
 			.planet {
 				width: 18px;
 				height: 18px;
 				background: @green;
 				border-radius: 50%;
-				position: absolute;
+				position: absolute;				
 				top: 32px;
 				left: 37px;									
 				border: 3px solid #fff;				
 				margin: -9px 0 0 -9px;
+				
 			}
 		}
 	}

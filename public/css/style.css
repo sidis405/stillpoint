@@ -134,6 +134,15 @@ section#news {
   border-radius: 0;
   font-family: 'Sanchez';
 }
+.navbar:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  left: 0;
+  bottom: -5px;
+}
 .navbar .container {
   width: 80%;
 }
@@ -205,6 +214,27 @@ footer#contatti {
 footer#contatti #map-canvas {
   width: 100%;
   height: 500px;
+  position: relative;
+}
+footer#contatti #map-canvas:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 7px;
+  width: 100%;
+  height: 1px;
+  background: #439e7c;
+  z-index: 10;
+}
+footer#contatti #map-canvas:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 7px;
+  width: 100%;
+  height: 1px;
+  background: #439e7c;
+  z-index: 10;
 }
 footer#contatti a {
   color: #fff;
@@ -281,8 +311,21 @@ footer#contatti .copyright p {
   font-size: 10px;
   margin: 0;
 }
+.main-carousel {
+  position: relative;
+}
+.main-carousel:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  left: 0;
+  bottom: 5px;
+}
 .main-carousel .slick-prev {
   left: 25px;
+  top: 60%;
   background: url(../img/arrow.png) no-repeat center center;
   width: 23px;
   height: 42px;
@@ -300,6 +343,7 @@ footer#contatti .copyright p {
 }
 .main-carousel .slick-next {
   right: 25px;
+  top: 60%;
   background: url(../img/arrow.png) no-repeat center center;
   width: 23px;
   height: 42px;
@@ -321,37 +365,35 @@ footer#contatti .copyright p {
   height: 800px;
 }
 .main-carousel .slide.slide1 {
-  background: url(../img/slide01.jpg) no-repeat center center;
+  background: url(../img/slide07.jpg) no-repeat center center;
   background-size: cover;
 }
 .main-carousel .slide.slide2 {
-  background: url(../img/slide02.jpg) no-repeat center center;
+  background: url(../img/slide01.jpg) no-repeat center center;
   background-size: cover;
 }
 .main-carousel .slide.slide3 {
-  background: url(../img/slide03.jpg) no-repeat center center;
+  background: url(../img/slide02.jpg) no-repeat center center;
   background-size: cover;
 }
 .main-carousel .slide.slide4 {
-  background: url(../img/slide04.jpg) no-repeat center center;
+  background: url(../img/slide03.jpg) no-repeat center center;
   background-size: cover;
 }
 .main-carousel .slide.slide5 {
-  background: url(../img/slide05.jpg) no-repeat center center;
-  background-size: cover;
-}
-.main-carousel .slide.slide6 {
   background: url(../img/slide06.jpg) no-repeat center center;
   background-size: cover;
 }
+section#about {
+  padding: 60px 0 0 0 !important;
+}
 section#about .about-box {
-  padding: 0 80px;
+  padding: 0 0px;
   margin: auto;
 }
 section#about .about-box .about-img {
   position: relative;
   width: 100%;
-  height: 300px;
 }
 section#about .about-box .about-img.lo-studio {
   background: url(../img/lostudio.jpg) no-repeat;
@@ -809,9 +851,6 @@ section#quotes .quotes blockquote span {
   }
 }
 @media screen and (min-width: 1199px) and (max-width: 1700px) {
-  section#about .about-box {
-    padding: 0 30px;
-  }
   .main-carousel .slide {
     height: 600px;
   }
@@ -846,9 +885,6 @@ section#quotes .quotes blockquote span {
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   section#about {
     padding-bottom: 0;
-  }
-  section#about .about-box {
-    padding: 0 15px;
   }
   .main-carousel .slide {
     height: 600px;
@@ -896,9 +932,6 @@ section#quotes .quotes blockquote span {
   section#about {
     padding-bottom: 0;
   }
-  section#about .about-box {
-    padding: 0;
-  }
   .main-carousel .slide {
     height: 600px;
   }
@@ -913,9 +946,6 @@ section#quotes .quotes blockquote span {
 @media screen and (max-width: 767px) {
   section {
     padding: 30px 0;
-  }
-  section#about .about-box {
-    padding: 15px;
   }
   .main-carousel .slide {
     height: 350px;
@@ -1019,6 +1049,9 @@ section#quotes .quotes blockquote span {
   section#quotes .quotes blockquote:after,
   section#quotes .quotes blockquote:before {
     display: none;
+  }
+  section#about .container {
+    width: 100%;
   }
 }
 @media screen and (max-width: 1250px) {

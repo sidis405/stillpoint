@@ -42,18 +42,17 @@
     <div class="main-carousel">
       <div class="slide slide1"></div>
       <div class="slide slide2"></div>
-      <div class="slide slide3"></div>
+      <div class="slide slide3">		</div>
       <div class="slide slide4"></div>
       <div class="slide slide5"></div>
-      <div class="slide slide6"></div>
     </div>
     <section id="about">
       <div id="about-anchor"></div>
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div class="col-sm-4">
             <div class="about-box">
-              <div class="about-img lo-studio">							
+              <div class="about-img"><img src="img/lostudio.jpg" alt=" " class="img-responsive">
                 <h2 class="title">Lo Studio</h2>
               </div>
               <p>
@@ -66,7 +65,7 @@
           </div>
           <div class="col-sm-4">
             <div class="about-box">
-              <div class="about-img manuela">							
+              <div class="about-img"><img src="img/manuela.jpg" alt="" class="img-responsive">
                 <h2 class="title">Manuela Allegra</h2>
               </div>
               <p>
@@ -81,7 +80,7 @@
           </div>
           <div class="col-sm-4">
             <div class="about-box">
-              <div class="about-img stillpoint">							
+              <div class="about-img"><img src="img/stillpoint.jpg" alt="" class="img-responsive">
                 <h2 class="title">Perchè Still Point?</h2>
               </div>
               <p>
@@ -273,13 +272,13 @@
               <div class="orbit">
                 <div class="planet"></div><img src="img/gallery/gallery09.jpg" alt="" class="img-responsive">
               </div></a></div>
-          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery10-big.jpg" class="gallery-item">
-              <div class="orbit">
-                <div class="planet"></div><img src="img/gallery/gallery10.jpg" alt="" class="img-responsive">
-              </div></a></div>
           <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery11-big.jpg" class="gallery-item">
               <div class="orbit">
                 <div class="planet"></div><img src="img/gallery/gallery11.jpg" alt="" class="img-responsive">
+              </div></a></div>
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery15-big.jpg" class="gallery-item">
+              <div class="orbit">
+                <div class="planet"></div><img src="img/gallery/gallery15.jpg" alt="" class="img-responsive">
               </div></a></div>
           <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery12-big.jpg" class="gallery-item">
               <div class="orbit">
@@ -293,9 +292,9 @@
               <div class="orbit">
                 <div class="planet"></div><img src="img/gallery/gallery14.jpg" alt="" class="img-responsive">
               </div></a></div>
-          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery15-big.jpg" class="gallery-item">
+          <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery10-big.jpg" class="gallery-item">
               <div class="orbit">
-                <div class="planet"></div><img src="img/gallery/gallery15.jpg" alt="" class="img-responsive">
+                <div class="planet"></div><img src="img/gallery/gallery10.jpg" alt="" class="img-responsive">
               </div></a></div>
           <div class="col-md-3 col-sm-6"><a href="img/gallery/gallery16-big.jpg" class="gallery-item">
               <div class="orbit">
