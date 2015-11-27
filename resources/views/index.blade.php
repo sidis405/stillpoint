@@ -43,7 +43,7 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="about-box">
-              <div class="about-img"><img src="/img/lostudio.jpg" alt=" " class="img-responsive">
+              <div class="about-img lo-studio">             
                 <h2 class="title">Lo Studio</h2>
               </div>
               <p>
@@ -56,7 +56,7 @@
           </div>
           <div class="col-sm-4">
             <div class="about-box">
-              <div class="about-img"><img src="/img/manuela.jpg" alt="" class="img-responsive">
+              <div class="about-img manuela">             
                 <h2 class="title">Manuela Allegra</h2>
               </div>
               <p>
@@ -71,7 +71,7 @@
           </div>
           <div class="col-sm-4">
             <div class="about-box">
-               <div class="about-img"><img src="/img/stillpoint.jpg" alt="" class="img-responsive">
+              <div class="about-img stillpoint">              
                 <h2 class="title">Perchè Still Point?</h2>
               </div>
               <p>
