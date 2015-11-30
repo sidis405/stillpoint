@@ -17,7 +17,7 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <nav class="navbar navbar-default navbar-article">
-      <div class="container"><a href="./index#top">
+      <div class="container"><a href="../index">
           <h1 class="logo">Still Point</h1></a></div>
     </nav>
     <div id="news-page">
