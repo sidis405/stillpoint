@@ -59,7 +59,7 @@
                  
                 Il percorso verso la salute può nascere da qui, nella quiete del nostro studio, dove la fisioterapia classica si unisce all’osteopatia,  per creare insieme un approccio globale al processo di guarigione, ristabilendo equilibrio nel fisico e benessere nella persona.  
                 <br><br>
-                Partendo dal sintomo e attraverso un’accurata valutazione clinica sarà stabilito un protocollo di trattamento personalizzato.  Le tecniche manuali utilizzate saranno efficaci sia per la prevenzione sia per la risoluzione dei disturbi che interessano l’apparato muscolo-scheletrico e la sfera viscerale, restituendo al corpo la sua naturale mobilità e funzionalità.
+                Partendo dal sintomo e attraverso un’accurata valutazione clinica, sarà stabilito un protocollo di trattamento personalizzato.  Le tecniche manuali utilizzate saranno efficaci sia per la prevenzione sia per la risoluzione dei disturbi che interessano l’apparato muscolo-scheletrico e la sfera viscerale, restituendo al corpo la sua naturale mobilità e funzionalità.
               </p>
             </div>
           </div>
@@ -72,7 +72,7 @@
                  
                 La passione e il desiderio innato di conoscenza mi hanno da sempre stimolato nella ricerca dei fattori che regolano i processi vitali a ogni livello, disegnando per me un preciso iter formativo dove ogni passo si è rivelato perfettamente conseguente al precedente, guidandomi in un continuo divenire di scoperte.
                 <br><br>
-                Professionalmente nasco nel 1993 come Insegnante di Educazione Fisica dopo aver conseguito il diploma all’ I.S.E.F. di Roma; proseguo gli studi laureandomi in Fisioterapia nel 1996 per poi completare la mia formazione in sei anni di Osteopatia presso il “Centre pour l’Etude, la Richerche et la Diffusion Osteopathiques” . 
+                Professionalmente nasco nel 1993 come Insegnante di Educazione Fisica dopo aver conseguito il diploma all’ I.S.E.F. di Roma; proseguo gli studi laureandomi in Fisioterapia nel 1996 per poi completare la mia formazione in sei anni di Osteopatia presso il “Centre pour l’Etude, la Recherche et la Diffusion Osteopathiques” . 
                 <br><br>
                 Dopo oltre vent’anni di pratica presso strutture accreditate e grazie alle esperienze maturate nel mio percorso di vita,  ho deciso di dare luce al mio sogno realizzando Still Point, studio di fisioterapia e terapia manuale, uno spazio dedicato alla ricerca della salute.
               </p>
@@ -107,7 +107,7 @@
               <h3>Indicazioni</h3>
               <p>
                 Sistema muscolo-scheletrico: dolori articolari, squilibri posturali, cervicalgie, dorsalgie, lombo-sciatalgie, nevralgie.
-                Sistema gineco-urinario: Cistiti ricorrenti, alterazioni del ciclo mestruale, fertilità, gravidanza, sindrome post- partum.
+                Sistema gineco-urinario: cistiti ricorrenti, alterazioni del ciclo mestruale, fertilità, gravidanza, sindrome post-partum.
                 Sfera ORL: rinite, sinusite cronica, vertigini, cefalee.							
                 <div></div>
                 <!-- Nav tabs-->
@@ -119,16 +119,16 @@
                 <div class="tab-content">
                   <div id="osteopatia" role="tabpanel" class="tab-pane active">
                     <p>
-                      È una medicina manuale nata negli Stati Uniti grazie al  Dott. A. Taylor Still, che riconosce la persona come un’unità inscindibile di corpo, mente e spirito in una visione olistica, dove l’armonia è il tema che regola la salute, il benessere e la loro essenza. La vita è percepita come equilibrio e la malattia come alterazione di tale equilibrio.
+                      È una medicina manuale nata negli Stati Uniti grazie al  Dott. A. Taylor Still, che riconosce la persona come un’unità inscindibile di corpo mente e spirito, in una visione olistica dove l’armonia è il tema che regola la salute, il benessere e la loro essenza. La vita è percepita come equilibrio e la malattia come alterazione di tale equilibrio.
                       <br><br>
                       Il trattamento osteopatico è applicabile a numerosi e diversi problemi che prendono origine dal sistema muscolo – scheletrico e lo colpiscono a loro volta, ma esistono anche una serie di fattori funzionali ed emozionali che, agendo sul sistema viscerale, endocrino e metabolico dell’individuo, rompono il suo equilibrio aprendo la porta alla malattia.
                     </p>
                   </div>
                   <div id="osteopatia-pediatrica" role="tabpanel" class="tab-pane">
                     <p>
-                      Il trattamento osteopatico in ambito pediatrico utilizza tecniche manuali molto delicate al fine di individuare le zone di tensione del corpo che possono incidere in modo negativo sul normale sviluppo fisiologico del bambino. La valutazione delle asimmetrie del cranio e la loro correzione, riporterà a un equilibrio tra forma e funzione, fondamentale per l’autoregolazione, lo sviluppo e la conservazione della salute.
+                      Il trattamento osteopatico in ambito pediatrico utilizza tecniche manuali molto delicate al fine di individuare le zone di tensione del corpo che possono incidere in modo negativo sul normale sviluppo fisiologico del bambino. La valutazione delle asimmetrie del cranio e la loro correzione, riporterà ad un equilibrio tra forma e funzione, fondamentale per l’autoregolazione, lo sviluppo e la conservazione della salute.
                       <br><br>
-                      Particolarmente indicata nel trattamento di alterazioni strutturali come le plagiocefalie e le scoliosi, essa porterà benefici anche nelle coliche gassose del neonato,nel reflusso gastro-esofageo, nei disturbi del sonno, le otiti ricorrenti, i disturbi dell’attenzione e dell’apprendimento.	
+                      Particolarmente indicata nel trattamento di alterazioni strutturali come le plagiocefalie e le scoliosi, essa porterà benefici anche nelle coliche gassose del neonato, nel reflusso gastro-esofageo, nei disturbi del sonno, le otiti ricorrenti, i disturbi dell’attenzione e dell’apprendimento.	
                     </p>
                   </div>
                 </div>
@@ -144,7 +144,7 @@
             <div class="attivita-box">
               <h2>Terapia manuale</h2>
               <p>
-                È una metodica basata sull’analisi biomeccanica del gesto motorio inserito nella visione globale della persona. Attraverso una serie di tecniche manuali il fisioterapista agirà su articolazioni, muscoli, legamenti, fasce al fine di correggere e ripristinare una valida funzionalità.
+                È una metodica basata sull’analisi biomeccanica del gesto motorio inserito nella visione globale della persona. Attraverso una serie di tecniche manuali il fisioterapista agirà su articolazioni, muscoli, legamenti, fasce, al fine di correggere e ripristinare una valida funzionalità.
                 Trova indicazione in tutte le patologie dell’apparato locomotore, sia in fase acuta sia cronica.
               </p>
             </div>
@@ -174,7 +174,7 @@
               <h3>R.P.G. Rieducazione Posturale Globale metodo Souchard</h3>
               <p>
                 È una rieducazione posturale che ha come obiettivo finale il ripristino globale dell’equilibrio statico e dinamico del corpo. Basato su posture di allungamento attivo delle catene muscolari, lento e progressivo, può essere proposto a persone di qualsiasi età, rispettandone le possibilità individuali.
-                Particolarmente indicato nelle alterazioni strutturali della colonna vertebrale, come scoliosi, ipercifosi, iperlordosi, patologie dolorose o compressive come lombalgie, sciatalgie, protrusioni e ernie discali.							
+                Particolarmente indicato nelle alterazioni strutturali della colonna vertebrale, come scoliosi, ipercifosi, iperlordosi, patologie dolorose o compressive come lombalgie, sciatalgie, protrusioni ed ernie discali.							
               </p>
               <h3>Back School</h3>
               <p>Insieme di esercizi volti a conoscere e gestire la propria colonna vertebrale nelle posizioni e nei movimenti quotidiani, utili per migliorare la propria mobilità ed elasticità muscolare.			</p>
@@ -200,16 +200,16 @@
                 <!-- Tab panes-->
                 <div class="tab-content">
                   <div id="propriocettiva" role="tabpanel" class="tab-pane active">
-                    <p>Esercizi finalizzati a migliorare la percezione del proprio corpo rispetto a sé stessi e nello spazio. Assolutamente indicata in seguito a traumi o periodi di immobilizzazione  per il recupero del miglior movimento possibile.</p>
+                    <p>Esercizi finalizzati a migliorare la percezione del proprio corpo rispetto a se stessi e nello spazio. Assolutamente indicata in seguito a traumi o periodi di immobilizzazione  per il recupero del miglior movimento possibile.</p>
                   </div>
                   <div id="respiro-postura" role="tabpanel" class="tab-pane">
                     <p>Pratica di movimenti lenti e graduali in coordinazione con la respirazione. Permette al nostro corpo di allungarsi e tonificarsi aumentando la mobilità articolare e la flessibilità della colonna vertebrale.</p>
                   </div>
                   <div id="core-stability" role="tabpanel" class="tab-pane">
-                    <p>Muscoli addominali, diaframma, pavimento pelvico, muscolatura del dorso formano il “Core”, il loro corretto coordinamento conferisce al corpo una stabilità dinamica attraverso una combinazione di forza, flessibilità e controllo. </p>
+                    <p>Muscoli addominali, diaframma, pavimento pelvico, muscolatura del dorso formano il “Core”: il loro corretto coordinamento conferisce al corpo una stabilità dinamica attraverso una combinazione di forza, flessibilità e controllo. </p>
                   </div>
                   <div id="respiro-movimento" role="tabpanel" class="tab-pane">
-                    <p>Riattivare la circolazione periferica con la ginnastica vascolare e imparare a respirare in modo corretto permette al corpo di affrontare meglio il lavoro aerobico necessario per la salute del cuore.</p>
+                    <p>Riattivare la circolazione periferica con la ginnastica vascolare ed imparare a respirare in modo corretto permette al corpo di affrontare meglio il lavoro aerobico necessario per la salute del cuore.</p>
                   </div>
                 </div>
               </div>
@@ -222,9 +222,9 @@
           </div>
           <div class="col-md-6">
             <div class="attivita-box">
-              <h2>Taping kiesiologico						</h2>
+              <h2>Kinesio Taping					</h2>
               <p>
-                È una metodica basata sull’applicazione di un cerotto elastico in grado di stimolare i recettori superficiali e profondi della cute al fine di alleviare il dolore derivato da contratture  e tensioni muscolari e nella cura di piccoli edemi ed ematomi sottocutanei.
+                È una metodica basata sull’applicazione di un cerotto elastico in grado di stimolare i recettori superficiali e profondi della cute al fine di alleviare il dolore derivato da contratture e tensioni muscolari e utilizzato nella cura di piccoli edemi ed ematomi sottocutanei.
                 Scelta della tensione, forma e direzione del bendaggio saranno determinati dalle diverse patologie cui è applicabile e solo dopo un’attenta valutazione da parte del fisioterapista.											
               </p>
             </div>
@@ -351,13 +351,7 @@
     <section id="quotes">
       <div class="quotes-carousel">
         <div class="quotes">
-          <blockquote>Lorem ipsum dolor sit amet adn<span>A.Heinstein</span></blockquote>
-        </div>
-        <div class="quotes">
-          <blockquote>Lorem ipsum dolor sit amet adn<span>A.Heinstein</span></blockquote>
-        </div>
-        <div class="quotes">
-          <blockquote>Lorem ipsum dolor sit amet adn<span>A.Heinstein	</span></blockquote>
+          <blockquote>Trova la salute, chiunque può trovare la malattia<span>A. T. Still</span></blockquote>
         </div>
       </div>
     </section>
@@ -386,11 +380,11 @@
                 </div>
               </div>
             </div>
-            <p><img src="/img/metro.png" alt="" style="margin-right: 10px">A 200 m dalla Metro A fermata “S. Agnese/Annibaliano“</p>
+            <p><img src="/img/metro.png" alt="" style="margin-right: 10px">A 200m dalla Metro B fermata “S. Agnese/Annibaliano“</p>
           </div>
           <div class="col-md-6">
             <h2>Informazioni</h2>
-            <h3>Scrivici e sarai ricontattato al piu presto</h3>
+            <h3>Scrivici e sarai ricontattato al più presto</h3>
             <form>
               <div class="row">
                 <div class="col-sm-6">
