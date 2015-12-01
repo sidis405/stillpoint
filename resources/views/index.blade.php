@@ -347,27 +347,10 @@
             </div>
             <p><img src="/img/metro.png" alt="" style="margin-right: 10px">A 200m dalla Metro B fermata “S. Agnese/Annibaliano“</p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" >
             <h2>Informazioni</h2>
             <h3>Scrivici e sarai ricontattato al più presto</h3>
-            <form>
-              <div class="row">
-                <div class="col-sm-6">
-                  <div style="margin-bottom: 18px" class="form-group">
-                    <input id="exampleInputEmail1" type="text" placeholder="Nome" class="form-control">
-                  </div>
-                  <div class="form-group">
-                    <input id="exampleInputPassword1" type="email" placeholder="Email" class="form-control">
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <textarea id="exampleInputPassword1" placeholder="Messaggio" rows="4" class="form-control"></textarea>
-                  </div>
-                </div>
-              </div>
-              <button type="submit" class="btn btn-default"><i class="fa fa-paper-plane"></i>  Invia</button>
-            </form>
+            @include('contact_form')
           </div>
         </div>
       </div>

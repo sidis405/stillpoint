@@ -152,3 +152,43 @@ $(document).ready(function () {
     }
 });
 
+
+$('#contact_form').submit(function(e){
+  e.preventDefault();
+
+  // alert('invia mail');
+
+  sendContactMail();
+
+})
+
+function sendContactMail() {
+
+    var token = $('meta[name="_token"]').attr('content');
+
+    // console.log(last_activity);
+    var formData = $('#contact_form').serializeArray();
+
+    $.ajax({
+        url: "/contact_send",
+        type: 'POST',
+        data: {_token : token, form: formData},
+        success: function(data) {
+
+            // alert('mail spedita');
+
+            $('#contact_form').html('<div class="success_contact">Grazie per averci contattato. Vi risponderemo il prima possibile.</div>');
+
+            return false;
+        },
+        error: function(XMLHttpRequest, textstatus, error) {
+
+            return false;
+
+        }
+    });
+
+    return false;
+
+
+}

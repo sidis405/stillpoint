@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/css/vendor.css">
     <link rel="stylesheet" href="/css/style.css">
+    <meta name="_token" content="{{ csrf_token() }}" />
     @yield('headers')
   </head>
   <body id="top">
