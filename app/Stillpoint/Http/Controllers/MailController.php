@@ -34,7 +34,7 @@ class MailController extends Controller
 
 
         Mail::send('emails.contact', ['data' => $data], function ($m) use ($data) {
-            $m->from($data['form']['email'], 'LaGirouette Contact Form');
+            $m->from($data['form']['email'], 'Stillpoint Form di contatto');
 
             $m->to($data['rec'], $data['to'])->subject($data['subject']);
         });
