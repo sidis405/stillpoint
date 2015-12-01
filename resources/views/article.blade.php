@@ -27,7 +27,6 @@
             	      </a>
             </span>
             <span class="date">{{$item->created_at->format('d/m/y')}}</span>
-            <!-- <p>{{$item->excerpt}}</p> -->
             <p>{!!$item->body!!}</p>
           </div>
         </div>
