@@ -17,7 +17,7 @@
         <!-- Collect the nav links, forms, and other content for toggling-->
         <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">      
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about">Lo Studio  </a></li>
+            <li><a href="#about">Lo Studio1  </a></li>
             <li><a href="#attivita">Attività</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#news">News  </a></li>
