@@ -131,3 +131,15 @@ section {
 .privacy-page {
 	background: @green;
 }
+
+#cookie-bar {background:@green; height:auto; min-height:24px; line-height:24px; color:#eeeeee; text-align:center; padding:5px 0; z-index: 9999;}
+#cookie-bar.fixed {position:fixed; top:0; left:0; width:100%;}
+#cookie-bar.fixed.bottom {bottom:0; top:auto;}
+#cookie-bar p {margin:0; padding:0;}
+#cookie-bar a {color:#ffffff; display:inline-block; border-radius:3px; text-decoration:none; padding:0 6px; margin-left:8px;}
+#cookie-bar .cb-enable {background: #fff; border-radius: 10px; color: @green;transition: 0.5s;}
+#cookie-bar .cb-enable:hover {background: @green; color: #fff; transition: 0.5s;}
+#cookie-bar .cb-disable {background:#990000;}
+#cookie-bar .cb-disable:hover {background:#bb0000;}
+#cookie-bar .cb-policy {background:#fff; border-radius: 10px; color: @green;transition: 0.5s;}
+#cookie-bar .cb-policy:hover {background: @green; color: #fff; transition: 0.5s;}
