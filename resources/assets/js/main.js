@@ -59,7 +59,7 @@ $('.quotes-carousel').slick({
 });
 
 // Shrink header on scroll
-  if ($(window).width() > 1450 && window.location.href.indexOf("/articolo") < 0) {
+  if ($(window).width() > 1450 && window.location.href.indexOf("/articolo") < 0 && window.location.href.indexOf("/privacy-policy") < 0) {
     $(document).on("scroll", function(){
     if
       ($(document).scrollTop() > 50){

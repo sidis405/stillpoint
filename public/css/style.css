@@ -123,6 +123,24 @@ section#news {
   background: url(http://placehold.it/1200x800) no-repeat center center;
   background-size: cover;
 }
+.privacy-content {
+  background: #fff;
+  padding: 60px;
+}
+.privacy-content h3 {
+  font-family: 'Sanchez';
+  color: #439e7c;
+}
+.privacy-content ul {
+  list-style: none;
+  padding: 0;
+}
+.privacy-content b {
+  color: #439e7c;
+}
+.privacy-page {
+  background: #439e7c;
+}
 .navbar {
   background: #fff;
   position: fixed;
@@ -1034,6 +1052,9 @@ section#quotes .quotes blockquote span {
     display: block;
     float: none;
     margin: 10px 0 10px 0;
+  }
+  .privacy-content {
+    padding: 15px;
   }
 }
 @media screen and (max-width: 991px) {
