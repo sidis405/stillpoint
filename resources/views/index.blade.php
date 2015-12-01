@@ -374,7 +374,7 @@
       <div class="container">
         <div class="row copyright">
           <div class="col-sm-6">
-            <p>Copyright @ Stillpoint 2015. All rights reserved - P.IVA 10247900581</p>
+            <p>Copyright @ Stillpoint 2015. All rights reserved - P.IVA 10247900581 | <a href="/privacy-policy" target="_blank">Privacy policy</a></p>
           </div>
           <div class="col-sm-6">
             <p class="pull-right">Design by <a target="_blank" href="http://officine06.com">Officine06    </a></p>

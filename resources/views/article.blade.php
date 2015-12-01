@@ -9,7 +9,7 @@
 @section('content')
 
    <nav class="navbar navbar-default navbar-article">
-      <div class="container"><a href="../index">
+      <div class="container"><a href="/">
           <h1 class="logo">Still Point</h1></a></div>
     </nav>
     <div id="news-page">
