@@ -36,7 +36,7 @@ class HomeController extends Controller
 
     public function privacy()
     {
-        return view('privacy.blade.php');
+        return view('privacy');
     }
 
     public function pull()
