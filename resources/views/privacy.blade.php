@@ -1,7 +1,5 @@
 @extends('layouts.master')
-@section('headers')
-@include('headers')
-@stop
+
 @section('content')
 <nav class="navbar navbar-default navbar-article">
   <div class="container"><a href="/">
