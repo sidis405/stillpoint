@@ -1,0 +1,1201 @@
+#about-anchor,
+#gallery-anchor,
+#attivita-anchor,
+#news-anchor,
+#contatti-anchor {
+  top: -200px;
+  position: relative;
+  visibility: hidden;
+}
+@-webkit-keyframes orbit {
+  from {
+    -webkit-transform: rotate(-134deg) translateX(125px) rotate(134deg);
+    transform: rotate(-134deg) translateX(125px) rotate(134deg);
+  }
+  to {
+    -webkit-transform: rotate(226deg) translateX(125px) rotate(-226deg);
+    transform: rotate(226deg) translateX(125px) rotate(-226deg);
+  }
+}
+@keyframes orbit {
+  from {
+    -webkit-transform: rotate(-134deg) translateX(125px) rotate(134deg);
+    transform: rotate(-134deg) translateX(125px) rotate(134deg);
+  }
+  to {
+    -webkit-transform: rotate(226deg) translateX(125px) rotate(-226deg);
+    transform: rotate(226deg) translateX(125px) rotate(-226deg);
+  }
+}
+section {
+  padding: 60px 0;
+}
+section h2 {
+  font-family: 'Sanchez';
+  color: #fff;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+section#news {
+  padding: 0;
+  background: url(../img/news-background.jpg) no-repeat center center;
+  width: 100%;
+  padding: 80px 0;
+  background-size: cover;
+}
+.navbar.shrink h1.logo {
+  background: url(../img/logo-shrink.png) no-repeat center center;
+  width: 200px;
+  height: 108px;
+  transition: 0.35s;
+  margin: 5px;
+}
+.navbar.shrink .navbar-right {
+  margin-top: 38px;
+  transition: 0.35s;
+}
+.navbar-default .navbar-toggle {
+  margin-top: 40px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  width: 30px;
+  height: 4px;
+  background: #439e7c !important;
+}
+.open-news-modal {
+  text-decoration: none;
+}
+.open-news-modal:focus {
+  outline: none;
+  text-decoration: none;
+}
+.open-news-modal:hover {
+  text-decoration: none;
+}
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 30px;
+  width: auto;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+.white-popup h2 {
+  font-family: 'Sanchez';
+  color: #439e7c;
+  width: 85%;
+  margin: 0px 0 0 0;
+  display: inline-block;
+}
+.white-popup .date {
+  color: #439e7c;
+  font-family: 'Sanchez';
+  padding-top: 5px;
+  display: block;
+  margin: 0 0 30px 0;
+}
+.white-popup span.shares {
+  float: right;
+  display: inline;
+  font-size: 30px;
+  color: #439e7c;
+  margin: 0;
+}
+.white-popup span.shares a {
+  color: #439e7c;
+}
+.white-popup span.shares a:hover {
+  text-decoration: none;
+  color: #439e7c;
+}
+.white-popup span.shares i {
+  margin: 0 5px;
+}
+.white-popup p {
+  text-align: justify;
+}
+.white-popup .news-img {
+  width: 100%;
+  height: 350px;
+  margin: 20px auto;
+  background: url(http://placehold.it/1200x800) no-repeat center center;
+  background-size: cover;
+}
+.privacy-content {
+  background: #fff;
+  padding: 60px;
+}
+.privacy-content h3 {
+  font-family: 'Sanchez';
+  color: #439e7c;
+}
+.privacy-content ul {
+  list-style: none;
+  padding: 0;
+}
+.privacy-content b {
+  color: #439e7c;
+}
+.privacy-page {
+  background: #439e7c;
+}
+#cookie-bar {
+  background: #439e7c;
+  height: auto;
+  min-height: 24px;
+  line-height: 24px;
+  color: #eeeeee;
+  text-align: center;
+  padding: 5px 0;
+  z-index: 9999;
+}
+#cookie-bar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#cookie-bar.fixed.bottom {
+  bottom: 0;
+  top: auto;
+}
+#cookie-bar p {
+  margin: 0;
+  padding: 0;
+}
+#cookie-bar a {
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 0 6px;
+  margin-left: 8px;
+}
+#cookie-bar .cb-enable {
+  background: #fff;
+  border-radius: 10px;
+  color: #439e7c;
+  transition: 0.5s;
+}
+#cookie-bar .cb-enable:hover {
+  background: #439e7c;
+  color: #fff;
+  transition: 0.5s;
+}
+#cookie-bar .cb-disable {
+  background: #990000;
+}
+#cookie-bar .cb-disable:hover {
+  background: #bb0000;
+}
+#cookie-bar .cb-policy {
+  background: #fff;
+  border-radius: 10px;
+  color: #439e7c;
+  transition: 0.5s;
+}
+#cookie-bar .cb-policy:hover {
+  background: #439e7c;
+  color: #fff;
+  transition: 0.5s;
+}
+.navbar {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  font-family: 'Sanchez';
+}
+.navbar:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  left: 0;
+  bottom: -5px;
+}
+.navbar .container {
+  width: 80%;
+}
+.navbar h1.logo {
+  text-indent: -9999px;
+  background: url(../img/logo-stillpoint.png) no-repeat center center;
+  width: 262px;
+  height: 150px;
+  margin: 20px 0;
+  transition: 0.35s;
+}
+.navbar .navbar-right {
+  margin-top: 74px;
+  transition: 0.35s;
+}
+.navbar .navbar-right li:nth-child(5) a {
+  margin-right: 0;
+}
+.navbar .navbar-right li.active {
+  background: transparent;
+  color: #439e7c;
+}
+.navbar .navbar-right li.active a {
+  color: #439e7c;
+  background: transparent;
+}
+.navbar .navbar-right li.active a:focus {
+  background: transparent;
+}
+.navbar .navbar-right li.active a:after {
+  position: absolute;
+  content: '';
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  width: 8px;
+  height: 8px;
+  background: #439e7c;
+  border-radius: 50%;
+}
+.navbar .navbar-right li a {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 10px 25px;
+  margin-right: 40px;
+  color: #439e7c;
+  position: relative;
+}
+.navbar .navbar-right li a:hover {
+  color: #439e7c;
+}
+.navbar .navbar-right li a:hover:after {
+  position: absolute;
+  content: '';
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  width: 8px;
+  height: 8px;
+  background: #439e7c;
+  border-radius: 50%;
+}
+footer#contatti {
+  background: #439e7c;
+  color: #fff;
+}
+footer#contatti #map-canvas {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+footer#contatti #map-canvas:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 7px;
+  width: 100%;
+  height: 1px;
+  background: #439e7c;
+  z-index: 10;
+}
+footer#contatti #map-canvas:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 7px;
+  width: 100%;
+  height: 1px;
+  background: #439e7c;
+  z-index: 10;
+}
+footer#contatti a {
+  color: #fff;
+  display: inline-block;
+}
+footer#contatti i {
+  margin-right: 5px;
+}
+footer#contatti .divider {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 1px;
+  height: 250px;
+  background: #fff;
+}
+footer#contatti .footer {
+  padding: 60px 0 30px 0;
+  position: relative;
+  border-bottom: 1px solid #fff;
+}
+footer#contatti .borded {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin: 20px 15px;
+  float: left;
+  width: 80%;
+  padding: 40px 0;
+}
+footer#contatti .borded .col-sm-6 {
+  padding: 0;
+}
+footer#contatti h2 {
+  font-family: 'Sanchez';
+  text-transform: uppercase;
+  font-size: 23px;
+}
+footer#contatti h3 {
+  font-family: 'Sanchez';
+  font-style: italic;
+  margin: 0;
+  font-size: 17px;
+}
+footer#contatti p {
+  font-family: 'Open Sans';
+  font-size: 17px;
+}
+footer#contatti form {
+  margin: 20px auto;
+  border-top: 1px solid #fff;
+  padding: 25px 0;
+}
+footer#contatti form input {
+  padding: 18px 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0;
+}
+footer#contatti form textarea {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0;
+}
+footer#contatti form button {
+  width: 100%;
+  color: #439e7c;
+  text-transform: uppercase;
+  font-family: 'Sanchez';
+}
+footer#contatti .copyright {
+  padding: 25px 0;
+}
+footer#contatti .copyright p {
+  font-size: 10px;
+  margin: 0;
+}
+.main-carousel {
+  position: relative;
+}
+.main-carousel:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  left: 0;
+  bottom: 5px;
+}
+.main-carousel .slick-prev {
+  left: 25px;
+  top: 60%;
+  background: url(../img/arrow.png) no-repeat center center;
+  width: 23px;
+  height: 42px;
+  opacity: 0.6;
+  margin-top: -21px;
+  z-index: 5;
+  transition: 0.35s;
+}
+.main-carousel .slick-prev:hover {
+  opacity: 1;
+  transition: 0.35s;
+}
+.main-carousel .slick-prev:before {
+  display: none;
+}
+.main-carousel .slick-next {
+  right: 25px;
+  top: 60%;
+  background: url(../img/arrow.png) no-repeat center center;
+  width: 23px;
+  height: 42px;
+  margin-top: -21px;
+  opacity: 0.6;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  transition: 0.35s;
+}
+.main-carousel .slick-next:hover {
+  opacity: 1;
+  transition: 0.35s;
+}
+.main-carousel .slick-next:before {
+  display: none;
+}
+.main-carousel .slide {
+  width: 100%;
+  height: 800px;
+}
+.main-carousel .slide.slide1 {
+  background: url(../img/slide07.jpg) no-repeat center center;
+  background-size: cover;
+}
+.main-carousel .slide.slide2 {
+  background: url(../img/slide01.jpg) no-repeat center center;
+  background-size: cover;
+}
+.main-carousel .slide.slide3 {
+  background: url(../img/slide02.jpg) no-repeat center center;
+  background-size: cover;
+}
+.main-carousel .slide.slide4 {
+  background: url(../img/slide03.jpg) no-repeat center center;
+  background-size: cover;
+}
+.main-carousel .slide.slide5 {
+  background: url(../img/slide06.jpg) no-repeat center center;
+  background-size: cover;
+}
+section#about {
+  padding: 60px 0 0 0 !important;
+}
+section#about .about-box {
+  padding: 0 0px;
+  margin: auto;
+}
+section#about .about-box .about-img {
+  position: relative;
+  width: 100%;
+}
+section#about .about-box .about-img.lo-studio {
+  background: url(../img/lostudio.jpg) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+section#about .about-box .about-img.manuela {
+  background: url(../img/manuela.jpg) no-repeat center center;
+  background-size: cover;
+  background-position: center 0px;
+}
+section#about .about-box .about-img.stillpoint {
+  background: url(../img/stillpoint.jpg) no-repeat center center;
+  background-size: cover;
+}
+section#about .about-box .about-img h2.title {
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+  left: 0;
+  background: #439e7c;
+  padding: 15px 25px;
+  margin: 0;
+  text-transform: none;
+  font-size: 20px;
+}
+section#about .about-box .about-img h2.title:before {
+  position: absolute;
+  content: '';
+  left: 20px;
+  top: -20px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 20px 20px 20px;
+  border-color: transparent transparent #439e7c transparent;
+}
+section#about .about-box img {
+  width: 100%;
+}
+section#about .about-box p {
+  text-align: justify;
+  padding: 30px 0;
+  margin-top: 50px;
+}
+section#attivita .attivita-box {
+  padding: 60px;
+}
+section#attivita p {
+  color: #fff;
+  font-family: 'Open Sans';
+  text-align: justify;
+  font-size: 17px;
+}
+section#attivita h3 {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-style: italic;
+  color: #fff;
+}
+section#attivita .tab-content {
+  padding: 20px;
+  border-bottom: 1px solid #fff;
+}
+section#attivita .tab-content p {
+  margin-bottom: 0;
+}
+section#attivita .nav-tabs li {
+  font-size: 18px;
+  font-family: 'Sanchez';
+  font-style: italic;
+}
+section#attivita .nav-tabs li.active a {
+  background: transparent;
+  border: 0;
+  border-bottom: 4px solid #fff;
+}
+section#attivita .nav-tabs li a {
+  border-radius: 0;
+  padding: 10px 25px;
+  color: #fff;
+  border: 0;
+}
+section#attivita .nav-tabs li a:hover,
+section#attivita .nav-tabs li a:focus {
+  background: transparent;
+  color: #fff;
+  border-bottom: 4px solid #fff;
+}
+section#attivita .container-fluid .col-md-6 {
+  padding: 0;
+}
+section#attivita .terapia-manuale {
+  background: #63a5c0;
+  position: relative;
+}
+section#attivita .terapia-manuale:before {
+  position: absolute;
+  content: '';
+  z-index: 5;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 25px 0px;
+  border-color: transparent #63a5c0 transparent transparent;
+}
+section#attivita .terapia-manuale .terapia-img {
+  background: url(../img/terapia-img-2.jpg) no-repeat center center;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+section#attivita .ginnastica-posturale {
+  background: #c8b9b4;
+  position: relative;
+}
+section#attivita .ginnastica-posturale:before {
+  position: absolute;
+  content: '';
+  z-index: 5;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 25px 0px;
+  border-color: transparent #c8b9b4 transparent transparent;
+}
+section#attivita .ginnastica-posturale .ginnastica-img {
+  background: url(../img/ginnastica-img-2.jpg) no-repeat center center;
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+}
+section#attivita .rieducazione {
+  background: #f26a75;
+  position: relative;
+}
+section#attivita .rieducazione:before {
+  position: absolute;
+  content: '';
+  z-index: 5;
+  left: 50%;
+  top: 50%;
+  margin-left: 12px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 25px;
+  border-color: transparent transparent transparent #f26a75;
+}
+section#attivita .rieducazione .rieducazione-img {
+  background: url(../img/rieducazione-img-2.jpg) no-repeat center center;
+  width: 100%;
+  height: 480px;
+  background-size: cover;
+}
+section#attivita .osteopatia {
+  background: #5980b3;
+  position: relative;
+}
+section#attivita .osteopatia:before {
+  position: absolute;
+  content: '';
+  z-index: 5;
+  left: 50%;
+  top: 50%;
+  margin-left: 12px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 25px;
+  border-color: transparent transparent transparent #5980b3;
+}
+section#attivita .osteopatia .osteopatia-img {
+  background: url(../img/osteopatia-img-2.jpg) no-repeat center center;
+  width: 100%;
+  height: 750px;
+  background-size: cover;
+}
+section#attivita .riabilitazione {
+  background: #75c9b3;
+  position: relative;
+}
+section#attivita .riabilitazione:before {
+  position: absolute;
+  content: '';
+  z-index: 5;
+  left: 50%;
+  top: 50%;
+  margin-left: 12px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 25px;
+  border-color: transparent transparent transparent #75c9b3;
+}
+section#attivita .riabilitazione .riabilitazione-img {
+  background: url(../img/riabilitazione-img.jpg) no-repeat center center;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+section#attivita .riabilitazione .nav-tabs li {
+  font-size: 16px;
+}
+section#attivita .riabilitazione .nav-tabs li a {
+  padding: 10px 12px;
+}
+section#attivita .taping-kinesiologico {
+  background: #b290bb;
+  position: relative;
+}
+section#attivita .taping-kinesiologico:before {
+  position: absolute;
+  content: '';
+  z-index: 5;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 25px 0px;
+  border-color: transparent #b290bb transparent transparent;
+}
+section#attivita .taping-kinesiologico .taping-img {
+  background: url(../img/taping-img.jpg) no-repeat center center;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+section#attivita .taping-kinesiologico .nav-tabs li {
+  font-size: 16px;
+}
+section#attivita .taping-kinesiologico .nav-tabs li a {
+  padding: 10px 12px;
+}
+section#gallery .col-md-3 {
+  text-align: center;
+  margin: 20px 0;
+}
+section#gallery .col-md-3 img {
+  border-radius: 50%;
+  display: inline-block;
+  margin: 11px auto;
+}
+section#gallery .col-md-3 .gallery-item:focus {
+  outline: none;
+}
+section#gallery .col-md-3 .orbit {
+  text-align: center;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border: 4px solid #c6e7db;
+  margin: auto;
+  position: relative;
+}
+section#gallery .col-md-3 .orbit:hover .planet {
+  -webkit-animation: orbit 4s linear infinite;
+  animation: orbit 4s linear infinite;
+  top: 50%;
+  left: 50%;
+}
+section#gallery .col-md-3 .orbit .planet {
+  width: 18px;
+  height: 18px;
+  background: #439e7c;
+  border-radius: 50%;
+  position: absolute;
+  top: 32px;
+  left: 37px;
+  border: 3px solid #fff;
+  margin: -9px 0 0 -9px;
+}
+section#news .news {
+  padding: 20px;
+  margin: 0 40px;
+  background: #fff;
+  border-radius: 7px;
+  height: 550px;
+}
+section#news .news:focus {
+  outline: none;
+}
+section#news .news .news-img {
+  width: 100%;
+  height: 250px;
+  background: #828282;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+section#news .news h4.news-title {
+  font-family: 'Sanchez';
+  color: #439e7c;
+  font-style: italic;
+  font-size: 24px;
+  margin-top: 25px;
+}
+section#news .news .date {
+  color: #439e7c;
+  border-top: 1px solid #439e7c;
+  font-family: 'Sanchez';
+  padding-top: 5px;
+}
+section#news .news .news-description {
+  text-align: justify;
+  font-family: 'Open Sans';
+  margin: 20px 0;
+  color: #828282;
+}
+.navbar-article.shrink h1.logo {
+  margin: 5px auto;
+  -webkit-transform: translate(-10px, 0);
+  transform: translate(-10px, 0);
+}
+#news-page {
+  padding: 150px 0;
+}
+#news-page .news-article-img {
+  width: 100%;
+  height: 450px;
+  background: url(http://placehold.it/450x250) no-repeat center center;
+  background-size: cover;
+}
+#news-page h2 {
+  font-family: 'Sanchez';
+  color: #439e7c;
+  width: 85%;
+  margin: 30px 0 0 0;
+  display: inline-block;
+}
+#news-page .date {
+  color: #439e7c;
+  font-family: 'Sanchez';
+  padding-top: 5px;
+  display: block;
+  margin: 0 0 30px 0;
+}
+#news-page a {
+  color: #439e7c;
+}
+#news-page a:hover {
+  text-decoration: none;
+  color: #439e7c;
+}
+#news-page span.shares {
+  float: right;
+  display: inline;
+  font-size: 30px;
+  color: #439e7c;
+  margin: 25px 0;
+}
+#news-page span.shares i {
+  margin: 0 5px;
+}
+#news-page p {
+  text-align: justify;
+}
+section#quotes .slick-prev {
+  left: 50px;
+  background: url(../img/arrow.png) no-repeat center center;
+  width: 23px;
+  height: 42px;
+  margin-top: -21px;
+  transition: 0.35s;
+  opacity: 0.6;
+  z-index: 5;
+}
+section#quotes .slick-prev:hover {
+  opacity: 1;
+  transition: 0.35s;
+}
+section#quotes .slick-prev:before {
+  display: none;
+}
+section#quotes .slick-next {
+  right: 50px;
+  background: url(../img/arrow.png) no-repeat center center;
+  width: 23px;
+  height: 42px;
+  margin-top: -21px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  transition: 0.35s;
+  opacity: 0.6;
+}
+section#quotes .slick-next:hover {
+  opacity: 1;
+  transition: 0.35s;
+}
+section#quotes .slick-next:before {
+  display: none;
+}
+section#quotes .quotes-carousel {
+  margin: 0;
+}
+section#quotes .quotes {
+  text-align: center;
+  padding: 40px;
+}
+section#quotes .quotes:focus {
+  outline: none;
+}
+section#quotes .quotes blockquote {
+  border: 0;
+  display: inline-block;
+  font-family: 'Sanchez';
+  font-size: 30px;
+  color: #439e7c;
+  margin: 0;
+  position: relative;
+}
+section#quotes .quotes blockquote:before {
+  position: absolute;
+  content: '';
+  left: -100px;
+  top: -20px;
+  background: url(../img/quotes.png) no-repeat center center;
+  width: 73px;
+  height: 47px;
+}
+section#quotes .quotes blockquote:after {
+  position: absolute;
+  content: '';
+  right: -100px;
+  bottom: -20px;
+  background: url(../img/quotes.png) no-repeat center center;
+  width: 73px;
+  height: 47px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+section#quotes .quotes blockquote span {
+  display: block;
+  font-size: 20px;
+}
+@media screen and (max-width: 1650px) {
+  .navbar .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1199px) and (max-width: 1700px) {
+  .main-carousel .slide {
+    height: 600px;
+  }
+  section#attivita .attivita-box {
+    padding: 20px;
+  }
+  section#attivita h2 {
+    font-size: 24px;
+  }
+  section#attivita p {
+    font-size: 14px;
+  }
+  section#attivita .terapia-manuale .terapia-img {
+    height: 250px;
+  }
+  section#attivita .ginnastica-posturale .ginnastica-img {
+    height: 460px;
+  }
+  section#attivita .rieducazione .rieducazione-img {
+    height: 350px;
+  }
+  section#attivita .osteopatia .osteopatia-img {
+    height: 650px;
+  }
+  section#attivita .riabilitazione .riabilitazione-img {
+    height: 450px;
+  }
+  section#attivita .taping-kinesiologico .taping-img {
+    height: 250px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  section#about {
+    padding-bottom: 0;
+  }
+  .main-carousel .slide {
+    height: 600px;
+  }
+  section#attivita .riabilitazione .nav-tabs li {
+    float: none;
+    display: inline-block;
+  }
+  section#attivita .attivita-box {
+    padding: 20px;
+  }
+  section#attivita h2 {
+    font-size: 24px;
+  }
+  section#attivita p {
+    font-size: 14px;
+  }
+  section#attivita .terapia-manuale .terapia-img {
+    height: 250px;
+  }
+  section#attivita .ginnastica-posturale .ginnastica-img {
+    height: 460px;
+  }
+  section#attivita .rieducazione .rieducazione-img {
+    height: 350px;
+  }
+  section#attivita .osteopatia .osteopatia-img {
+    height: 650px;
+  }
+  section#attivita .riabilitazione .riabilitazione-img {
+    height: 450px;
+  }
+  section#attivita .taping-kinesiologico .taping-img {
+    height: 250px;
+  }
+  section#gallery .orbit {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  section#gallery .col-md-3 {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section#about {
+    padding-bottom: 0;
+  }
+  .main-carousel .slide {
+    height: 600px;
+  }
+  section#attivita .riabilitazione .nav-tabs li {
+    float: none;
+    display: inline-block;
+  }
+  footer#contatti .divider {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  section {
+    padding: 30px 0;
+  }
+  .main-carousel .slide {
+    height: 350px;
+  }
+  .navbar h1.logo {
+    background: url(../img/logo-mobile.png) no-repeat center center !important;
+    width: 125px !important;
+    height: 75px !important;
+    margin-left: 15px !important;
+  }
+  .navbar-default .navbar-toggle {
+    margin-top: 22px;
+  }
+  section#attivita .attivita-box {
+    padding: 15px !important;
+  }
+  section#attivita .attivita-box h2 {
+    font-size: 24px;
+  }
+  section#attivita .attivita-box p {
+    font-size: 14px;
+  }
+  section#attivita .riabilitazione .nav-tabs li {
+    float: none;
+    display: inline-block;
+  }
+  section#attivita .nav-tabs li a {
+    padding: 5px 10px;
+  }
+  section#news {
+    padding: 40px 0;
+  }
+  section#news .news {
+    height: 500px;
+  }
+  section#news .news .news-img {
+    height: 200px;
+  }
+  section#news .news h4.news-title {
+    font-size: 20px;
+  }
+  section#quotes {
+    padding: 25px 0;
+  }
+  section#quotes .slick-next,
+  section#quotes .slick-prev {
+    display: none !important;
+  }
+  section#quotes .quotes {
+    padding: 10px;
+  }
+  section#quotes .quotes blockquote {
+    font-size: 22px;
+  }
+  section#quotes .quotes blockquote:after,
+  section#quotes .quotes blockquote:before {
+    display: none;
+  }
+  footer#contatti .footer {
+    padding: 30px 0;
+  }
+  footer#contatti .divider {
+    display: none;
+  }
+  footer#contatti #map-canvas {
+    height: 350px;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .copyright .pull-right {
+    float: none !important;
+  }
+  .white-popup h2 {
+    margin: 20px 0;
+  }
+  .white-popup span.shares {
+    display: block;
+    float: none;
+    margin: 0 0 20px 0;
+  }
+  #news-page span.shares {
+    display: block;
+    float: none;
+    margin: 10px 0 10px 0;
+  }
+  .privacy-content {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 991px) {
+  section#attivita .attivita-box {
+    padding: 30px;
+  }
+  section#attivita .taping-kinesiologico .taping-img {
+    background-position: -20px;
+  }
+  section#attivita .attivita-img {
+    height: 300px !important;
+  }
+  section#attivita .row:before {
+    display: none;
+  }
+  section#quotes .quotes blockquote:after,
+  section#quotes .quotes blockquote:before {
+    display: none;
+  }
+  section#about .container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .nav {
+    text-align: center;
+    margin-right: 0 !important;
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+    border: 0;
+    border-radius: 0;
+  }
+  .navbar-toggle .icon-bar {
+    background: #63a5c0 !important;
+  }
+  .navbar-toggle:hover {
+    background: transparent !important;
+  }
+  .navbar-toggle:focus {
+    background: transparent !important;
+  }
+  .navbar-collapse {
+    margin-top: 40px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 !important;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+  .navbar-collapse {
+    margin-top: 0 !important;
+  }
+  .navbar.shrink .navbar-right {
+    margin: 10px auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
