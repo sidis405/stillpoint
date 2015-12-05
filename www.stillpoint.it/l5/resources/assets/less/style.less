@@ -1,0 +1,554 @@
+// Importing essentials.less
+@import url("essentials.less");
+@import url("header.less");
+@import url("footer.less");
+
+.main-carousel {
+	position: relative;
+	&:after {
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 1px;
+		background: #fff;
+		left: 0;
+		bottom: 5px;		
+	}
+	.slick-prev {
+		left: 25px;
+		top: 60%;
+		background: url(../img/arrow.png) no-repeat center center;
+		width: 23px;
+		height: 42px;
+		opacity: 0.6;
+		margin-top: -21px;
+		z-index: 5;
+		transition: 0.35s;
+		&:hover {
+			opacity: 1;
+			transition: 0.35s;
+		}
+		&:before {
+			display: none;
+		}
+	}
+	.slick-next {
+		right: 25px;
+		top: 60%;
+		background: url(../img/arrow.png) no-repeat center center;
+		width: 23px;
+		height: 42px;
+		margin-top: -21px;
+		opacity: 0.6;
+		transform: rotate(180deg);
+		transition: 0.35s;
+		&:hover {
+			opacity: 1;
+			transition: 0.35s;
+		}
+		&:before {
+			display: none;
+		}
+	}
+	.slide {
+		width: 100%;
+		height: 800px;		
+		&.slide1 {
+			background: url(../img/slide07.jpg) no-repeat center center;
+			background-size: cover;
+		}
+		&.slide2 {
+			background: url(../img/slide01.jpg) no-repeat center center;
+			background-size: cover;
+		}
+		&.slide3 {
+			background: url(../img/slide02.jpg) no-repeat center center;
+			background-size: cover;
+		}
+		&.slide4 {
+			background: url(../img/slide03.jpg) no-repeat center center;
+			background-size: cover;
+		}		
+		&.slide5 {
+			background: url(../img/slide06.jpg) no-repeat center center;
+			background-size: cover;
+		}		
+	}
+}
+
+section#about {
+	padding: 60px 0 0 0 !important;
+	.about-box {
+		padding: 0 0px;
+		margin: auto;
+		.about-img {
+			position: relative;
+			width: 100%;
+			// height: 250px;
+			&.lo-studio {
+				background: url(../img/lostudio.jpg) no-repeat;
+				background-size: cover;
+				background-position: bottom;
+			}
+			&.manuela {
+				background: url(../img/manuela.jpg) no-repeat center center;
+				background-size: cover;
+				background-position: center 0px;
+			}
+			&.stillpoint {
+				background: url(../img/stillpoint.jpg) no-repeat center center;
+				background-size: cover;
+			}
+			h2.title {
+				position: absolute;
+				bottom: -50px;
+				width: 100%;
+				left: 0;
+				background: @green;
+				padding: 15px 25px;
+				margin: 0;
+				text-transform: none;
+				font-size: 20px;
+				&:before {
+					position: absolute;
+					content: '';
+					left: 20px;
+					top: -20px;
+					width: 0;
+					height: 0;
+					border-style: solid;
+					border-width: 0 20px 20px 20px;
+					border-color: transparent transparent @green transparent;
+				}
+			}
+		}
+		img {width: 100%;}
+		p {
+			text-align: justify;
+			padding: 30px 0;
+			margin-top: 50px;
+		}
+	}
+}
+
+section#attivita {
+	.attivita-box {
+		padding: 60px;		
+	}	
+	p {
+		color: #fff;
+		font-family: 'Open Sans';
+		text-align: justify;
+		font-size: 17px;
+	}
+	h3 {
+		font-family: 'Open Sans';
+		font-size: 18px;
+		font-style: italic;
+		color: #fff;
+	}
+	.tab-content {
+		padding: 20px;
+		border-bottom: 1px solid #fff;
+		p {
+			margin-bottom: 0;
+		}
+	}
+	.nav-tabs {
+		li {
+			font-size: 18px;
+			font-family: 'Sanchez';
+			font-style: italic;
+			&.active a {
+				background: transparent;
+				border: 0;
+				border-bottom: 4px solid #fff;
+			}
+			a {
+				border-radius: 0;
+				padding: 10px 25px;
+				color: #fff;
+				border: 0;
+				&:hover, &:focus {
+					background: transparent;
+					color: #fff;
+					border-bottom: 4px solid #fff;
+				}
+			}
+		}
+	}
+	.container-fluid {
+		.col-md-6 {padding: 0;}
+	}
+	.terapia-manuale {	
+		background: @blue;
+		position: relative;
+		&:before {
+			position: absolute;
+			content: '';
+			z-index: 5;
+			left: 50%;
+			top: 50%;
+			margin-left: -12px;
+			transform: translate(-50%, -50%);
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 25px 25px 25px 0px;
+			border-color: transparent @blue transparent transparent;
+		}
+		.terapia-img {
+			background: url(../img/terapia-img-2.jpg) no-repeat center center;
+			width: 100%;
+			height: 400px;
+			background-size: cover;
+		}		
+	}
+	.ginnastica-posturale {
+		background: @ginnastica;
+		position: relative;
+		&:before {
+			position: absolute;
+			content: '';
+			z-index: 5;
+			left: 50%;
+			top: 50%;
+			margin-left: -12px;
+			transform: translate(-50%, -50%);
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 25px 25px 25px 0px;
+			border-color: transparent @ginnastica transparent transparent;
+		}
+		.ginnastica-img {
+			background: url(../img/ginnastica-img-2.jpg) no-repeat center center;
+			width: 100%;
+			height: 550px;
+			background-size: cover;
+		}
+	}
+	.rieducazione {
+		background: @rieducazione;
+		position: relative;
+		&:before {
+			position: absolute;
+			content: '';
+			z-index: 5;
+			left: 50%;
+			top: 50%;
+			margin-left: 12px;
+			transform: translate(-50%, -50%);
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 25px 0 25px 25px;
+			border-color: transparent transparent transparent @rieducazione;
+		}
+		.rieducazione-img {
+			background: url(../img/rieducazione-img-2.jpg) no-repeat center center;
+			width: 100%;
+			height: 480px;
+			background-size: cover;
+		}
+	}
+	.osteopatia {
+		background: @osteopatia;
+		position: relative;
+		&:before {
+			position: absolute;
+			content: '';
+			z-index: 5;
+			left: 50%;
+			top: 50%;
+			margin-left: 12px;
+			transform: translate(-50%, -50%);
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 25px 0 25px 25px;
+			border-color: transparent transparent transparent @osteopatia;
+		}
+		.osteopatia-img {
+			background: url(../img/osteopatia-img-2.jpg) no-repeat center center;
+			width: 100%;
+			height: 750px;
+			background-size: cover;
+		}
+	}
+	.riabilitazione {
+		background: #75c9b3;
+		position: relative;
+		&:before {
+			position: absolute;
+			content: '';
+			z-index: 5;
+			left: 50%;
+			top: 50%;
+			margin-left: 12px;
+			transform: translate(-50%, -50%);
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 25px 0 25px 25px;
+			border-color: transparent transparent transparent #75c9b3;
+		}
+		.riabilitazione-img {
+			background: url(../img/riabilitazione-img.jpg) no-repeat center center;
+			width: 100%;
+			height: 500px;
+			background-size: cover;
+		}
+		.nav-tabs {
+			li {
+				font-size: 16px;
+				a {
+					padding: 10px 12px;
+				}
+			}
+		}
+	}
+	.taping-kinesiologico {
+		background: #b290bb;
+		position: relative;
+		&:before {
+			position: absolute;
+			content: '';
+			z-index: 5;
+			left: 50%;
+			top: 50%;
+			margin-left: -12px;
+			transform: translate(-50%, -50%);
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 25px 25px 25px 0px;
+			border-color: transparent #b290bb transparent transparent;
+		}
+		.taping-img {
+			background: url(../img/taping-img.jpg) no-repeat center center;
+			width: 100%;
+			height: 400px;
+			background-size: cover;
+		}
+		.nav-tabs {
+			li {
+				font-size: 16px;
+				a {
+					padding: 10px 12px;
+				}
+			}
+		}
+	}
+}
+section#gallery {
+	.col-md-3 {
+		text-align: center;
+		margin: 20px 0;
+		img {
+			border-radius: 50%;
+			display: inline-block;
+			margin: 11px auto;
+		}
+		.gallery-item {
+			&:focus {outline: none;}
+		}
+		.orbit {
+			text-align: center;
+			border-radius: 50%;
+			width: 250px;
+			height: 250px;
+			border: 4px solid lighten(@green, 40%);
+			margin: auto;
+			position: relative;			
+			&:hover .planet {
+				animation: orbit 4s linear infinite;
+				top: 50%;
+				left: 50%;				
+			}			
+			.planet {
+				width: 18px;
+				height: 18px;
+				background: @green;
+				border-radius: 50%;
+				position: absolute;				
+				top: 32px;
+				left: 37px;									
+				border: 3px solid #fff;				
+				margin: -9px 0 0 -9px;
+				
+			}
+		}
+	}
+}
+
+section#news {
+	.news {
+		padding: 20px;
+		margin: 0 40px; 
+		background: #fff;
+		border-radius: 7px;
+		height: 550px;
+		&:focus {
+			outline: none;
+		}
+		.news-img {
+			width: 100%;
+			height: 250px;
+			background: @gray;
+			background-size: cover !important;
+			background-position: center center !important;
+		}
+		h4.news-title {
+			font-family: 'Sanchez';
+			color: @green;
+			font-style: italic;
+			font-size: 24px;
+			margin-top: 25px;
+		}
+		.date {
+			color: @green;
+			border-top: 1px solid @green;
+			font-family: 'Sanchez';
+			padding-top: 5px;
+		}
+		.news-description {
+			text-align: justify;
+			font-family: 'Open Sans';
+			margin: 20px 0;
+			color: @gray;
+		}
+	}	
+}
+
+// NEWS PAGE
+.navbar-article.shrink h1.logo {
+		margin: 5px auto;
+		transform: translate(-10px, 0);
+	}
+#news-page {
+	padding: 150px 0;
+	.news-article-img {
+		width: 100%;
+		height: 450px;
+		background: url(http://placehold.it/450x250) no-repeat center center;
+		background-size: cover;
+	}
+
+	h2 {
+  	font-family: 'Sanchez';
+  	color: @green;
+  	width: 85%;
+  	margin: 30px 0 0 0;
+  	display: inline-block;
+  }
+  .date {
+			color: @green;			
+			font-family: 'Sanchez';
+			padding-top: 5px;
+			display: block;			
+			margin: 0 0 30px 0;
+		}
+	a {
+  		color: @green;
+  		&:hover {
+  			text-decoration: none;
+  			color: @green;
+  		}
+  	}
+  span.shares {
+  	float: right;
+  	display: inline;
+  	font-size: 30px;
+  	color: @green;
+  	margin: 25px 0;
+  	i {
+  		margin: 0 5px;
+  	}
+  }
+  p {text-align: justify;}
+}
+
+section#quotes {	
+	.slick-prev {
+		left: 50px;
+		background: url(../img/arrow.png) no-repeat center center;
+		width: 23px;
+		height: 42px;
+		margin-top: -21px;
+		transition: 0.35s;
+		opacity: 0.6;
+		z-index: 5;
+		&:hover {
+			opacity: 1;
+			transition: 0.35s;
+		}
+		&:before {
+			display: none;
+		}
+	}
+	.slick-next {
+		right: 50px;
+		background: url(../img/arrow.png) no-repeat center center;
+		width: 23px;
+		height: 42px;
+		margin-top: -21px;
+		transform: rotate(180deg);
+		transition: 0.35s;
+		opacity: 0.6;
+		&:hover {
+			opacity: 1;
+			transition: 0.35s;
+		}
+		&:before {
+			display: none;
+		}
+	}
+	.quotes-carousel {
+		margin: 0;
+	}
+	.quotes {
+		text-align: center;
+		padding: 40px;
+		&:focus {
+			outline: none;
+		}		
+		blockquote {
+			border: 0;
+			display: inline-block;
+			font-family: 'Sanchez';
+			font-size: 30px;
+			color: @green;
+			margin: 0;
+			position: relative;
+			&:before {
+				position: absolute;
+				content: '';
+				left: -100px;
+				top: -20px;
+				background: url(../img/quotes.png) no-repeat center center;
+				width: 73px;
+				height: 47px;
+			}
+			&:after {
+				position: absolute;
+				content: '';
+				right: -100px;
+				bottom: -20px;
+				background: url(../img/quotes.png) no-repeat center center;
+				width: 73px;
+				height: 47px;
+				transform: rotate(180deg);
+			}
+			span {
+				display: block;
+				font-size: 20px;
+			}
+		}
+	}
+
+}
+
+
+// Importing responsive.less
+@import url("responsive.less");

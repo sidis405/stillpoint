@@ -1,0 +1,23 @@
+{
+  "name": "stillpoint.dev",
+  "version": "0.0.1",
+  "authors": [
+    "Malander <marimichele26@gmail.com>"
+  ],
+  "description": "Stillpoint site",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "magnific-popup": "~1.0.0",
+    "modernizr": "~3.2.0",
+    "slick-carousel": "~1.5.8"
+  }
+}

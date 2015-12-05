@@ -1,0 +1,47 @@
+extend blocks/template
+
+// Page title
+block title
+	| Article name
+
+// Page meta-description
+block append metatags 
+	meta(name='description', content='A description of the page')
+
+block content
+	nav.navbar.navbar-default.navbar-article
+		.container
+				a(href="../index")
+					h1.logo Still Point
+	#news-page
+			.container
+				.row
+					.col-xs-12
+						.news-article-img
+						h2 News title
+						span.shares
+							i.fa.fa-facebook-official
+							i.fa.fa-twitter-square				
+						p
+							|Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							|tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							<br><br>
+							|quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							|consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse				
+							|cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							|proident, sunt in culpa qui officia deserunt mollit anim id est laborum.				
+							|cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							|proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							<br><br>
+							|cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							|proident, sunt in culpa qui officia deserunt mollit anim id est laborum.				
+							|cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							|proident, sunt in culpa qui officia deserunt mollit anim id est laborum.				
+							|cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							|proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							<br><br>
+							|cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							|proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							<br><br>
+							|cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							|proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

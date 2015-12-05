@@ -1,0 +1,325 @@
+extend blocks/template
+
+// Page title
+block title
+	| Stillpoint
+
+// Page meta-description
+block append metatags 
+	meta(name='description', content='A description of the page')
+
+block content	
+	// Including header
+	include blocks/header
+	// Page content	
+	.main-carousel
+		.slide.slide1
+		.slide.slide2
+		.slide.slide3		
+		.slide.slide4
+		.slide.slide5
+	section#about
+		#about-anchor
+		.container
+			.row
+				.col-sm-4
+					.about-box
+						.about-img
+							img.img-responsive(src="img/lostudio.jpg", alt=" ")
+							h2.title Lo Studio
+						p 
+							|Il percorso verso la salute può nascere da qui, nella quiete del nostro studio, dove la fisioterapia classica si unisce all’osteopatia,  per creare insieme un approccio globale al processo di guarigione, ristabilendo equilibrio nel fisico e benessere nella persona.  
+							<br><br>
+							|Partendo dal sintomo e attraverso un’accurata valutazione clinica, sarà stabilito un protocollo di trattamento personalizzato.  Le tecniche manuali utilizzate saranno efficaci sia per la prevenzione sia per la risoluzione dei disturbi che interessano l’apparato muscolo-scheletrico e la sfera viscerale, restituendo al corpo la sua naturale mobilità e funzionalità.
+
+				.col-sm-4
+					.about-box
+						.about-img
+							img.img-responsive(src="img/manuela.jpg", alt="")
+							h2.title Manuela Allegra
+						p 
+							|La passione e il desiderio innato di conoscenza mi hanno da sempre stimolato nella ricerca dei fattori che regolano i processi vitali a ogni livello, disegnando per me un preciso iter formativo dove ogni passo si è rivelato perfettamente conseguente al precedente, guidandomi in un continuo divenire di scoperte.
+							<br><br>
+							|Professionalmente nasco nel 1993 come Insegnante di Educazione Fisica dopo aver conseguito il diploma all’ I.S.E.F. di Roma; proseguo gli studi laureandomi in Fisioterapia nel 1996 per poi completare la mia formazione in sei anni di Osteopatia presso il “Centre pour l’Etude, la Recherche et la Diffusion Osteopathiques” . 
+							<br><br>
+							|Dopo oltre vent’anni di pratica presso strutture accreditate e grazie alle esperienze maturate nel mio percorso di vita,  ho deciso di dare luce al mio sogno realizzando Still Point, studio di fisioterapia e terapia manuale, uno spazio dedicato alla ricerca della salute.
+				.col-sm-4
+					.about-box
+						.about-img
+							img.img-responsive(src="img/stillpoint.jpg", alt="")
+							h2.title Perchè Still Point?
+						p 
+							|In ambito osteopatico lo Still Point si manifesta durante un trattamento come un periodo di quiete percettiva, grazie alla quale è possibile accedere a una conoscenza più profonda e al manifestarsi della forza terapeutica dinamica, insita in ognuno di noi.
+							<br><br>
+							|Il nostro intento è di offrire alla persona la possibilità di scoprire insieme i processi che regolano la salute individuale, riconoscendo il valore terapeutico della  “quiete dinamica”, come punto di partenza verso la guarigione.
+	section#attivita
+		#attivita-anchor
+		.container-fluid
+			.row.osteopatia
+				.col-md-6.col-md-push-6
+					.osteopatia-img.attivita-img
+				.col-md-6.col-md-pull-6
+					.attivita-box
+						h2 Osteopatia e Osteopatia Pediatrica 
+						h3 Indicazioni
+						p
+							|Sistema muscolo-scheletrico: dolori articolari, squilibri posturali, cervicalgie, dorsalgie, lombo-sciatalgie, nevralgie.
+							|Sistema gineco-urinario: cistiti ricorrenti, alterazioni del ciclo mestruale, fertilità, gravidanza, sindrome post-partum.
+							|Sfera ORL: rinite, sinusite cronica, vertigini, cefalee.							
+							div
+							// Nav tabs
+							ul.nav.nav-tabs(role='tablist')
+								li.active(role='presentation')
+									a(href='#osteopatia', aria-controls='home', role='tab', data-toggle='tab') Osteopatia
+								li(role='presentation')
+									a(href='#osteopatia-pediatrica', aria-controls='profile', role='tab', data-toggle='tab') Osteopatia Pediatrica																								
+							// Tab panes
+							.tab-content
+								#osteopatia.tab-pane.active(role='tabpanel')
+									p
+										|È una medicina manuale nata negli Stati Uniti grazie al  Dott. A. Taylor Still, che riconosce la persona come un’unità inscindibile di corpo mente e spirito, in una visione olistica dove l’armonia è il tema che regola la salute, il benessere e la loro essenza. La vita è percepita come equilibrio e la malattia come alterazione di tale equilibrio.
+										<br><br>
+										|Il trattamento osteopatico è applicabile a numerosi e diversi problemi che prendono origine dal sistema muscolo – scheletrico e lo colpiscono a loro volta, ma esistono anche una serie di fattori funzionali ed emozionali che, agendo sul sistema viscerale, endocrino e metabolico dell’individuo, rompono il suo equilibrio aprendo la porta alla malattia.
+								#osteopatia-pediatrica.tab-pane(role='tabpanel')
+									p
+										|Il trattamento osteopatico in ambito pediatrico utilizza tecniche manuali molto delicate al fine di individuare le zone di tensione del corpo che possono incidere in modo negativo sul normale sviluppo fisiologico del bambino. La valutazione delle asimmetrie del cranio e la loro correzione, riporterà ad un equilibrio tra forma e funzione, fondamentale per l’autoregolazione, lo sviluppo e la conservazione della salute.
+										<br><br>
+										|Particolarmente indicata nel trattamento di alterazioni strutturali come le plagiocefalie e le scoliosi, essa porterà benefici anche nelle coliche gassose del neonato, nel reflusso gastro-esofageo, nei disturbi del sonno, le otiti ricorrenti, i disturbi dell’attenzione e dell’apprendimento.	
+			.row.terapia-manuale
+				.col-md-6
+					.terapia-img.attivita-img
+				.col-md-6
+					.attivita-box
+						h2 Terapia manuale
+						p
+							|È una metodica basata sull’analisi biomeccanica del gesto motorio inserito nella visione globale della persona. Attraverso una serie di tecniche manuali il fisioterapista agirà su articolazioni, muscoli, legamenti, fasce, al fine di correggere e ripristinare una valida funzionalità.
+							|Trova indicazione in tutte le patologie dell’apparato locomotore, sia in fase acuta sia cronica.
+			.row.rieducazione				
+				.col-md-6.col-md-push-6
+					.rieducazione-img.attivita-img
+				.col-md-6.col-md-pull-6
+					.attivita-box
+						h2 Rieducazione Motoria
+						h3 Post – traumatica
+						p
+							|Terapia del movimento volta a ristabilire la normale funzionalità articolare, muscolare e miofasciale in seguito a traumatismi di varia natura, quali fratture, distorsioni, lussazioni.
+						h3 Post – chirurgica
+						p
+							|Indicata in seguito ad intervento chirurgico a carico dell’apparato muscolo-scheletrico, ha come obiettivo  rieducare il paziente al movimento corretto, guidandone il processo di guarigione, attraverso l’applicazione di precisi protocolli fisioterapici.
+			.row.ginnastica-posturale				
+				.col-md-6
+					.ginnastica-img.attivita-img
+				.col-md-6
+					.attivita-box
+						h2 Ginnastica posturale
+						h3 R.P.G. Rieducazione Posturale Globale metodo Souchard
+						p
+							|È una rieducazione posturale che ha come obiettivo finale il ripristino globale dell’equilibrio statico e dinamico del corpo. Basato su posture di allungamento attivo delle catene muscolari, lento e progressivo, può essere proposto a persone di qualsiasi età, rispettandone le possibilità individuali.
+							|Particolarmente indicato nelle alterazioni strutturali della colonna vertebrale, come scoliosi, ipercifosi, iperlordosi, patologie dolorose o compressive come lombalgie, sciatalgie, protrusioni ed ernie discali.							
+						h3 Back School
+						p
+							|Insieme di esercizi volti a conoscere e gestire la propria colonna vertebrale nelle posizioni e nei movimenti quotidiani, utili per migliorare la propria mobilità ed elasticità muscolare.			
+			.row.riabilitazione								
+				.col-md-6.col-md-push-6
+					.riabilitazione-img.attivita-img
+				.col-md-6.col-md-pull-6
+					.attivita-box
+						h2 Riabilitazione funzionale
+						p
+							|È parte integrante del percorso riabilitativo ed ha come obiettivo finale il ripristino della qualità di vita nella persona affetta da patologia acuta o cronica.
+						div
+							// Nav tabs
+							ul.nav.nav-tabs(role='tablist')
+								li.active(role='presentation')
+									a(href='#propriocettiva', aria-controls='home', role='tab', data-toggle='tab') Propriocettiva
+								li(role='presentation')
+									a(href='#respiro-postura', aria-controls='profile', role='tab', data-toggle='tab') Respiro e Postura
+								li(role='presentation')
+									a(href='#core-stability', aria-controls='profile', role='tab', data-toggle='tab') Core - Stability										
+								li(role='presentation')
+									a(href='#respiro-movimento', aria-controls='profile', role='tab', data-toggle='tab') Respiro e movimento																					
+							// Tab panes
+							.tab-content
+								#propriocettiva.tab-pane.active(role='tabpanel')
+									p
+										|Esercizi finalizzati a migliorare la percezione del proprio corpo rispetto a se stessi e nello spazio. Assolutamente indicata in seguito a traumi o periodi di immobilizzazione  per il recupero del miglior movimento possibile.
+								#respiro-postura.tab-pane(role='tabpanel')
+									p
+										|Pratica di movimenti lenti e graduali in coordinazione con la respirazione. Permette al nostro corpo di allungarsi e tonificarsi aumentando la mobilità articolare e la flessibilità della colonna vertebrale.
+								#core-stability.tab-pane(role='tabpanel')
+									p
+										|Muscoli addominali, diaframma, pavimento pelvico, muscolatura del dorso formano il “Core”: il loro corretto coordinamento conferisce al corpo una stabilità dinamica attraverso una combinazione di forza, flessibilità e controllo. 
+								#respiro-movimento.tab-pane(role='tabpanel')
+									p
+										|Riattivare la circolazione periferica con la ginnastica vascolare ed imparare a respirare in modo corretto permette al corpo di affrontare meglio il lavoro aerobico necessario per la salute del cuore.
+			.row.taping-kinesiologico			
+				.col-md-6
+					.taping-img.attivita-img
+				.col-md-6
+					.attivita-box
+						h2 Kinesio Taping					
+						p
+							|È una metodica basata sull’applicazione di un cerotto elastico in grado di stimolare i recettori superficiali e profondi della cute al fine di alleviare il dolore derivato da contratture e tensioni muscolari e utilizzato nella cura di piccoli edemi ed ematomi sottocutanei.
+							|Scelta della tensione, forma e direzione del bendaggio saranno determinati dalle diverse patologie cui è applicabile e solo dopo un’attenta valutazione da parte del fisioterapista.											
+	section#gallery
+		#gallery-anchor
+		.container
+			.row
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery01-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery01.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery02-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery02.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery03-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery03.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery04-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery04.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery05-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery05.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery06-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery06.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery07-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery07.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery08-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery08.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery09-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery09.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery11-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery11.jpg", alt="")				
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery15-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery15.jpg", alt="")				
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery12-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery12.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery13-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery13.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery14-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery14.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery10-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery10.jpg", alt="")
+				.col-md-3.col-sm-6
+					a.gallery-item(href="img/gallery/gallery16-big.jpg")
+						.orbit
+							.planet
+							img.img-responsive(src="img/gallery/gallery16.jpg", alt="")
+	section#news
+		#news-anchor
+		.news-carousel
+			.news
+				.news-img
+				a.open-news-modal(href="#news-modal")
+					h4.news-title
+						| News Title and very very long title
+				span.date 19/05/2015
+				p.news-description
+					| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta consequuntur minima totam. Voluptatibus nostrum velit, quaerat iure? Consequatur consequuntur laborum inventore	
+			.news
+				.news-img
+				h4.news-title
+					| News Title
+				span.date 19/05/2015
+				p.news-description
+					| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa recusandae at cumque corrupti illo officia voluptates autem, in suscipit doloribus maiores ratione error hic				
+			.news
+				.news-img
+				h4.news-title
+					| News Title
+				span.date 19/05/2015
+				p.news-description
+					| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea odit et, quia laborum, voluptatem illum saepe nihil, fugiat rerum, dolore sunt facere. Dolor sed cupiditate et	
+			.news
+				.news-img
+				h4.news-title
+					| News Title
+				span.date 19/05/2015
+				p.news-description
+					| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum obcaecati facere error nobis aut consequatur omnis ad incidunt. Velit et porro itaque vitae molestiae fuga quae			
+			.news
+				.news-img
+				h4.news-title
+					| News Title
+				span.date 19/05/2015
+				p.news-description
+					| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptas, ad expedita ipsa iusto soluta alias a nam est quibusdam deserunt, nemo quo at, assumenda, praesentium		
+			.news
+				.news-img
+				h4.news-title
+					| News Title
+				span.date 19/05/2015
+				p.news-description
+					| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta repellendus placeat voluptates quo aut consectetur molestiae et, illo eos veritatis, culpa iure hic, vitae totam		
+			.news
+				.news-img
+				h4.news-title
+					| News Title
+				span.date 19/05/2015
+				p.news-description
+					| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus voluptates voluptate explicabo modi, veritatis ipsa ducimus quia non necessitatibus expedita culpa enim, delectus		
+			.news
+				.news-img
+				h4.news-title
+					| News Title
+				span.date 19/05/2015
+				p.news-description
+					| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis molestias ab beatae vel blanditiis non aspernatur, minus officia natus deleniti quia aliquid iste tempore suscipit
+	section#quotes
+		.quotes-carousel
+			.quotes
+				blockquote
+					| Trova la salute, chiunque può trovare la malattia
+					span A. T. Still
+			//- .quotes
+			//- 	blockquote
+			//- 		| Lorem ipsum dolor sit amet adn
+			//- 		span A.Heinstein
+			//- .quotes
+			//- 	blockquote
+			//- 		| Lorem ipsum dolor sit amet adn
+			//- 		span A.Heinstein	
+	// Including footer
+	include blocks/footer
+	include blocks/news-modal
+	
