@@ -22,7 +22,8 @@ $('.main-carousel').slick({
 $('.news-carousel').slick({
 	arrows: false,
 	infinite: true,
-	dots: true,
+	dots: false,
+  autoplay: true,
 	slidesToShow: 4,
   responsive: [
     {

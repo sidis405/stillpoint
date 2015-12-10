@@ -1137,6 +1137,9 @@ section#quotes .quotes blockquote span {
   section#about .container {
     width: 100%;
   }
+  section#news .news {
+    
+  }
 }
 @media screen and (max-width: 1250px) {
   .nav {
