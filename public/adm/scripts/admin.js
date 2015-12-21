@@ -67,11 +67,11 @@ $(document).on('click', '#confirm_cover_image', function() {
 
     var img = $('#cover_image_id_field option[value="' + value + '"]').data('img-src');
 
-    console.log('insert')
-    console.log(value);
+    // console.log('insert')
+    // console.log(value);
     
-    // $('#selected_image_preview').html('<img style="width:280px" src="' + img + '">');
-    console.log(img);
+    // // $('#selected_image_preview').html('<img style="width:280px" src="' + img + '">');
+    // console.log(img);
     $('.thumbnail-preview-add-cover').attr('style', "background: url('" + img + "?w=280&h=280&fit=crop') no-repeat center center;)");
     $('#cover_image_id').val(value);
 
